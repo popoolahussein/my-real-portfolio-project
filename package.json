@@ -1,0 +1,21 @@
+{
+  "name": "html-css-template",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "hint": "^7.x",
+    "prettier": "2.x",
+    "stylelint": "^14.x",
+    "stylelint-config-recommended": "^9.x",
+    "stylelint-config-standard": "^28.x",
+    "stylelint-csstree-validator": "^2.x"
+  },
+  "scripts": {
+    "format": "prettier  --write \"**/*.{html,js,json,md,yml}\"",
+    "format:check": "prettier  --check \"**/*.{html,js,json,md,yml}\"",
+    "lint": "stylelint \"**/*.css\" --fix",
+    "lint:check": "stylelint \"**/*.css\"",
+    "hint": "hint --telemetry=off ."
+  }
+}
