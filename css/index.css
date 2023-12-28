@@ -7,6 +7,10 @@ body {
     margin: 0;
   }
 
+  * {
+    flex-flow: nowrap;
+  }
+
   .header {
     color: rgb(255, 255, 255);
     top: 0px;
@@ -21,6 +25,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-flow: nowrap;
   }
 
   .h1{
@@ -36,6 +41,9 @@ body {
     font-size: 1.25rem;
     line-height: 1.75rem;
     top: 0%;
+    display: flex;
+    min-width: 200px;
+    flex-flow: nowrap;
   }
 
   .header-nav {
@@ -46,4 +54,83 @@ body {
 
   img {
     height: 3rem;
+    width: 5rem;
+  }
+
+  .section-2 {
+   margin-left: auto;
+   margin-right: auto;
+   display: flexbox;
+  }
+
+  .my-name {
+    color: goldenrod;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: nowrap;
+  }
+
+  .my-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: nowrap;
+  }
+
+  .intro-p {
+    color: rgba(255, 228, 196, 0.646);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    flex-flow: nowrap;
+  }
+
+  .line {
+    width: 20rem;
+    border-color: grey;
+  }
+
+  article {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-flow: wrap;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .li-head {
+    color: gold;
+    font-size: large;
+    padding-bottom: 1rem;
+  }
+
+  .list {
+    padding-bottom: 0.5rem;
+    font-size: small;
+  }
+
+  img {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 9px;
+  }
+
+  .button-div {
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a:hover {
+    background-color: gold;
   }
