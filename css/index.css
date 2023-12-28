@@ -1,3 +1,49 @@
 /* Example of @import use
 This imports the `reset.css` file */
 @import "./reset.css";
+body {
+    background: linear-gradient(to bottom, black, royalblue, black);
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  .header {
+    color: rgb(255, 255, 255);
+    top: 0px;
+    z-index: 10;
+  }
+  
+  .section {
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .h1{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 500;
+    top: 0%;
+  }
+
+  .nav{
+    margin-left: calc(2rem);
+    margin-right: calc(2rem);
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    top: 0%;
+  }
+
+  .header-nav {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+  img {
+    height: 3rem;
+  }
