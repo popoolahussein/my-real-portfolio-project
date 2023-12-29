@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.6",
     "hint": "^2.0.0",
+    "jest": "^29.7.0",
     "prettier": "2.x",
     "stylelint": "^14.x",
     "stylelint-config-recommended": "^9.x",
@@ -15,6 +18,23 @@
     "format:check": "prettier  --check \"**/*.{html,js,json,md,yml}\"",
     "lint": "stylelint \"**/*.css\" --fix",
     "lint:check": "stylelint \"**/*.css\"",
-    "hint": "hint --telemetry=off ."
+    "hint": "hint --telemetry=off .",
+    "build": "babel src -d lib",
+    "test": "jest"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "jest": {
+    "testMatch": [
+      "**/__tests__/**/*.[jt]s?(x)",
+      "**/?(*.)+(spec|test).[tj]s?(x)"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ]
   }
+  
 }
