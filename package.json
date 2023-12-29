@@ -19,5 +19,8 @@
     "lint": "stylelint \"**/*.css\" --fix",
     "lint:check": "stylelint \"**/*.css\"",
     "hint": "hint --telemetry=off ."
+  },
+  "dependencies": {
+    "stylus": "^0.62.0"
   }
 }
