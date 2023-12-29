@@ -14,18 +14,13 @@
     "stylelint-csstree-validator": "^2.x"
   },
   "scripts": {
-    "format": "prettier  --write \"**/*.{html,js,json,md,yml}\"",
-    "format:check": "prettier  --check \"**/*.{html,js,json,md,yml}\"",
+    "format": "prettier --write \"**/*.{html,js,json,md,yml}\"",
+    "format:check": "prettier --check \"**/*.{html,js,json,md,yml}\"",
     "lint": "stylelint \"**/*.css\" --fix",
     "lint:check": "stylelint \"**/*.css\"",
     "hint": "hint --telemetry=off .",
     "build": "babel src -d lib",
     "test": "jest"
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ]
   },
   "jest": {
     "testMatch": [
@@ -37,7 +32,9 @@
     ]
   },
   "dependencies": {
-    "stylus": "^0.62.0",
-    "typescript": "^5.4.0-dev.20231229"
-  }
+    "tslib": "^2.6.2"
+  },
+  "compilerOptions": {
+    "importHelpers": true
+}
 }
