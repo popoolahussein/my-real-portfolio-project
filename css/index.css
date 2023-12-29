@@ -1,136 +1,136 @@
 /* Example of @import use
 This imports the `reset.css` file */
 @import "./reset.css";
+
 body {
-    background: linear-gradient(to bottom, black, royalblue, black);
-    min-height: 100vh;
-    margin: 0;
-  }
+  background: linear-gradient(to bottom, black, royalblue, black);
+  min-height: 100vh;
+  margin: 0;
+}
 
-  * {
-    flex-flow: nowrap;
-  }
+* {
+  flex-flow: nowrap;
+}
 
-  .header {
-    color: rgb(255, 255, 255);
-    top: 0px;
-    z-index: 10;
-  }
-  
-  .section {
-    max-width: 56rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-flow: nowrap;
-  }
+.header {
+  color: rgb(255 255 255);
+  top: 0;
+  z-index: 10;
+}
 
-  .h1{
-    font-size: 1.5rem;
-    line-height: 2rem;
-    font-weight: 500;
-    top: 0%;
-  }
+.section {
+  max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: nowrap;
+}
 
-  .nav{
-    margin-left: calc(2rem);
-    margin-right: calc(2rem);
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-    top: 0%;
-    display: flex;
-    min-width: 200px;
-    flex-flow: nowrap;
-  }
+.h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+  top: 0%;
+}
 
-  .header-nav {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    margin-left: 10px;
-  }
+.nav {
+  margin-left: calc(2rem);
+  margin-right: calc(2rem);
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  top: 0%;
+  display: flex;
+  min-width: 200px;
+  flex-flow: nowrap;
+}
 
-  img {
-    height: 3rem;
-    width: 5rem;
-  }
+.header-nav {
+  color: rgb(255 255 255);
+  text-decoration: none;
+  margin-left: 10px;
+}
 
-  .section-2 {
-   margin-left: auto;
-   margin-right: auto;
-   display: flexbox;
-  }
+.my-logo-img {
+  height: 3rem;
+  width: 5rem;
+}
 
-  .my-name {
-    color: goldenrod;
-    font-size: xx-large;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: nowrap;
-  }
+.section-2 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
-  .my-field {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: nowrap;
-  }
+.my-name {
+  color: goldenrod;
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: nowrap;
+}
 
-  .intro-p {
-    color: rgba(255, 228, 196, 0.646);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-    flex-flow: nowrap;
-  }
+.my-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: nowrap;
+}
 
-  .line {
-    width: 20rem;
-    border-color: grey;
-  }
+.intro-p {
+  color: rgb(255 228 196 / 64.6%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  flex-flow: nowrap;
+}
 
-  article {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    flex-flow: wrap;
-  }
+.line {
+  width: 20rem;
+  border-color: grey;
+}
 
-  ul {
-    list-style: none;
-  }
+article {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-flow: wrap;
+}
 
-  .li-head {
-    color: gold;
-    font-size: large;
-    padding-bottom: 1rem;
-  }
+ul {
+  list-style: none;
+}
 
-  .list {
-    padding-bottom: 0.5rem;
-    font-size: small;
-  }
+.li-head {
+  color: gold;
+  font-size: large;
+  padding-bottom: 1rem;
+}
 
-  img {
-    width: 2rem;
-    height: 2rem;
-    display: flex;
-    justify-content: space-evenly;
-    padding-left: 9px;
-  }
+.list {
+  padding-bottom: 0.5rem;
+  font-size: small;
+}
 
-  .button-div {
-    background-color: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+img {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 9px;
+}
 
-  a:hover {
-    background-color: gold;
-  }
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a:hover {
+  background-color: gold;
+}
