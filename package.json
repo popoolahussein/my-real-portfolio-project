@@ -35,5 +35,9 @@
     "testPathIgnorePatterns": [
       "/node_modules/"
     ]
+  },
+  "dependencies": {
+    "stylus": "^0.62.0",
+    "typescript": "^5.4.0-dev.20231229"
   }
 }
