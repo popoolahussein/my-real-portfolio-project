@@ -18,23 +18,6 @@
     "format:check": "prettier --check \"**/*.{html,js,json,md,yml}\"",
     "lint": "stylelint \"**/*.css\" --fix",
     "lint:check": "stylelint \"**/*.css\"",
-    "hint": "hint --telemetry=off .",
-    "build": "babel src -d lib",
-    "test": "jest"
-  },
-  "jest": {
-    "testMatch": [
-      "**/__tests__/**/*.[jt]s?(x)",
-      "**/?(*.)+(spec|test).[tj]s?(x)"
-    ],
-    "testPathIgnorePatterns": [
-      "/node_modules/"
-    ]
-  },
-  "dependencies": {
-    "tslib": "^2.6.2"
-  },
-  "compilerOptions": {
-    "importHelpers": true
-}
+    "hint": "hint --telemetry=off ."
+  }
 }
