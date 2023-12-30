@@ -21,7 +21,9 @@
     "hint": "hint --telemetry=off ."
   },
   "dependencies": {
+    "got": "^11.8.5",
     "image-size": "^1.1.0",
-    "stylus": "^0.62.0"
+    "stylus": "^0.62.0",
+    "typescript": "^2.8.0"
   }
 }
