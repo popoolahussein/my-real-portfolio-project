@@ -52,8 +52,12 @@ jobs:
         run: |
           yarn install
 <<<<<<< HEAD
+<<<<<<< HEAD
           yarn add got@11.8.5
           yarn hint
 =======
           yarn hint
 >>>>>>> parent of 4819b39 (chore: modified github, workflow and package.json)
+=======
+          yarn hint
+>>>>>>> parent of c8192e4 (chore: modified github folder)
