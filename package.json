@@ -33,9 +33,15 @@
 >>>>>>> parent of 26eee52 (feats:modified package.json)
 =======
     "prettier": "3.1.1",
+    "stylelint": "^14.x",
     "stylelint-config-recommended": "^9.x",
+<<<<<<< HEAD
     "stylelint-config-standard": "^36.0.0"
 >>>>>>> parent of c3e6c39 (modified package.json)
+=======
+    "stylelint-config-standard": "^28.x",
+    "stylelint-csstree-validator": "^2.x"
+>>>>>>> parent of 92c492f (feats: modified package.json and yarn.lock)
   },
   "scripts": {
     "format": "prettier --write \"**/*.{html,js,json,md,yml}\"",
@@ -95,8 +101,6 @@
   "dependencies": {
     "got": "^11.8.5",
     "image-size": "^1.1.0",
-    "stylelint": "^16.1.0",
-    "stylelint-csstree-validator": "^3.0.0",
     "stylus": "^0.62.0",
     "typescript": "^2.8.0"
   }
