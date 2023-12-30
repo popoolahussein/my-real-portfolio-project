@@ -49,5 +49,4 @@ jobs:
       - name: Run Webhint
         run: |
           yarn install
-          yarn add got@11.8.5
           yarn hint
