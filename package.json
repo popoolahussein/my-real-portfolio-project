@@ -98,6 +98,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 4819b39 (chore: modified github, workflow and package.json)
   },
@@ -143,4 +144,8 @@
 >>>>>>> parent of 19e494d (chore:Updeted lock files and resolve warnings)
   }
 >>>>>>> parent of db48c01 (chore: Modified package.json and yarn.lock)
+=======
+  }
+  
+>>>>>>> parent of 28ccb5f (chore:updated webhint and prettier in terminal)
 }
