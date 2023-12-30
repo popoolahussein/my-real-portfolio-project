@@ -22,6 +22,7 @@
     "format:check": "prettier --check \"**/*.{html,js,json,md,yml}\"",
     "lint": "stylelint \"**/*.css\" --fix",
     "lint:check": "stylelint \"**/*.css\"",
+<<<<<<< HEAD
     "hint": "hint --telemetry=off ."
 <<<<<<< HEAD
   },
@@ -37,4 +38,25 @@
 =======
 >>>>>>> parent of 84ea58d (chore: modified package.json and yarn.lock)
   }
+=======
+    "hint": "hint --telemetry=off .",
+    "build": "babel src -d lib",
+    "test": "jest"
+  },
+  "jest": {
+    "testMatch": [
+      "**/__tests__/**/*.[jt]s?(x)",
+      "**/?(*.)+(spec|test).[tj]s?(x)"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "tslib": "^2.6.2"
+  },
+  "compilerOptions": {
+    "importHelpers": true
+}
+>>>>>>> parent of 4819b39 (chore: modified github, workflow and package.json)
 }
