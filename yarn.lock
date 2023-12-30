@@ -4170,7 +4170,10 @@ yargs-parser@^20.2.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 8158281 (chore: updated yarn.lock file)
 =======
 >>>>>>> parent of 8158281 (chore: updated yarn.lock file)
 "@adobe/css-tools@~4.3.1":
@@ -4178,6 +4181,7 @@ yargs-parser@^20.2.3:
   resolved "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.3.2.tgz"
   integrity sha512-DA5a1C0gD/pLOvhv33YMrbf2FK3oUzwNl9oOJqE4XVjuEtt6XIakRcsd7eLiOSPkp1kTRQGICTA8cKra/vFbjw==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of 19e494d (chore:Updeted lock files and resolve warnings)
 =======
@@ -4247,6 +4251,8 @@ yargs-parser@^20.2.3:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
 >>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
+=======
+>>>>>>> parent of 8158281 (chore: updated yarn.lock file)
 "@babel/code-frame@^7.0.0":
   version "7.18.6"
   resolved "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.18.6.tgz"
@@ -5728,12 +5734,16 @@ yargs-parser@^20.2.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 19e494d (chore:Updeted lock files and resolve warnings)
 "@nodelib/fs.stat@^2.0.2", "@nodelib/fs.stat@2.0.5":
 =======
 "@nodelib/fs.stat@2.0.5", "@nodelib/fs.stat@^2.0.2":
 >>>>>>> parent of 28ccb5f (chore:updated webhint and prettier in terminal)
+=======
+"@nodelib/fs.stat@^2.0.2", "@nodelib/fs.stat@2.0.5":
+>>>>>>> parent of 8158281 (chore: updated yarn.lock file)
   version "2.0.5"
   resolved "https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz"
 =======
@@ -6600,13 +6610,17 @@ color-convert@^2.0.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 19e494d (chore:Updeted lock files and resolve warnings)
+=======
+>>>>>>> parent of 8158281 (chore: updated yarn.lock file)
 color-name@~1.1.4:
   version "1.1.4"
   resolved "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
@@ -6614,11 +6628,14 @@ color-name@~1.1.4:
 >>>>>>> parent of 19e494d (chore:Updeted lock files and resolve warnings)
 =======
 >>>>>>> parent of 28ccb5f (chore:updated webhint and prettier in terminal)
+=======
+>>>>>>> parent of 8158281 (chore: updated yarn.lock file)
 color-name@1.1.3:
   version "1.1.3"
   resolved "https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz"
   integrity sha512-72fSenhMw2HZMTVHeCA9KCmpEIbzWiQsjN+BHcBbS9vr1mtt+vJjPdksIBNUmKAW8TFUDPJK5SUU3QhE9NEXDw==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6657,6 +6674,8 @@ color-support@^1.1.2:
 >>>>>>> parent of 19e494d (chore:Updeted lock files and resolve warnings)
 =======
 >>>>>>> parent of 28ccb5f (chore:updated webhint and prettier in terminal)
+=======
+>>>>>>> parent of 8158281 (chore: updated yarn.lock file)
 colord@^2.9.3:
   version "2.9.3"
   resolved "https://registry.npmjs.org/colord/-/colord-2.9.3.tgz"
@@ -6796,6 +6815,7 @@ cssesc@^3.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 debug@^4.3.2, debug@^4.3.4:
 =======
 css-what@^6.0.1:
@@ -6854,6 +6874,9 @@ debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.4:
 =======
 debug@^4.3.4:
 >>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
+=======
+debug@^4.3.2, debug@^4.3.4:
+>>>>>>> parent of 8158281 (chore: updated yarn.lock file)
   version "4.3.4"
   resolved "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -7474,6 +7497,7 @@ glob-parent@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 glob@^7.1.3, glob@^7.1.6:
 =======
 glob@^10.2.2:
@@ -7504,6 +7528,9 @@ glob@^7.1.3, glob@^7.1.4, glob@^7.2.0:
 =======
 glob@^7.1.3:
 >>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
+=======
+glob@^7.1.3, glob@^7.1.6:
+>>>>>>> parent of 8158281 (chore: updated yarn.lock file)
   version "7.2.3"
   resolved "https://registry.npmjs.org/glob/-/glob-7.2.3.tgz"
   integrity sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==
@@ -9606,6 +9633,7 @@ postcss-value-parser@^4.2.0:
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 postcss@^8.2, postcss@^8.3.3, postcss@^8.4.16:
 <<<<<<< HEAD
 =======
@@ -9635,6 +9663,9 @@ postcss@^8.4.16:
 =======
 postcss@^8.4.16:
 >>>>>>> parent of 28ccb5f (chore:updated webhint and prettier in terminal)
+=======
+postcss@^8.2, postcss@^8.3.3, postcss@^8.4.16:
+>>>>>>> parent of 8158281 (chore: updated yarn.lock file)
   version "8.4.32"
   resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.32.tgz"
   integrity sha512-D/kj5JNu6oo2EIy+XL/26JEDTlIbB8hw85G8StOE6L74RQAVVP5rej6wxCNqyMbR4RkPfqvezVbPw81Ngd6Kcw==
@@ -9961,14 +9992,18 @@ run-parallel@^1.1.9:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "semver@2 || 3 || 4 || 5", semver@^5.6.0:
 =======
+=======
+>>>>>>> parent of 8158281 (chore: updated yarn.lock file)
 =======
 >>>>>>> parent of 8158281 (chore: updated yarn.lock file)
 sax@~1.3.0:
   version "1.3.0"
   resolved "https://registry.npmjs.org/sax/-/sax-1.3.0.tgz"
   integrity sha512-0s+oAmw9zLl1V1cS9BtZN7JAd0cW5e0QH4W3LWEK6a4LaLEA2OTpGYWDY+6XasBLtz6wkm3u1xRw95mRuJ59WA==
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 semver@^5.6.0:
@@ -10034,6 +10069,8 @@ semver@^5.6.0:
   version "5.7.2"
   resolved "https://registry.npmjs.org/semver/-/semver-5.7.2.tgz"
   integrity sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==
+=======
+>>>>>>> parent of 8158281 (chore: updated yarn.lock file)
 
 <<<<<<< HEAD
 semver@^6.3.0, semver@^6.3.1:
@@ -10061,14 +10098,20 @@ semver@^7.3.4:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 19e494d (chore:Updeted lock files and resolve warnings)
+=======
+>>>>>>> parent of 8158281 (chore: updated yarn.lock file)
 "semver@2 || 3 || 4 || 5":
   version "5.7.2"
   resolved "https://registry.npmjs.org/semver/-/semver-5.7.2.tgz"
   integrity sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 8158281 (chore: updated yarn.lock file)
 signal-exit@^3.0.7:
 =======
 set-blocking@^2.0.0:
@@ -10187,6 +10230,7 @@ source-map-js@^1.0.1, source-map-js@^1.0.2:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 source-map-support@0.5.13:
   version "0.5.13"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.13.tgz#31b24a9c2e73c2de85066c0feb7d44767ed52932"
@@ -10247,11 +10291,14 @@ source-map@^0.6.0, source-map@^0.6.1:
 =======
 =======
 >>>>>>> parent of 8158281 (chore: updated yarn.lock file)
+=======
+>>>>>>> parent of 8158281 (chore: updated yarn.lock file)
 source-map@^0.7.3:
   version "0.7.4"
   resolved "https://registry.npmjs.org/source-map/-/source-map-0.7.4.tgz"
   integrity sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of 19e494d (chore:Updeted lock files and resolve warnings)
 =======
@@ -10288,6 +10335,8 @@ source-map@^0.7.3:
 >>>>>>> parent of 28ccb5f (chore:updated webhint and prettier in terminal)
 =======
 >>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
+=======
+>>>>>>> parent of 8158281 (chore: updated yarn.lock file)
 spdx-correct@^3.0.0:
   version "3.1.1"
   resolved "https://registry.npmjs.org/spdx-correct/-/spdx-correct-3.1.1.tgz"
@@ -10502,6 +10551,7 @@ stylelint-csstree-validator@^2.x:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 stylelint@^14.10.0, stylelint@^14.11.0, stylelint@^14.x, "stylelint@>=7.0.0 <15.0.0":
 =======
 stylelint@^14.x:
@@ -10512,6 +10562,9 @@ stylelint@^14.10.0, stylelint@^14.11.0, stylelint@^14.x, "stylelint@>=7.0.0 <15.
 =======
 stylelint@^14.x:
 >>>>>>> parent of 28ccb5f (chore:updated webhint and prettier in terminal)
+=======
+stylelint@^14.10.0, stylelint@^14.11.0, stylelint@^14.x, "stylelint@>=7.0.0 <15.0.0":
+>>>>>>> parent of 8158281 (chore: updated yarn.lock file)
   version "14.13.0"
   resolved "https://registry.npmjs.org/stylelint/-/stylelint-14.13.0.tgz"
   integrity sha512-NJSAdloiAB/jgVJKxMR90mWlctvmeBFGFVUvyKngi9+j/qPSJ5ZB+u8jOmGbLTnS7OHrII9NFGehPRyar8U5vg==
@@ -10563,6 +10616,7 @@ stylelint@^14.x:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 8158281 (chore: updated yarn.lock file)
@@ -10584,6 +10638,11 @@ stylus@*:
   version "0.62.0"
   resolved "https://registry.npmjs.org/stylus/-/stylus-0.62.0.tgz"
 >>>>>>> parent of 19e494d (chore:Updeted lock files and resolve warnings)
+=======
+stylus@*:
+  version "0.62.0"
+  resolved "https://registry.npmjs.org/stylus/-/stylus-0.62.0.tgz"
+>>>>>>> parent of 8158281 (chore: updated yarn.lock file)
   integrity sha512-v3YCf31atbwJQIMtPNX8hcQ+okD4NQaTuKGUWfII8eaqn+3otrbttGL1zSMZAAtiPsBztQnujVBugg/cXFUpyg==
   dependencies:
     "@adobe/css-tools" "~4.3.1"
@@ -10592,6 +10651,7 @@ stylus@*:
     sax "~1.3.0"
     source-map "^0.7.3"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10608,6 +10668,8 @@ stylus@*:
 >>>>>>> parent of db48c01 (chore: Modified package.json and yarn.lock)
 =======
 >>>>>>> parent of 28ccb5f (chore:updated webhint and prettier in terminal)
+=======
+>>>>>>> parent of 8158281 (chore: updated yarn.lock file)
 supports-color@^5.3.0:
   version "5.5.0"
   resolved "https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz"
