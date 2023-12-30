@@ -52,8 +52,8 @@
 >>>>>>> parent of 92c492f (feats: modified package.json and yarn.lock)
   },
   "scripts": {
-    "format": "prettier --write \"**/*.{html,js,json,md,yml}\"",
-    "format:check": "prettier --check \"**/*.{html,js,json,md,yml}\"",
+    "format": "prettier  --write \"**/*.{html,js,json,md,yml}\"",
+    "format:check": "prettier  --check \"**/*.{html,js,json,md,yml}\"",
     "lint": "stylelint \"**/*.css\" --fix",
     "lint:check": "stylelint \"**/*.css\"",
 <<<<<<< HEAD
@@ -81,6 +81,11 @@
     "build": "babel src -d lib",
     "test": "jest"
   },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
   "jest": {
     "testMatch": [
       "**/__tests__/**/*.[jt]s?(x)",
@@ -96,6 +101,7 @@
 >>>>>>> parent of 4819b39 (chore: modified github, workflow and package.json)
   },
   "dependencies": {
+<<<<<<< HEAD
     "tslib": "^2.6.2"
   },
   "compilerOptions": {
@@ -129,4 +135,9 @@
 >>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 =======
 >>>>>>> parent of 4819b39 (chore: modified github, workflow and package.json)
+=======
+    "stylus": "^0.62.0",
+    "typescript": "^5.4.0-dev.20231229"
+  }
+>>>>>>> parent of db48c01 (chore: Modified package.json and yarn.lock)
 }

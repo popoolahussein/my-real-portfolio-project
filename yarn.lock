@@ -4167,6 +4167,7 @@ yargs-parser@^20.2.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 8158281 (chore: updated yarn.lock file)
@@ -4190,6 +4191,13 @@ yargs-parser@^20.2.3:
 
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+"@adobe/css-tools@~4.3.1":
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/@adobe/css-tools/-/css-tools-4.3.2.tgz#a6abc715fb6884851fca9dad37fc34739a04fd11"
+  integrity sha512-DA5a1C0gD/pLOvhv33YMrbf2FK3oUzwNl9oOJqE4XVjuEtt6XIakRcsd7eLiOSPkp1kTRQGICTA8cKra/vFbjw==
+
+>>>>>>> parent of db48c01 (chore: Modified package.json and yarn.lock)
 "@ampproject/remapping@^2.2.0":
   version "2.2.1"
   resolved "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.2.1.tgz"
@@ -6664,6 +6672,7 @@ cssesc@^3.0.0:
   resolved "https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
 
+<<<<<<< HEAD
 debug@^4.3.2, debug@^4.3.4:
 =======
 css-what@^6.0.1:
@@ -6713,6 +6722,9 @@ debug@4, debug@4.3.4, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.3, de
 =======
 debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.4:
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4:
+>>>>>>> parent of db48c01 (chore: Modified package.json and yarn.lock)
   version "4.3.4"
   resolved "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -7289,6 +7301,7 @@ glob-parent@^5.1.2, glob-parent@~5.1.2:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 glob@^7.1.3, glob@^7.1.6:
 =======
 glob@^10.2.2:
@@ -7310,6 +7323,9 @@ glob@^7.1.3, glob@^7.1.4, glob@^7.1.6, glob@^7.2.0:
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
 glob@^7.1.3, glob@^7.1.4, glob@^7.2.0:
 >>>>>>> parent of 84ea58d (chore: modified package.json and yarn.lock)
+=======
+glob@^7.1.3, glob@^7.1.4, glob@^7.1.6, glob@^7.2.0:
+>>>>>>> parent of db48c01 (chore: Modified package.json and yarn.lock)
   version "7.2.3"
   resolved "https://registry.npmjs.org/glob/-/glob-7.2.3.tgz"
   integrity sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==
@@ -8356,7 +8372,7 @@ jest-worker@^29.7.0:
 
 jest@^29.7.0:
   version "29.7.0"
-  resolved "https://registry.yarnpkg.com/jest/-/jest-29.7.0.tgz#994676fc24177f088f1c5e3737f5697204ff2613"
+  resolved "https://registry.npmjs.org/jest/-/jest-29.7.0.tgz"
   integrity sha512-NIy3oAFp9shda19hy4HK0HRTWKtPJmGdnvywu01nOqNC2vZg+Z+fvJDxpMQA88eb2I9EcafcdjYgsDthnYTvGw==
   dependencies:
     "@jest/core" "^29.7.0"
@@ -9672,6 +9688,7 @@ run-parallel@^1.1.9:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "semver@2 || 3 || 4 || 5", semver@^5.6.0:
 =======
 =======
@@ -9724,6 +9741,13 @@ semver-diff@^3.1.1:
 
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+sax@~1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/sax/-/sax-1.3.0.tgz#a5dbe77db3be05c9d1ee7785dbd3ea9de51593d0"
+  integrity sha512-0s+oAmw9zLl1V1cS9BtZN7JAd0cW5e0QH4W3LWEK6a4LaLEA2OTpGYWDY+6XasBLtz6wkm3u1xRw95mRuJ59WA==
+
+>>>>>>> parent of db48c01 (chore: Modified package.json and yarn.lock)
 "semver@2 || 3 || 4 || 5", semver@^5.6.0:
   version "5.7.2"
   resolved "https://registry.npmjs.org/semver/-/semver-5.7.2.tgz"
@@ -9938,14 +9962,20 @@ source-map@^0.6.0, source-map@^0.6.1:
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of db48c01 (chore: Modified package.json and yarn.lock)
 source-map@^0.7.3:
   version "0.7.4"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.7.4.tgz#a9bbe705c9d8846f4e08ff6765acf0f1b0898656"
   integrity sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==
 
+<<<<<<< HEAD
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
 >>>>>>> parent of 84ea58d (chore: modified package.json and yarn.lock)
+=======
+>>>>>>> parent of db48c01 (chore: Modified package.json and yarn.lock)
 spdx-correct@^3.0.0:
   version "3.1.1"
   resolved "https://registry.npmjs.org/spdx-correct/-/spdx-correct-3.1.1.tgz"
@@ -10196,6 +10226,7 @@ stylelint@^14.x:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 8158281 (chore: updated yarn.lock file)
@@ -10207,6 +10238,11 @@ stylus@^0.62.0:
   version "0.62.0"
   resolved "https://registry.yarnpkg.com/stylus/-/stylus-0.62.0.tgz#648a020e2bf90ed87587ab9c2f012757e977bb5d"
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+stylus@^0.62.0:
+  version "0.62.0"
+  resolved "https://registry.yarnpkg.com/stylus/-/stylus-0.62.0.tgz#648a020e2bf90ed87587ab9c2f012757e977bb5d"
+>>>>>>> parent of db48c01 (chore: Modified package.json and yarn.lock)
   integrity sha512-v3YCf31atbwJQIMtPNX8hcQ+okD4NQaTuKGUWfII8eaqn+3otrbttGL1zSMZAAtiPsBztQnujVBugg/cXFUpyg==
   dependencies:
     "@adobe/css-tools" "~4.3.1"
@@ -10215,6 +10251,7 @@ stylus@^0.62.0:
     sax "~1.3.0"
     source-map "^0.7.3"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of 19e494d (chore:Updeted lock files and resolve warnings)
@@ -10226,6 +10263,8 @@ stylus@^0.62.0:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
 >>>>>>> parent of 84ea58d (chore: modified package.json and yarn.lock)
+=======
+>>>>>>> parent of db48c01 (chore: Modified package.json and yarn.lock)
 supports-color@^5.3.0:
   version "5.5.0"
   resolved "https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz"
@@ -10423,6 +10462,7 @@ trim-newlines@^3.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
 tslib@^2.6.2:
@@ -10460,6 +10500,8 @@ type-check@^0.4.0, type-check@~0.4.0:
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
 
+=======
+>>>>>>> parent of db48c01 (chore: Modified package.json and yarn.lock)
 type-detect@4.0.8:
   version "4.0.8"
   resolved "https://registry.npmjs.org/type-detect/-/type-detect-4.0.8.tgz"
@@ -10499,6 +10541,7 @@ type-fest@^0.8.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 uri-js@^4.2.2:
   version "4.4.1"
   resolved "https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz"
@@ -10520,6 +10563,13 @@ unbzip2-stream@1.4.3:
 
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+typescript@^5.4.0-dev.20231229:
+  version "5.4.0-dev.20231229"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.0-dev.20231229.tgz#235ab24e925c13f1dfbe513ab2cbdda64e55491d"
+  integrity sha512-XFSQ1IdxXaQOAwS8Jz6uSrms9jVnbwLdqnmiaBIW+xJQL/09S4cp5h+0PhawoxcBAK+gtffIIS5/qU2oioAjgA==
+
+>>>>>>> parent of db48c01 (chore: Modified package.json and yarn.lock)
 undici-types@~5.26.4:
   version "5.26.5"
   resolved "https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz"
