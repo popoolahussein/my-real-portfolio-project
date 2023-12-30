@@ -105,6 +105,7 @@
 >>>>>>> parent of 28ccb5f (chore:updated webhint and prettier in terminal)
 =======
     "hint": "hint --telemetry=off ."
+<<<<<<< HEAD
   },
   "dependencies": {
 <<<<<<< HEAD
@@ -115,6 +116,8 @@
 =======
     "stylus": "^0.62.0"
 >>>>>>> parent of f2129fa (chore: added image-size module)
+=======
+>>>>>>> parent of 84ea58d (chore: modified package.json and yarn.lock)
   }
 >>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 }
