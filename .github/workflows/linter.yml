@@ -51,5 +51,9 @@ jobs:
       - name: Run Webhint
         run: |
           yarn install
+<<<<<<< HEAD
           yarn add got@11.8.5
           yarn hint
+=======
+          yarn hint
+>>>>>>> parent of 4819b39 (chore: modified github, workflow and package.json)
