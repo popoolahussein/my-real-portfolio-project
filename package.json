@@ -8,14 +8,16 @@
   "devDependencies": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "hint": "^2.0.0",
     "prettier": "2.x",
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
 =======
     "@babel/cli": "^7.23.4",
     "@babel/core": "^7.23.6",
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
     "hint": "^2.0.0",
-    "jest": "^29.7.0",
     "prettier": "2.x",
 >>>>>>> parent of f58fb50 (chore: modified package.json and yarn.lock)
     "stylelint": "^14.x",
@@ -56,6 +58,7 @@
     "format:check": "prettier  --check \"**/*.{html,js,json,md,yml}\"",
     "lint": "stylelint \"**/*.css\" --fix",
     "lint:check": "stylelint \"**/*.css\"",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,4 +151,8 @@
   }
   
 >>>>>>> parent of 28ccb5f (chore:updated webhint and prettier in terminal)
+=======
+    "hint": "hint --telemetry=off ."
+  }
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 }

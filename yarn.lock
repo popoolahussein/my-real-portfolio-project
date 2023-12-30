@@ -4169,6 +4169,7 @@ yargs-parser@^20.2.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 8158281 (chore: updated yarn.lock file)
@@ -4244,6 +4245,8 @@ yargs-parser@^20.2.3:
 >>>>>>> parent of 8158281 (chore: updated yarn.lock file)
 =======
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 "@babel/code-frame@^7.0.0":
   version "7.18.6"
   resolved "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.18.6.tgz"
@@ -4251,6 +4254,7 @@ yargs-parser@^20.2.3:
   dependencies:
     "@babel/highlight" "^7.18.6"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.22.13", "@babel/code-frame@^7.23.5":
@@ -4371,11 +4375,14 @@ yargs-parser@^20.2.3:
   integrity sha512-803gmbQdqwdf4olxrX4AJyFBV/RTr3rSmOj0rKwesmzlfhYNDEs+/iOcznzpNWlJlIlTJC2QfPFcHB6DlzdVLQ==
 
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 "@babel/helper-validator-identifier@^7.18.6":
   version "7.19.1"
   resolved "https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.19.1.tgz"
   integrity sha512-awrNfaMtnHUr653GgGEs++LlAvW6w+DcPrOliSMXWCKo597CwL5Acf/wWdNkf/tfEQE3mjkeD1YOVZOUV/od1w==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 "@babel/helper-validator-identifier@^7.22.20":
@@ -4398,6 +4405,8 @@ yargs-parser@^20.2.3:
     "@babel/types" "^7.23.6"
 
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 "@babel/highlight@^7.18.6":
   version "7.18.6"
   resolved "https://registry.npmjs.org/@babel/highlight/-/highlight-7.18.6.tgz"
@@ -4407,6 +4416,7 @@ yargs-parser@^20.2.3:
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 "@babel/highlight@^7.23.4":
@@ -4561,11 +4571,14 @@ yargs-parser@^20.2.3:
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 "@csstools/selector-specificity@^2.0.2":
   version "2.0.2"
   resolved "https://registry.npmjs.org/@csstools/selector-specificity/-/selector-specificity-2.0.2.tgz"
   integrity sha512-IkpVW/ehM1hWKln4fCA3NzJU8KwD+kIOvPZA4cqxoJHtE21CCzjyp+Kxbu0i5I4tBNOlXPL9mjwnWlL0VEG4Fg==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "@nodelib/fs.scandir@2.1.5":
@@ -5697,6 +5710,8 @@ yargs-parser@^20.2.3:
   resolved "https://registry.yarnpkg.com/@nicolo-ribaudo/chokidar-2/-/chokidar-2-2.1.8-no-fsevents.3.tgz#323d72dd25103d0c4fbdce89dadf574a787b1f9b"
   integrity sha512-s88O1aVtXftvp5bCPB7WnmXc5IwOZZ7YPuwNPt+GtOOXpPvad1LfbmjYv+qII7zP6RU2QGnqve27dnLycEnyEQ==
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
 <<<<<<< HEAD
@@ -5748,6 +5763,7 @@ yargs-parser@^20.2.3:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -5854,11 +5870,14 @@ yargs-parser@^20.2.3:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 "@types/minimist@^1.2.0":
   version "1.2.2"
   resolved "https://registry.npmjs.org/@types/minimist/-/minimist-1.2.2.tgz"
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 "@types/node@*":
@@ -5869,6 +5888,8 @@ yargs-parser@^20.2.3:
     undici-types "~5.26.4"
 
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
   resolved "https://registry.npmjs.org/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz"
@@ -5879,6 +5900,7 @@ yargs-parser@^20.2.3:
   resolved "https://registry.npmjs.org/@types/parse-json/-/parse-json-4.0.0.tgz"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ajv@^8.0.1:
@@ -6018,6 +6040,8 @@ ajv-formats@^2.1.1:
 ajv@^8.0.0, ajv@^8.0.1, ajv@^8.12.0:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 ajv@^8.0.1:
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
   version "8.12.0"
@@ -6029,6 +6053,7 @@ ajv@^8.0.1:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ansi-regex@^5.0.1:
@@ -6053,6 +6078,8 @@ ansi-escapes@^4.2.1:
   dependencies:
     type-fest "^0.21.3"
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 ansi-regex@^5.0.1:
   version "5.0.1"
   resolved "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz"
@@ -6075,6 +6102,9 @@ ansi-styles@^3.2.1:
     color-convert "^1.9.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 ansi-styles@^4.0.0:
   version "4.3.0"
   resolved "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz"
@@ -6091,6 +6121,7 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 array-union@^2.1.0:
   version "2.1.0"
@@ -6116,6 +6147,8 @@ argparse@^1.0.7:
   dependencies:
     sprintf-js "~1.0.2"
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 array-union@^2.1.0:
   version "2.1.0"
 <<<<<<< HEAD
@@ -6136,6 +6169,7 @@ astral-regex@^2.0.0:
   resolved "https://registry.npmjs.org/astral-regex/-/astral-regex-2.0.0.tgz"
   integrity sha512-Z7tMw1ytTXt5jqMcOP+OQteU1VuNK9Y02uuJtKQ1Sv69jXQKKg5cibLwGJow8yzZP+eAc18EmLGPal0bp36rvQ==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 balanced-match@^1.0.0:
@@ -6219,6 +6253,8 @@ babel-preset-jest@^29.6.3:
     babel-plugin-jest-hoist "^29.6.3"
     babel-preset-current-node-syntax "^1.0.0"
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 balanced-match@^1.0.0:
   version "1.0.2"
 <<<<<<< HEAD
@@ -6234,6 +6270,7 @@ balanced-match@^2.0.0:
   resolved "https://registry.npmjs.org/balanced-match/-/balanced-match-2.0.0.tgz"
   integrity sha512-1ugUSr8BHXRnK23KfuYS+gVMC3LB8QGH9W1iGtDPsNWoQbgtXSExkBu2aDR4epiGWZOjZsj6lDl/N/AqqTC3UA==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 brace-expansion@^1.1.7:
@@ -6257,6 +6294,8 @@ binary-extensions@^2.0.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 brace-expansion@^1.1.7:
   version "1.1.11"
 <<<<<<< HEAD
@@ -6272,6 +6311,9 @@ brace-expansion@^1.1.7:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 braces@^3.0.2:
   version "3.0.2"
   resolved "https://registry.npmjs.org/braces/-/braces-3.0.2.tgz"
@@ -6297,6 +6339,7 @@ braces@^3.0.2, braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6401,6 +6444,8 @@ cacheable-request@^7.0.2:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 callsites@^3.0.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/callsites/-/callsites-3.1.0.tgz"
@@ -6421,6 +6466,7 @@ camelcase@^5.3.1:
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 chalk@^2.0.0:
 =======
 camelcase@^6.2.0:
@@ -6438,6 +6484,8 @@ caniuse-lite@^1.0.30001565:
 chalk@^2.0.0, chalk@^2.4.2:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 chalk@^2.0.0:
   version "2.4.2"
   resolved "https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz"
@@ -6447,6 +6495,7 @@ chalk@^2.0.0:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
+<<<<<<< HEAD
 chalk@^2.4.2:
 >>>>>>> parent of 19e494d (chore:Updeted lock files and resolve warnings)
 =======
@@ -6524,6 +6573,8 @@ collect-v8-coverage@^1.0.0:
   integrity sha512-lHl4d5/ONEbLlJvaJNtsF/Lz+WvB07u2ycqTYbdrq7UypDXailES4valYb2eWiJFxZlVmpGekfqoxQhzyFdT4Q==
 
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 color-convert@^1.9.0:
   version "1.9.3"
   resolved "https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz"
@@ -6613,6 +6664,7 @@ colord@^2.9.3:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
@@ -6633,11 +6685,14 @@ commander@^4.0.1:
   resolved "https://registry.yarnpkg.com/commander/-/commander-4.1.1.tgz#9fd602bd936294e9e9ef46a3f4d6964044b18068"
   integrity sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
+<<<<<<< HEAD
 convert-source-map@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-2.0.0.tgz#4b560f649fc4e918dd0ab75cf4961e8bc882d82a"
@@ -6652,6 +6707,8 @@ core-js@^3.30.1:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 cosmiconfig@^7.0.1:
   version "7.0.1"
   resolved "https://registry.npmjs.org/cosmiconfig/-/cosmiconfig-7.0.1.tgz"
@@ -6663,6 +6720,7 @@ cosmiconfig@^7.0.1:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 create-jest@^29.7.0:
@@ -6696,6 +6754,8 @@ crypto-random-string@^2.0.0:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 css-functions-list@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/css-functions-list/-/css-functions-list-3.1.0.tgz"
@@ -6733,6 +6793,7 @@ cssesc@^3.0.0:
   resolved "https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 debug@^4.3.2, debug@^4.3.4:
@@ -6790,6 +6851,9 @@ debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4:
 =======
 debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.4:
 >>>>>>> parent of 28ccb5f (chore:updated webhint and prettier in terminal)
+=======
+debug@^4.3.4:
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
   version "4.3.4"
   resolved "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -6809,6 +6873,7 @@ decamelize@^1.1.0, decamelize@^1.2.0:
   resolved "https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz"
   integrity sha512-z2S+W9X73hAUUki+N+9Za2lBlun89zigOyGrsax+KUQ6wKW4ZoWpEYBkGhQjwAjjDCkWxhY0VKEhk8wzY7F5cA==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 dir-glob@^3.0.1:
@@ -6863,6 +6928,8 @@ diff-sequences@^29.6.3:
   resolved "https://registry.yarnpkg.com/diff-sequences/-/diff-sequences-29.6.3.tgz#4deaf894d11407c51efc8418012f9e70b84ea921"
   integrity sha512-EjePK1srD3P08o2j4f0ExnylqRs5B9tJjcp9t1krH2qRi8CCdsYfwe9JgSLurFBWwq4uOlipzfk5fHNvwFKr8Q==
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 dir-glob@^3.0.1:
   version "3.0.1"
 <<<<<<< HEAD
@@ -6875,6 +6942,7 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 emoji-regex@^8.0.0:
@@ -6956,6 +7024,8 @@ emittery@^0.13.1:
   resolved "https://registry.yarnpkg.com/emittery/-/emittery-0.13.1.tgz#c04b8c3457490e0847ae51fced3af52d338e3dad"
   integrity sha512-DeWwawk6r5yR9jFgnDKYt4sLS0LmHJJi3ZOnb5/JdbYwj3nW+FxQnHIjhBKz8YLC7oRNPVM9NQ47I3CVx34eqQ==
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 emoji-regex@^8.0.0:
   version "8.0.0"
   resolved "https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz"
@@ -7007,6 +7077,7 @@ error-ex@^1.3.1:
     is-arrayish "^0.2.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 escalade@^3.1.1:
   version "3.1.1"
@@ -7022,11 +7093,14 @@ escape-goat@^2.0.0:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz"
   integrity sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 fast-deep-equal@^3.1.1:
   version "3.1.3"
@@ -7076,6 +7150,8 @@ expect@^29.7.0:
     jest-message-util "^29.7.0"
     jest-util "^29.7.0"
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 fast-deep-equal@^3.1.1:
   version "3.1.3"
   resolved "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz"
@@ -7097,6 +7173,7 @@ fast-glob@^3.2.12, fast-glob@^3.2.9:
     merge2 "^1.3.0"
     micromatch "^4.0.4"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -7134,6 +7211,8 @@ fast-xml-parser@^4.1.3:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 fastest-levenshtein@^1.0.16:
   version "1.0.16"
   resolved "https://registry.npmjs.org/fastest-levenshtein/-/fastest-levenshtein-1.0.16.tgz"
@@ -7148,6 +7227,7 @@ fastq@^1.6.0:
   dependencies:
     reusify "^1.0.4"
 
+<<<<<<< HEAD
 =======
   version "1.16.0"
   resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.16.0.tgz#83b9a9375692db77a822df081edb6a9cf6839320"
@@ -7178,6 +7258,8 @@ fd-slicer@~1.1.0:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 file-entry-cache@^6.0.1:
   version "6.0.1"
   resolved "https://registry.npmjs.org/file-entry-cache/-/file-entry-cache-6.0.1.tgz"
@@ -7222,10 +7304,14 @@ fill-range@^7.0.1:
     to-regex-range "^5.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 find-up@^4.1.0:
 =======
 find-up@^4.0.0, find-up@^4.1.0:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+find-up@^4.1.0:
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
   version "4.1.0"
   resolved "https://registry.npmjs.org/find-up/-/find-up-4.1.0.tgz"
   integrity sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw==
@@ -7246,6 +7332,7 @@ flatted@^3.1.0:
   resolved "https://registry.npmjs.org/flatted/-/flatted-3.2.7.tgz"
   integrity sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 fs.realpath@^1.0.0:
@@ -7306,11 +7393,14 @@ fs-readdir-recursive@^1.1.0:
   resolved "https://registry.yarnpkg.com/fs-readdir-recursive/-/fs-readdir-recursive-1.1.0.tgz#e32fc030a2ccee44a6b5371308da54be0b397d27"
   integrity sha512-GNanXlVr2pf02+sPN40XN8HG+ePaNcvM0q5mZBd668Obwb0yD5GiUbZOFgwn8kGMY6I3mdyDJzieUy3PTYyTRA==
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   integrity sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -7326,11 +7416,14 @@ fsevents@^2.3.2, fsevents@~2.3.2:
 >>>>>>> parent of 19e494d (chore:Updeted lock files and resolve warnings)
 =======
 >>>>>>> parent of 28ccb5f (chore:updated webhint and prettier in terminal)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 glob-parent@^5.1.2:
   version "5.1.2"
@@ -7362,6 +7455,9 @@ get-stream@^6.0.0:
   integrity sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==
 
 glob-parent@^5.1.2, glob-parent@~5.1.2:
+=======
+glob-parent@^5.1.2:
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
   version "5.1.2"
 <<<<<<< HEAD
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
@@ -7373,6 +7469,7 @@ glob-parent@^5.1.2, glob-parent@~5.1.2:
   dependencies:
     is-glob "^4.0.1"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7404,6 +7501,9 @@ glob@^7.1.3, glob@^7.1.4, glob@^7.1.6, glob@^7.2.0:
 =======
 glob@^7.1.3, glob@^7.1.4, glob@^7.2.0:
 >>>>>>> parent of 28ccb5f (chore:updated webhint and prettier in terminal)
+=======
+glob@^7.1.3:
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
   version "7.2.3"
   resolved "https://registry.npmjs.org/glob/-/glob-7.2.3.tgz"
   integrity sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==
@@ -7445,6 +7545,7 @@ global-prefix@^3.0.0:
     which "^1.3.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 globby@^11.1.0:
   version "11.1.0"
   resolved "https://registry.npmjs.org/globby/-/globby-11.1.0.tgz"
@@ -7454,6 +7555,8 @@ globals@^11.1.0:
   resolved "https://registry.yarnpkg.com/globals/-/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
   integrity sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 globby@^11.1.0:
   version "11.1.0"
 <<<<<<< HEAD
@@ -7476,6 +7579,7 @@ globjoin@^0.1.4:
   resolved "https://registry.npmjs.org/globjoin/-/globjoin-0.1.4.tgz"
   integrity sha512-xYfnw62CKG8nLkZBfWbhWwDw02CHty86jfPcc2cr3ZfeuK9ysoVPPEUxf21bAD/rWAgk52SuBrLJlefNy8mvFg==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -7529,6 +7633,8 @@ graceful-fs@^4.2.9:
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 hard-rejection@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/hard-rejection/-/hard-rejection-2.1.0.tgz"
@@ -7575,6 +7681,7 @@ has@^1.0.3:
     function-bind "^1.1.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 hint@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/hint/-/hint-2.0.0.tgz"
@@ -7590,6 +7697,8 @@ hasown@^2.0.0:
   dependencies:
     function-bind "^1.1.2"
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 hint@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/hint/-/hint-2.0.0.tgz"
@@ -7637,6 +7746,7 @@ hosted-git-info@^4.0.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 hosted-git-info@^6.0.0:
   version "6.1.1"
@@ -7660,11 +7770,14 @@ html-escaper@^2.0.0:
   integrity sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==
 
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 html-tags@^3.2.0:
   version "3.2.0"
   resolved "https://registry.npmjs.org/html-tags/-/html-tags-3.2.0.tgz"
   integrity sha512-vy7ClnArOZwCnqZgvv+ddgHgJiAFXe3Ge9ML5/mBctVJoUoYPCdxVucOywjDARn6CVoh3dRSFdPHy2sX80L0Wg==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ignore@^5.2.0:
@@ -7719,6 +7832,8 @@ human-signals@^2.1.0:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 ignore@^5.2.0:
   version "5.2.0"
   resolved "https://registry.npmjs.org/ignore/-/ignore-5.2.0.tgz"
@@ -7760,6 +7875,7 @@ import-lazy@^4.0.0:
   integrity sha512-rKtvo6a868b5Hu3heneU+L4yEQ4jYKLtjpnPeUdK7h0yzXGmyBTypknlkCvHFBqfX9YlorEiMM6Dnq/5atfHkw==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.npmjs.org/imurmurhash/-/imurmurhash-0.1.4.tgz"
@@ -7772,6 +7888,8 @@ import-local@^3.0.2:
     pkg-dir "^4.2.0"
     resolve-cwd "^3.0.0"
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 imurmurhash@^0.1.4:
   version "0.1.4"
 <<<<<<< HEAD
@@ -7873,6 +7991,7 @@ is-arrayish@^0.2.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 is-arrayish@^0.3.1:
   version "0.3.2"
@@ -7896,6 +8015,8 @@ is-core-module@^2.13.0:
     hasown "^2.0.0"
 
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 is-core-module@^2.5.0, is-core-module@^2.9.0:
   version "2.10.0"
   resolved "https://registry.npmjs.org/is-core-module/-/is-core-module-2.10.0.tgz"
@@ -7934,6 +8055,7 @@ is-fullwidth-code-point@^3.0.0:
   integrity sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==
 
 is-glob@^4.0.1:
+<<<<<<< HEAD
   version "4.0.3"
   resolved "https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz"
 =======
@@ -7949,6 +8071,8 @@ is-generator-fn@^2.0.0:
   integrity sha512-cTIB4yPYL/Grw0EaSzASzg6bBy9gqCofvWN8okThAYIxKJZC+udlRAmGbM0XLeniEJSs8uEgHPGuHSe1XsOLSQ==
 
 is-glob@^4.0.1, is-glob@~4.0.1:
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
   version "4.0.3"
 <<<<<<< HEAD
   resolved "https://registry.yarnpkg.com/is-glob/-/is-glob-4.0.3.tgz#64f61e42cbbb2eec2071a9dac0b28ba1e65d5084"
@@ -8024,6 +8148,7 @@ is-plain-object@^5.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 isexe@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
@@ -8042,11 +8167,14 @@ is-stream@^2.0.0:
   resolved "https://registry.yarnpkg.com/is-stream/-/is-stream-2.0.1.tgz#fac1e3d53b97ad5a9d0ae9cef2389f5810a5c077"
   integrity sha512-hFoiJiTl63nn+kstHGBtewWSKnQLpyb155KHheA1l39uvtO9nWIop1p3udqPcUd/xbF1VLMO4n7OI6p7RbngDg==
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 isexe@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
+<<<<<<< HEAD
 istanbul-lib-coverage@^3.0.0, istanbul-lib-coverage@^3.2.0:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/istanbul-lib-coverage/-/istanbul-lib-coverage-3.2.2.tgz#2d166c4b0644d43a39f04bf6c2edd1e585f31756"
@@ -8467,11 +8595,14 @@ js-library-detector@^6.6.0:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 js-yaml@^3.13.1:
@@ -8501,6 +8632,8 @@ json-buffer@3.0.1:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 json-parse-even-better-errors@^2.3.0:
   version "2.3.1"
   resolved "https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz"
@@ -8513,6 +8646,7 @@ json-schema-traverse@^1.0.0:
   resolved "https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz"
   integrity sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==
 
+<<<<<<< HEAD
 =======
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz#ae7bcb3656ab77a73ba5c49bf654f38e6b6860e2"
 =======
@@ -8562,11 +8696,14 @@ keyv@^4.0.0:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 kind-of@^6.0.2, kind-of@^6.0.3:
   version "6.0.3"
   resolved "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 kleur@^3.0.3:
@@ -8575,11 +8712,14 @@ kleur@^3.0.3:
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 known-css-properties@^0.25.0:
   version "0.25.0"
   resolved "https://registry.npmjs.org/known-css-properties/-/known-css-properties-0.25.0.tgz"
   integrity sha512-b0/9J1O9Jcyik1GC6KC42hJ41jKwdO/Mq8Mdo5sYN+IuRTXs2YFHZC3kZSx6ueusqa95x3wLYe/ytKjbAfGixA==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -8616,6 +8756,8 @@ levn@^0.4.1:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 lines-and-columns@^1.1.6:
   version "1.2.4"
   resolved "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz"
@@ -8656,6 +8798,7 @@ lodash.truncate@^4.4.2:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 lru-cache@^6.0.0:
   version "6.0.0"
   resolved "https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz"
@@ -8692,6 +8835,8 @@ lru-cache@^5.1.1:
   dependencies:
     yallist "^3.0.2"
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 lru-cache@^6.0.0:
   version "6.0.0"
 <<<<<<< HEAD
@@ -8704,6 +8849,7 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -8752,6 +8898,8 @@ map-age-cleaner@^0.1.3:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 map-obj@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/map-obj/-/map-obj-1.0.1.tgz"
@@ -8811,6 +8959,7 @@ meow@^9.0.0:
     yargs-parser "^20.2.3"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 merge2@^1.3.0, merge2@^1.4.1:
   version "1.4.1"
   resolved "https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz"
@@ -8825,6 +8974,8 @@ merge-stream@^2.0.0:
   resolved "https://registry.yarnpkg.com/merge-stream/-/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
   integrity sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 merge2@^1.3.0, merge2@^1.4.1:
   version "1.4.1"
   resolved "https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz"
@@ -8843,6 +8994,7 @@ micromatch@^4.0.4, micromatch@^4.0.5:
     braces "^3.0.2"
     picomatch "^2.3.1"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -8884,6 +9036,8 @@ mimic-response@^3.1.0:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 min-indent@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/min-indent/-/min-indent-1.0.1.tgz"
@@ -8891,10 +9045,14 @@ min-indent@^1.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 minimatch@^3.1.1:
 =======
 minimatch@^3.0.4, minimatch@^3.1.1:
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+minimatch@^3.1.1:
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
   version "3.1.2"
   resolved "https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz"
 =======
@@ -9055,16 +9213,12 @@ nanoid@^3.3.7:
   resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.3.7.tgz"
   integrity sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==
 
-natural-compare@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
-  integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
-
 nib@^1.0.3:
   version "1.2.0"
   resolved "https://registry.npmjs.org/nib/-/nib-1.2.0.tgz"
   integrity sha512-7HgrnMl/3yOmWykueO8/D0q+0iWwe7Z+CK2Eaq/xQV8w1hK80WN1oReRQkfkrztbAAnp/nTHkUSl5EcVkor6JQ==
 
+<<<<<<< HEAD
 node-int64@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/node-int64/-/node-int64-0.4.0.tgz#87a9065cdb355d3182d8f94ce11188b825c68a3b"
@@ -9086,6 +9240,8 @@ nopt@^5.0.0:
 
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 normalize-package-data@^2.5.0:
   version "2.5.0"
   resolved "https://registry.npmjs.org/normalize-package-data/-/normalize-package-data-2.5.0.tgz"
@@ -9107,6 +9263,7 @@ normalize-package-data@^3.0.0:
     validate-npm-package-license "^3.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 normalize-path@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz"
@@ -9117,16 +9274,12 @@ once@^1.3.0:
   resolved "https://registry.npmjs.org/once/-/once-1.4.0.tgz"
 =======
 normalize-path@^3.0.0, normalize-path@~3.0.0:
+=======
+normalize-path@^3.0.0:
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
   version "3.0.0"
   resolved "https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
-
-npm-run-path@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/npm-run-path/-/npm-run-path-4.0.1.tgz#b7ecd1e5ed53da8e37a55e1c2269e0b97ed748ea"
-  integrity sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==
-  dependencies:
-    path-key "^3.0.0"
 
 once@^1.3.0:
   version "1.4.0"
@@ -9140,6 +9293,7 @@ once@^1.3.0:
   dependencies:
     wrappy "1"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 p-limit@^2.2.0:
@@ -9156,6 +9310,8 @@ onetime@^5.1.2:
   dependencies:
     mimic-fn "^2.1.0"
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 p-limit@^2.2.0:
   version "2.3.0"
 <<<<<<< HEAD
@@ -9169,6 +9325,7 @@ p-limit@^2.2.0:
     p-try "^2.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 p-locate@^4.1.0:
   version "4.1.0"
   resolved "https://registry.npmjs.org/p-locate/-/p-locate-4.1.0.tgz"
@@ -9180,6 +9337,8 @@ p-limit@^3.1.0:
   dependencies:
     yocto-queue "^0.1.0"
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 p-locate@^4.1.0:
   version "4.1.0"
 <<<<<<< HEAD
@@ -9236,10 +9395,14 @@ parent-module@^1.0.0:
     callsites "^3.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 parse-json@^5.0.0:
 =======
 parse-json@^5.0.0, parse-json@^5.2.0:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+parse-json@^5.0.0:
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
   version "5.2.0"
   resolved "https://registry.npmjs.org/parse-json/-/parse-json-5.2.0.tgz"
   integrity sha512-ayCKvm/phCGxOkYRSCM82iDwct8/EonSEgCSxWxD7ve6jHggsFl4fZVQBPRNgQoKiuV/odhFrGzQXZwbifC8Rg==
@@ -9293,6 +9456,7 @@ path-is-absolute@^1.0.0:
   resolved "https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz"
   integrity sha512-AVbw3UJ2e9bq64vSaS9Am0fje1Pa8pbGqTTsmXfaIiMpnr5DlDhfJOuLj9Sf95ZPVDAUerDfEk88MPmPe7UCQg==
 
+<<<<<<< HEAD
 =======
   resolved "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
 =======
@@ -9306,6 +9470,8 @@ path-key@^3.0.0, path-key@^3.1.0:
   integrity sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==
 
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 path-parse@^1.0.7:
   version "1.0.7"
   resolved "https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz"
@@ -9349,11 +9515,12 @@ picocolors@^1.0.0:
   resolved "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
   integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
 
-picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3, picomatch@^2.3.1:
+picomatch@^2.3.1:
   version "2.3.1"
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
+<<<<<<< HEAD
 pify@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/pify/-/pify-4.0.1.tgz#4b2cd25c50d598735c50292224fd8c6df41e3231"
@@ -9380,6 +9547,8 @@ postcss-less@^5.0.0:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 postcss-media-query-parser@^0.2.3:
   version "0.2.3"
   resolved "https://registry.npmjs.org/postcss-media-query-parser/-/postcss-media-query-parser-0.2.3.tgz"
@@ -9496,6 +9665,7 @@ prettier@2.x:
   integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 punycode@^2.1.0:
   version "2.3.1"
   resolved "https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz"
@@ -9524,15 +9694,12 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 punycode@^2.1.0:
   version "2.3.1"
   resolved "https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz"
   integrity sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==
-
-pure-rand@^6.0.0:
-  version "6.0.4"
-  resolved "https://registry.yarnpkg.com/pure-rand/-/pure-rand-6.0.4.tgz#50b737f6a925468679bff00ad20eade53f37d5c7"
-  integrity sha512-LA0Y9kxMYv47GIPJy6MI84fqTd2HmYZI83W/kM/SkKfDlajnZYfmXFTxkbY+xSBPkLJxltMa9hIkmdc29eguMA==
 
 queue-microtask@^1.2.2:
   version "1.2.3"
@@ -9555,6 +9722,7 @@ quick-lru@^4.0.1:
   resolved "https://registry.npmjs.org/quick-lru/-/quick-lru-4.0.1.tgz"
   integrity sha512-ARhCpm70fzdcvNQfPoy49IaanKkTlRWF2JMzqhcJbhSFRZv7nPTvZJdcY7301IPmvW+/p0RgIWnQDLJxifsQ7g==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -9581,6 +9749,8 @@ react-is@^18.0.0:
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 read-pkg-up@^7.0.1:
   version "7.0.1"
   resolved "https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-7.0.1.tgz"
@@ -9600,6 +9770,7 @@ read-pkg@^5.2.0:
     parse-json "^5.0.0"
     type-fest "^0.6.0"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -9629,6 +9800,8 @@ readdirp@~3.6.0:
     picomatch "^2.2.1"
 
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 redent@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/redent/-/redent-3.0.0.tgz"
@@ -9637,6 +9810,7 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 require-from-string@^2.0.2:
@@ -9666,11 +9840,14 @@ require-directory@^2.1.1:
   resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
   integrity sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 require-from-string@^2.0.2:
   version "2.0.2"
   resolved "https://registry.npmjs.org/require-from-string/-/require-from-string-2.0.2.tgz"
   integrity sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==
 
+<<<<<<< HEAD
 resolve-cwd@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/resolve-cwd/-/resolve-cwd-3.0.0.tgz#0f0075f1bb2544766cf73ba6a6e2adfebcb13f2d"
@@ -9679,6 +9856,8 @@ resolve-cwd@^3.0.0:
     resolve-from "^5.0.0"
 
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 resolve-from@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz"
@@ -9690,6 +9869,7 @@ resolve-from@^5.0.0:
   integrity sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 resolve.exports@^2.0.0:
   version "2.0.2"
@@ -9697,6 +9877,8 @@ resolve.exports@^2.0.0:
   integrity sha512-X2UW6Nw3n/aMgDVy+0rSqgHlv39WZAlZrXCdnbyEiKm17DSqHX4MmQMaST3FbeWR5FTuRcUwYAziZajji0Y7mg==
 
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 resolve@^1.10.0:
   version "1.22.1"
   resolved "https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz"
@@ -9706,6 +9888,7 @@ resolve@^1.10.0:
     path-parse "^1.0.7"
     supports-preserve-symlinks-flag "^1.0.0"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 reusify@^1.0.4:
   version "1.0.4"
@@ -9725,6 +9908,8 @@ resolve@^1.20.0:
     path-parse "^1.0.7"
     supports-preserve-symlinks-flag "^1.0.0"
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 reusify@^1.0.4:
   version "1.0.4"
   resolved "https://registry.npmjs.org/reusify/-/reusify-1.0.4.tgz"
@@ -9767,6 +9952,7 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9842,10 +10028,14 @@ semver@^5.6.0:
 =======
 "semver@2 || 3 || 4 || 5", semver@^5.6.0:
 >>>>>>> parent of 28ccb5f (chore:updated webhint and prettier in terminal)
+=======
+"semver@2 || 3 || 4 || 5":
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
   version "5.7.2"
   resolved "https://registry.npmjs.org/semver/-/semver-5.7.2.tgz"
   integrity sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==
 
+<<<<<<< HEAD
 semver@^6.3.0, semver@^6.3.1:
   version "6.3.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
@@ -9857,12 +10047,16 @@ semver@^7.0.0, semver@^7.3.4, semver@^7.3.5, semver@^7.3.7, semver@^7.5.3, semve
 =======
 semver@^7.3.4, semver@^7.5.3, semver@^7.5.4:
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+semver@^7.3.4:
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
   version "7.5.4"
   resolved "https://registry.npmjs.org/semver/-/semver-7.5.4.tgz"
   integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
   dependencies:
     lru-cache "^6.0.0"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9911,10 +10105,14 @@ signal-exit@^3.0.0, signal-exit@^3.0.2, signal-exit@^3.0.3, signal-exit@^3.0.7:
 =======
 signal-exit@^3.0.3, signal-exit@^3.0.7:
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+signal-exit@^3.0.7:
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
   version "3.0.7"
   resolved "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 slash@^3.0.0:
@@ -9959,6 +10157,8 @@ slash@^2.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-2.0.0.tgz#de552851a1759df3a8f206535442f5ec4ddeab44"
   integrity sha512-ZYKh3Wh2z1PpEXWr0MpSBZ0V6mZHAQfYevttO11c51CaWjGTaadiKZ+wVt1PbMlDV5qhMFslpZCemhwOK7C89A==
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 slash@^3.0.0:
   version "3.0.0"
 <<<<<<< HEAD
@@ -10020,6 +10220,7 @@ source-map-js@^1.0.1, source-map-js@^1.0.2:
   resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
 
+<<<<<<< HEAD
 source-map-support@0.5.13:
   version "0.5.13"
 <<<<<<< HEAD
@@ -10085,6 +10286,8 @@ source-map@^0.7.3:
 >>>>>>> parent of db48c01 (chore: Modified package.json and yarn.lock)
 =======
 >>>>>>> parent of 28ccb5f (chore:updated webhint and prettier in terminal)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 spdx-correct@^3.0.0:
   version "3.1.1"
   resolved "https://registry.npmjs.org/spdx-correct/-/spdx-correct-3.1.1.tgz"
@@ -10111,6 +10314,7 @@ spdx-license-ids@^3.0.0:
   resolved "https://registry.npmjs.org/spdx-license-ids/-/spdx-license-ids-3.0.12.tgz"
   integrity sha512-rr+VVSXtRhO4OHbXUiAF7xW3Bo9DuuF6C5jH+q/x15j2jniycgKbxU09Hr0WqlSLUs4i4ltHGXqTe7VHclYWyA==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 string-width@^4.2.3:
 =======
@@ -10149,6 +10353,9 @@ string-length@^4.0.1:
 =======
 string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+string-width@^4.2.3:
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
   version "4.2.3"
   resolved "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -10157,6 +10364,7 @@ string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
     is-fullwidth-code-point "^3.0.0"
     strip-ansi "^6.0.1"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 strip-ansi@^6.0.1:
@@ -10194,12 +10402,16 @@ string_decoder@^1.1.1:
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
 strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+=======
+strip-ansi@^6.0.1:
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
   version "6.0.1"
   resolved "https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
   dependencies:
     ansi-regex "^5.0.1"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of 84ea58d (chore: modified package.json and yarn.lock)
 strip-ansi@^7.0.1:
@@ -10222,6 +10434,8 @@ strip-final-newline@^2.0.0:
   integrity sha512-BrpvfNAE3dcvq7ll3xVumzjKjZQ5tI1sEUIKr3Uoks0XUl45St3FlatVqef9prk4jRDzhW6WZg+3bk93y6pLjA==
 
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 strip-indent@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/strip-indent/-/strip-indent-3.0.0.tgz"
@@ -10229,6 +10443,7 @@ strip-indent@^3.0.0:
   dependencies:
     min-indent "^1.0.0"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 strip-json-comments@^3.1.1:
@@ -10258,6 +10473,8 @@ strtok3@^6.2.4:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 style-search@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npmjs.org/style-search/-/style-search-0.1.0.tgz"
@@ -10399,6 +10616,9 @@ supports-color@^5.3.0:
     has-flag "^3.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 supports-color@^7.0.0:
   version "7.2.0"
   resolved "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz"
@@ -10416,6 +10636,7 @@ supports-color@^7.0.0, supports-color@^7.1.0:
     has-flag "^4.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 supports-color@^8.0.0:
   version "8.1.1"
@@ -10425,6 +10646,8 @@ supports-color@^8.0.0:
     has-flag "^4.0.0"
 
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 supports-hyperlinks@^2.3.0:
   version "2.3.0"
   resolved "https://registry.npmjs.org/supports-hyperlinks/-/supports-hyperlinks-2.3.0.tgz"
@@ -10465,6 +10688,7 @@ table@^6.8.0:
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 to-regex-range@^5.0.1:
@@ -10525,6 +10749,8 @@ to-fast-properties@^2.0.0:
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
   integrity sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 to-regex-range@^5.0.1:
   version "5.0.1"
 <<<<<<< HEAD
@@ -10589,6 +10815,7 @@ trim-newlines@^3.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
 tslib@^2.6.2:
@@ -10634,11 +10861,14 @@ type-detect@4.0.8:
   integrity sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==
 
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 type-fest@^0.18.0:
   version "0.18.1"
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.18.1.tgz"
   integrity sha512-OIAYXk8+ISY+qTOwkHtKqzAuxchoMiD9Udx+FSGQDuiRR+PJKJHc2NJAXlbhkGwTt/4/nKZxELY1w3ReWOL8mw==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -10655,6 +10885,8 @@ type-fest@^0.21.3:
   integrity sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==
 
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 type-fest@^0.6.0:
   version "0.6.0"
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.6.0.tgz"
@@ -10665,6 +10897,7 @@ type-fest@^0.8.1:
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.8.1.tgz"
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10712,6 +10945,8 @@ update-browserslist-db@^1.0.13:
     escalade "^3.1.1"
     picocolors "^1.0.0"
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 uri-js@^4.2.2:
   version "4.4.1"
 <<<<<<< HEAD
@@ -10764,6 +10999,7 @@ v8-compile-cache@^2.3.0:
   integrity sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 v8-to-istanbul@^9.0.1:
   version "9.2.0"
@@ -10775,6 +11011,8 @@ v8-to-istanbul@^9.0.1:
     convert-source-map "^2.0.0"
 
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 validate-npm-package-license@^3.0.1:
   version "3.0.4"
   resolved "https://registry.npmjs.org/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz"
@@ -10783,6 +11021,7 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -10866,6 +11105,8 @@ whatwg-url@^5.0.0:
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
 =======
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 which@^1.3.1:
   version "1.3.1"
   resolved "https://registry.npmjs.org/which/-/which-1.3.1.tgz"
@@ -10873,6 +11114,7 @@ which@^1.3.1:
   dependencies:
     isexe "^2.0.0"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 wrappy@1:
   version "1.0.2"
@@ -10896,6 +11138,8 @@ wrap-ansi@^7.0.0:
     string-width "^4.1.0"
     strip-ansi "^6.0.0"
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 wrappy@1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
@@ -10923,6 +11167,7 @@ write-file-atomic@^4.0.2:
     imurmurhash "^0.1.4"
     signal-exit "^3.0.7"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 yallist@^4.0.0:
@@ -10966,6 +11211,8 @@ yallist@^3.0.2:
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-3.1.1.tgz#dbb7daf9bfd8bac9ab45ebf602b8cbad0d5d08fd"
   integrity sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==
 
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 yallist@^4.0.0:
   version "4.0.0"
 <<<<<<< HEAD
@@ -10985,6 +11232,7 @@ yargs-parser@^20.2.3:
   version "20.2.9"
   resolved "https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.9.tgz"
   integrity sha512-y11nGElTIV+CT3Zv9t7VKl+Q3hTQoT9a1Qzezhhl6Rp21gJ/IVTW7Z3y9EWXhuUBC2Shnf+DX0antecpAwSP8w==
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -11052,3 +11300,5 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 >>>>>>> parent of a8ee83f (chore:reinstalled yarn.lock file)
+=======
+>>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
