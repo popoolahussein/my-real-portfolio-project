@@ -107,10 +107,14 @@
     "hint": "hint --telemetry=off ."
   },
   "dependencies": {
+<<<<<<< HEAD
     "got": "^11.8.5",
     "image-size": "^1.1.0",
     "stylus": "^0.62.0",
     "typescript": "^2.8.0"
+=======
+    "stylus": "^0.62.0"
+>>>>>>> parent of f2129fa (chore: added image-size module)
   }
 >>>>>>> parent of dfd4f29 (chore: added defined test and build package to package.json file)
 }
