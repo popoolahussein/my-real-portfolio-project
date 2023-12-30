@@ -6,6 +6,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+<<<<<<< HEAD
     "hint": "^2.0.0",
     "prettier": "2.x",
 >>>>>>> parent of 128dbaf (chore: modified package.json and yarn.lock)
@@ -13,6 +14,22 @@
     "stylelint-config-recommended": "^9.x",
     "stylelint-config-standard": "^28.x",
     "stylelint-csstree-validator": "^2.x"
+=======
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.6",
+    "hint": "^7.1.10",
+    "jest": "^29.7.0",
+    "prettier": "3.1.1"
+  },
+  "dependencies": {
+    "got": "^11.8.5",
+    "image-size": "^1.1.0",
+    "stylelint": "^16.1.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-csstree-validator": "^3.0.0",
+    "stylus": "^0.62.0",
+    "typescript": "^2.8.0"
+>>>>>>> parent of 26eee52 (feats:modified package.json)
   },
   "scripts": {
     "format": "prettier --write \"**/*.{html,js,json,md,yml}\"",
