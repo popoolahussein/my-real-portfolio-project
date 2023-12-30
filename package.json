@@ -52,6 +52,7 @@
       "/node_modules/"
     ]
 <<<<<<< HEAD
+<<<<<<< HEAD
   },
   "dependencies": {
     "tslib": "^2.6.2"
@@ -63,4 +64,8 @@
 =======
   }
 >>>>>>> parent of 19e494d (chore:Updeted lock files and resolve warnings)
+=======
+  }
+  
+>>>>>>> parent of 28ccb5f (chore:updated webhint and prettier in terminal)
 }
