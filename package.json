@@ -97,6 +97,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 4819b39 (chore: modified github, workflow and package.json)
   },
@@ -138,6 +139,8 @@
 =======
     "stylus": "^0.62.0",
     "typescript": "^5.4.0-dev.20231229"
+=======
+>>>>>>> parent of 19e494d (chore:Updeted lock files and resolve warnings)
   }
 >>>>>>> parent of db48c01 (chore: Modified package.json and yarn.lock)
 }
