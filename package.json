@@ -10,6 +10,7 @@
     "lint": "stylelint \"**/*.css\" --fix",
     "lint:check": "stylelint \"**/*.css\"",
     "hint": "hint --telemetry=off ."
+<<<<<<< HEAD
   },
   "dependencies": {
 <<<<<<< HEAD
@@ -20,5 +21,7 @@
 =======
 >>>>>>> parent of f2129fa (chore: added image-size module)
     "stylus": "^0.62.0"
+=======
+>>>>>>> parent of 84ea58d (chore: modified package.json and yarn.lock)
   }
 }
