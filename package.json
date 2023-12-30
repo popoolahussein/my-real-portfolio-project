@@ -13,10 +13,9 @@
   },
   "dependencies": {
     "image-size": "^1.1.0",
-<<<<<<< HEAD
     "stylus":
-=======
     "stylus": "^0.62.0"
->>>>>>> parent of 4c1fd21 (chore: modified linter.yml, package.json, yarn.lock)
+    "stylus": "^0.62.0"
+
   }
 }
