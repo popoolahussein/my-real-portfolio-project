@@ -1,21 +1,40 @@
 {
-  "name": "html-css-template",
-  "version": "0.1.0",
+  "name": "js-template",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": "please-use-yarn"
+  },
   "devDependencies": {
-    "hint": "^7.x",
-    "prettier": "2.x",
-    "stylelint": "^14.x",
-    "stylelint-config-recommended": "^9.x",
-    "stylelint-config-standard": "^28.x",
-    "stylelint-csstree-validator": "^2.x"
+    "axe-core": "^4.7.2",
+    "axe-puppeteer": "^1.1.1",
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^5.0.1",
+    "htmlhint": "^1.1.4",
+    "prettier": "^3.1.0",
+    "puppeteer": "^21.5.2",
+    "stylelint": "^15.6.2",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-recommended": "^13.0.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-csstree-validator": "^3.0.0",
+    "stylelint-prettier": "^4.1.0"
   },
   "scripts": {
-    "format": "prettier  --write \"**/*.{html,js,json,md,yml}\"",
-    "format:check": "prettier  --check \"**/*.{html,js,json,md,yml}\"",
-    "lint": "stylelint \"**/*.css\" --fix",
-    "lint:check": "stylelint \"**/*.css\"",
-    "hint": "hint --telemetry=off ."
+    "format": "npx prettier  --write \"**/*.{html,json,md,yaml,yml}\"",
+    "format:check": "npx prettier  --check \"**/*.{html,json,md,yaml,yml}\"",
+    "lint": "npx stylelint \"**/*.css\" --fix && npx eslint . --fix",
+    "lint:check": "npx stylelint \"**/*.css\" && npx eslint .",
+    "stylelint": "npx stylelint \"**/*.css\" --fix",
+    "stylelint:check": "npx stylelint \"**/*.css\"",
+    "eslint": "npx eslint . --fix",
+    "eslint:check": "npx eslint .",
+    "axe": "node axe-check.js",
+    "lint:html": "htmlhint ."
   }
 }
