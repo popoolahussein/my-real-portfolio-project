@@ -1,28 +1,17 @@
-name: Checks
+name: Linter
 
-on: push
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+  pull_request:
 
 jobs:
-  prettier:
-    name: Prettier
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v3
-      - name: Set up Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-      - name: Run Prettier
-        run: |
-          yarn install
-          yarn format:check
-
   css:
     name: StyleLint
     runs-on: ubuntu-latest
-    if: always()
+    if: success() || failure()
 
     steps:
       - name: Checkout 🛎️
@@ -30,16 +19,17 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
+          cache: 'yarn'
       - name: Run StyleLint
         run: |
           yarn install
-          yarn lint:check
+          yarn stylelint:check
 
-  webhint:
-    name: Webhint
+  html:
+    name: HTML Hint
     runs-on: ubuntu-latest
-    if: always()
+    if: success() || failure()
 
     steps:
       - name: Checkout 🛎️
@@ -47,8 +37,27 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
-          node-version: 16
-      - name: Run Webhint
+          node-version: 18
+          cache: 'yarn'
+      - name: Run HTML Hint
         run: |
           yarn install
-          yarn hint
+          yarn lint:html
+
+  eslint:
+    name: ESLint
+    runs-on: ubuntu-latest
+    if: success() || failure()
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'yarn'
+      - name: Run Eslint
+        run: |
+          yarn
+          yarn eslint:check
