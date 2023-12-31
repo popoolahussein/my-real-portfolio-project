@@ -1,21 +1,19 @@
 {
-  "name": "html-css-template",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {},
-  "devDependencies": {
-    "hint": "^7.x",
-    "prettier": "2.x",
-    "stylelint": "^14.x",
-    "stylelint-config-recommended": "^9.x",
-    "stylelint-config-standard": "^28.x",
-    "stylelint-csstree-validator": "^2.x"
-  },
+  "name": "my-real-portfolio-project",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.js",
   "scripts": {
-    "format": "prettier  --write \"**/*.{html,js,json,md,yml}\"",
-    "format:check": "prettier  --check \"**/*.{html,js,json,md,yml}\"",
-    "lint": "stylelint \"**/*.css\" --fix",
-    "lint:check": "stylelint \"**/*.css\"",
-    "hint": "hint --telemetry=off ."
+    "stylelint:check": "stylelint '**/*.{css,scss}'",
+    "lint:html": "htmlhint 'path/to/**/*.html'",
+    "eslint:check": "eslint ."
+  },
+  "keywords": [],
+  "author": "Hussein-Popoola",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "htmlhint": "^0.15.0",
+    "stylelint": "^16.1.0"
   }
 }
