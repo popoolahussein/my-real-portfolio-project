@@ -3,13 +3,20 @@ This imports the `reset.css` file */
 @import url("./reset.css");
 
 body {
-  background: linear-gradient(to bottom, black, royalblue, black);
-  min-height: 100vh;
+  background: #191765;
+  height: auto;
+  min-width: 375px;
   margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 * {
   flex-flow: nowrap;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
 }
 
 .header {
@@ -19,12 +26,14 @@ body {
 }
 
 .section {
+    min-width: 375px;
+    height: 48px;
   max-width: 56rem;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-flow: nowrap;
 }
@@ -64,9 +73,47 @@ body {
   display: block;
 }
 
+.circle-bg-box {
+    min-width: 300px;
+    height: 535px;
+    left: 0px;
+    top: 237px;
+    position: absolute;
+    display: flex;
+}
+
+.circle-bg-1 {
+    width: 180px;
+    height: 180px;
+    left: 1000px;
+    top: 309px;
+    position: absolute;
+    background: #EDECFF;
+    box-shadow: 50px 50px 50px;
+    border-radius: 9999px;
+    filter: blur(50px);
+}
+
+.circle-bg-2 {
+    width: 150px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #EDECFF;
+    box-shadow: 50px 50px 50px;
+    border-radius: 9999px;
+    filter: blur(50px);
+}
+
 .my-name {
-  color: goldenrod;
-  font-size: xx-large;
+    min-width: 327px;
+    min-height: 55px;
+    color: #9390FF;
+  size: 48px;
+  letter-spacing: 0.37px;
+  line-height: 72px;
+  font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,6 +121,8 @@ body {
 }
 
 .my-field {
+  min-width: 327px;
+  min-height: 87px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,6 +130,10 @@ body {
 }
 
 .intro-p {
+    min-width: 327px;
+    min-height: 170px;
+    size: 20px;
+    line-height: 28px;
   color: rgb(255 228 196 / 64.6%);
   display: flex;
   align-items: center;
@@ -91,38 +144,140 @@ body {
 }
 
 .line {
-  width: 20rem;
-  border-color: grey;
+  min-width: 303px;
+  max-width: 327px;
+  border: 1px solid grey;
+  padding-left: 7rem;
+  
 }
 
-article {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  flex-flow: wrap;
+
+.main-column-box-container {
+    min-width: 303px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    display: flex;
+    padding-left: 4rem;
+    flex-flow: row wrap;
 }
 
-ul {
-  list-style: none;
+.column-box-container {
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    display: flex;
 }
 
-.li-head {
-  color: gold;
-  font-size: large;
-  padding-bottom: 1rem;
+.skills-column-box-container {
+    gap: 16px;
+}
+
+.list-head-box {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5.33px;
+    padding-bottom: 5.33px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+}
+
+.list-head {
+    width: 100px;
+    height: 16px;
+    color: #9390FF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29.33px;
+    word-wrap: break-word;
+}
+
+.skills-list-head {
+    width: 100px;
+}
+
+.frameworks-list-head {
+    width: 100px;
+}
+
+.column-box {
+    padding-left: 7.17px;
+    padding-right: 7.17px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4.78px;
+    display: flex;
+}
+
+.skills-column-box {
+    padding-left: 8px;
+    padding-right: 8px;
+    align-items: center;
+    gap: 5.33px;
+}
+
+.frameworks-column-box {
+    padding-left: 7.74px;
+    padding-right: 7.74px;
+    gap: 5.16px;
+}
+
+.column {
+    padding-top: 7.17px;
+    padding-bottom: 7.17px;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+}
+
+.frameworks-column {
+    padding-top: 7.74px;
+    padding-bottom: 7.74px;
+}
+
+.skills-column {
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .list {
-  padding-bottom: 0.5rem;
-  font-size: small;
+    width: 68.08px;
+    height: 14.33px;
+    color: white;
+    font-size: 13.14px;
+    font-weight: 400;
+    line-height: 25.48px;
+    word-wrap: break-word;
 }
 
-img {
-  width: 2rem;
-  height: 2rem;
-  display: flex;
-  justify-content: space-evenly;
-  padding-left: 9px;
+.list-b {
+    width: 73.55px;
+    height: 15.48px;
+    color: white;
+    font-size: 14.19px;
+    font-weight: 400;
+    line-height: 27.53px;
+    word-wrap: break-word;
+}
+
+.rob {
+    width: 104.52px;
+    height: 15.48px;
+}
+
+.list-c {
+    width: 76px;
+    height: 16px;
+    color: white;
+    font-size: 14.67px;
+    font-weight: 400;
+    line-height: 28.44px;
+    word-wrap: break-word
 }
 
 .button-div {
@@ -132,5 +287,58 @@ img {
 }
 
 a:hover {
-  background-color: gold;
+  background-color: black;
+}
+
+.base {
+    min-width: 30px;
+    min-height: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    display: inline-flex;
+    flex-flow: row wrap;
+}
+
+.work-base {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    display: flex;
+}
+
+.work {
+    text-align: center;
+    color: #B3BAC5;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word;
+}
+
+.bi-arrow-down {
+    color: white;
+}
+
+.icon-box {
+    width: 18px;
+    height: 21.30px;
+    position: relative;
+}
+
+.icon {
+    width: 0px;
+    height: 21.30px;
+    left: 9.15px;
+    top: 3.4px;
+    position: absolute;
+}
+
+
+img {
+    width: 20px;
+    height: 20px;
+    padding: 8px;
 }
