@@ -16,7 +16,7 @@ body {
 **/
 
 .header {
-  color: #ffffff;
+  color: #fff;
   padding-left: 80px;
   padding-right: 80px;
 }
@@ -43,7 +43,7 @@ body {
 }
 
 .header-nav {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -132,12 +132,15 @@ body {
   justify-content: space-evenly;
   flex-flow: row wrap;
 }
+
 .li-head {
   padding-bottom: 15px;
 }
+
 .li {
   padding-bottom: 10px;
 }
+
 .li-color {
   color: goldenrod;
   font-size: x-large;
