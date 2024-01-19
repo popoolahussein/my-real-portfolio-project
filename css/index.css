@@ -3,76 +3,31 @@ This imports the `reset.css` file */
 @import url("./reset.css");
 
 /**
-*? The default style.
+*? Styles for the Body.
 **/
 
 body {
   background: #191765;
-  
+  min-width: 375px;
+  padding: 0px 24px 0px 24px;
 }
 
 /**
-*? The main element style.
-**/
-
-.header {
-  color: #fff;
-  padding-left: 80px;
-  padding-right: 80px;
-}
-
-/**
-*? The style for the toolbar section.
-**/
-
-.section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.nav {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  display: flex;
-  flex-flow: row wrap;
-  text-align: center;
-  justify-content: space-between;
-  gap: 10px;
-}
-
-.header-nav {
-  color: #fff;
-  text-decoration: none;
-}
-
-.my-logo-img {
-  height: 3rem;
-  width: 5rem;
-}
-
-.section-2 {
-  display: block;
-}
-
-/**
-*? The circle background color style
+*? The circle background color style.
 **/
 
 .circle-bg-box {
-  min-width: 300px;
+  min-width: 1300px;
   height: 535px;
-  left: 1px;
+  left: 69px;
   top: 237px;
   position: absolute;
-  display: flex;
 }
 
 .circle-bg-1 {
-  width: 180px;
-  height: 180px;
-  left: 1000px;
+  width: 226px;
+  height: 226px;
+  left: 1074px;
   top: 309px;
   position: absolute;
   background: #EDECFF;
@@ -82,10 +37,10 @@ body {
 }
 
 .circle-bg-2 {
-  width: 150px;
-  height: 150px;
-  left: 0.2px;
-  top: 0.2px;
+  width: 184px;
+  height: 184px;
+  left: 0.1px;
+  top: 0.1px;
   position: absolute;
   background: #EDECFF;
   box-shadow: 50px 50px 50px;
@@ -94,79 +49,97 @@ body {
 }
 
 /**
-*? The styles for the upper part of the head section.
+*? The style for the toolbar section.
 **/
 
-.my-name {
-  color: goldenrod;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.my-field {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.intro-p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 4rem;
-  margin-bottom: 2rem;
-  flex-flow: row wrap;
-}
-
-.line {
-  border: 1px solid grey;
-}
-
-/**
-*? The styles for the list part of the head section.
-**/
-
-.table {
-  display: flex;
-  justify-content: space-evenly;
-  flex-flow: row wrap;
-}
-
-.li-head {
-  padding-bottom: 15px;
-}
-
-.li {
-  padding-bottom: 10px;
-}
-
-.li-color {
-  color: goldenrod;
-  font-size: x-large;
-}
-
-.list {
-  gap: 5px;
-  display: block;
-}
-
-/**
-*?  The styles for the lower part of the head section.
-**/
-
-a:hover {
-  background-color: goldenrod;
-}
-
-.base {
-  align-items: center;
+.tool-bar {
   display: flex;
   justify-content: space-between;
 }
 
-.work-base {
+.my-logo {
+  color: #fff;
+  font-size: 18px;
+}
+
+.bi-list {
+  color:white;
+}
+
+
+/**
+*?  Styles for the Headline section.
+**/
+
+.main {
   display: flex;
+  flex-flow: row wrap;
+}
+
+.headline {
+  display: block;
+}
+
+.my-name {
+  color: #7D73FC;
+  align-items: center;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.my-field {
+  align-items: center;
+  font-size: 32px;
+  color: #EDECFF;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-text {
+  color: #C8C8D4;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.line {
+  border: 1px solid #646369
+}
+
+.full-list{
+  display: flex;
+  gap: 24px;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+li {
+  color: #F5F5FF;
+  list-style: none;
+  font-size: 15px;
+}
+
+.list-head {
+  color: #9490FF;
+  font-size: 12px;
+  padding-bottom: 8px;
+}
+
+.list-i {
+  padding-bottom: 4.78px;
+}
+
+.list-ii {
+  padding-bottom: 5.16px;
+}
+.list-iii {
+  padding-bottom: 5.33px;
+}
+
+a:hover {
+  background-color: goldenrod;
 }
 
 img {
