@@ -9,7 +9,8 @@ This imports the `reset.css` file */
 body {
   background: #191765;
   min-width: 375px;
-  padding: 0px 24px 0px 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 /**
@@ -134,6 +135,7 @@ li {
 .list-ii {
   padding-bottom: 5.16px;
 }
+
 .list-iii {
   padding-bottom: 5.33px;
 }
