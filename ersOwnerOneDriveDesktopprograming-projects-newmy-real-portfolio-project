@@ -1,8 +1,0 @@
-[33m5c6c643[m[33m ([m[1;36mHEAD -> [m[1;32msetup[m[33m, [m[1;31morigin/setup[m[33m)[m docs: added two meta elements and one title element to the head element
-[33ma768ccb[m docs: added label to the two html sections
-[33mfcf8a11[m feat: added a headline section html and css features
-[33m5936ee6[m doc: added my-logo image to the top navigation
-[33mf8d77f4[m doc: added a top navigation section to my html
-[33m097d375[m feat: added an image folder
-[33mb1b092f[m chore: added a vscode folder to gitignore
-[33m11afd36[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/development-branch[m[33m, [m[1;32mmain[m[33m, [m[1;32mdevelopment-branch[m[33m)[m chore: add nit set-up
