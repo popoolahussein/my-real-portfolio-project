@@ -2,15 +2,25 @@
 This imports the `reset.css` file */
 @import url("./reset.css");
 
+:root {
+  /* color*/
+  --C-BG-C: #EDECFF;
+  --BC: #fff;
+  /*SHADOW*/
+  --BS: 50px 50px 50px;
+  --FI: blur(50px);
+  /*RADIUS*/
+  --BR: 9999px;
+}
+
 /**
 *? Styles for the Body.
 **/
 
 body {
-  background: #191765;
+  background-color: #191765;
   min-width: 375px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 0px 24px 0px 24px;
 }
 
 /**
@@ -22,19 +32,17 @@ body {
   height: 535px;
   left: 9px;
   top: 37px;
-  position: absolute;
 }
 
 .circle-bg-1 {
   width: 226px;
   height: 226px;
-  left: 1074px;
-  top: 309px;
-  position: absolute;
-  background: #EDECFF;
-  box-shadow: 50px 50px 50px;
-  border-radius: 9999px;
-  filter: blur(50px);
+  left: 1000px;
+  top: 299px;
+  background-color: var(--C-BG-C);
+  box-shadow: var(--BS);
+  border-radius: var(--BR);
+  filter: var(--FI);
 }
 
 .circle-bg-2 {
@@ -42,11 +50,14 @@ body {
   height: 184px;
   left: 0.1px;
   top: 0.1px;
+  background-color: var(--C-BG-C);
+  box-shadow: var(--BS);
+  border-radius: var(--BR);
+  filter: var(--FI);
+}
+
+.absolute {
   position: absolute;
-  background: #EDECFF;
-  box-shadow: 50px 50px 50px;
-  border-radius: 9999px;
-  filter: blur(50px);
 }
 
 /**
@@ -59,12 +70,12 @@ body {
 }
 
 .my-logo {
-  color: #fff;
+  color: var(--BC);
   font-size: 18px;
 }
 
 .bi-list {
-  color:white;
+  color: var(--BC);
 }
 
 
@@ -72,7 +83,7 @@ body {
 *?  Styles for the Headline section.
 **/
 
-.main {
+.main, .full-list {
   display: flex;
   flex-flow: row wrap;
 }
@@ -81,20 +92,20 @@ body {
   display: block;
 }
 
-.my-name {
-  color: #7D73FC;
-  align-items: center;
-  font-size: 48px;
+.my-name, .my-field, .button-div {
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
+.my-name {
+  color: #7D73FC;
+  font-size: 48px;
+}
+
 .my-field {
-  align-items: center;
   font-size: 32px;
   color: #EDECFF;
-  display: flex;
-  justify-content: center;
 }
 
 .intro-text {
@@ -110,9 +121,7 @@ body {
 }
 
 .full-list{
-  display: flex;
   gap: 24px;
-  flex-flow: row wrap;
   justify-content: center;
 }
 
@@ -135,7 +144,6 @@ li {
 .list-ii {
   padding-bottom: 5.16px;
 }
-
 .list-iii {
   padding-bottom: 5.33px;
 }
@@ -148,10 +156,4 @@ img {
   width: 20px;
   height: 20px;
   padding: 8px;
-}
-
-.button-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
