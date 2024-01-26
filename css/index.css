@@ -3,14 +3,19 @@ This imports the `reset.css` file */
 @import url("./reset.css");
 
 :root {
-  /* color*/
-  --C-BG-C: #EDECFF;
-  --BC: #fff;
-  /*SHADOW*/
-  --BS: 50px 50px 50px;
-  --FI: blur(50px);
-  /*RADIUS*/
-  --BR: 9999px;
+  /* color */
+
+  --cc: #EDECFF;
+  --wc: #fff;
+
+  /* SHADOW */
+
+  --bs: 50px 50px 50px;
+  --fi: blur(50px);
+
+  /* RADIUS */
+
+  --br: 9999px;
 }
 
 /**
@@ -20,7 +25,7 @@ This imports the `reset.css` file */
 body {
   background-color: #191765;
   min-width: 375px;
-  padding: 0px 24px 0px 24px;
+  padding: 0.1px 24px;
 }
 
 /**
@@ -39,10 +44,10 @@ body {
   height: 226px;
   left: 1000px;
   top: 299px;
-  background-color: var(--C-BG-C);
-  box-shadow: var(--BS);
-  border-radius: var(--BR);
-  filter: var(--FI);
+  background-color: var(--cc);
+  box-shadow: var(--bs);
+  border-radius: var(--br);
+  filter: var(--fi);
 }
 
 .circle-bg-2 {
@@ -50,10 +55,10 @@ body {
   height: 184px;
   left: 0.1px;
   top: 0.1px;
-  background-color: var(--C-BG-C);
-  box-shadow: var(--BS);
-  border-radius: var(--BR);
-  filter: var(--FI);
+  background-color: var(--cc);
+  box-shadow: var(--bs);
+  border-radius: var(--br);
+  filter: var(--fi);
 }
 
 .absolute {
@@ -70,12 +75,12 @@ body {
 }
 
 .my-logo {
-  color: var(--BC);
+  color: var(--wc);
   font-size: 18px;
 }
 
 .bi-list {
-  color: var(--BC);
+  color: var(--wc);
 }
 
 
@@ -144,6 +149,7 @@ li {
 .list-ii {
   padding-bottom: 5.16px;
 }
+
 .list-iii {
   padding-bottom: 5.33px;
 }
