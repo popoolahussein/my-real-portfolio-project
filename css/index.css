@@ -2,9 +2,6 @@
 This imports the `reset.css` file */
 @import url("./reset.css");
 
-:root {
-  
-}
 
 /**
 *? Styles for the Body.
