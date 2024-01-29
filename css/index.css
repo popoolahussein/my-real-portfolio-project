@@ -14,22 +14,14 @@ body {
 }
 
 :root {
-  /* color*/
-
+  /* color */
   --wideimg-bg: linear-gradient(0deg, #F9F9F9 0.1%, #F9F9F9 100%);
-
   --inbutton-c: #EDECFF;
-
   --button-bgc: #7D73FC;
-
   --wbgc: #EDECFF;
-
   --wbs: 50px 50px 50px;
-
   --wrb: 9999px;
-
   --fiiter: blur(50px);
-
   --head: #9490FF;
 }
 
@@ -87,7 +79,7 @@ body {
 
 .head {
   color: var(--head);
-  size: 40px;
+  font-size: 40px;
 }
 
 .line {
@@ -108,12 +100,12 @@ body {
 
 .multi-post {
   color: #fff;
-  size: 32px;
+  font-size: 32px;
 }
 
 .story {
   color: #DCDCE8;
-  size: 20px;
+  font-size: 20px;
 }
 
 .list {
@@ -123,7 +115,7 @@ body {
 }
 
 .lang {
-  size: 15px;
+  font-size: 15px;
   color: #fff;
 }
 
@@ -139,7 +131,7 @@ body {
 
 .inbutton {
   color: var(--inbutton-c);
-  size: 12px;
+  font-size: 12px;
   text-align: center;
   padding-top: 15px;
 }
