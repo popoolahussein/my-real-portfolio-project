@@ -37,17 +37,6 @@ body {
   padding: 0.1px 24px;
 }
 
-:root {
-  /* color */
-  --wideimg-bg: linear-gradient(0deg, #F9F9F9 0.1%, #F9F9F9 100%);
-  --inbutton-c: #EDECFF;
-  --button-bgc: #4a3ef6;
-  --wbgc: #EDECFF;
-  --wbs: 50px 50px 50px;
-  --wrb: 9999px;
-  --fiiter: blur(50px);
-  --head: #9490FF;
-}
 /**
 *? The circle background color style.
 **/
@@ -246,10 +235,6 @@ body {
   font-size: 20px;
   margin-top: 4rem;
   margin-bottom: 2rem;
-}
-
-.line {
-  border: 1px solid #646369
 }
 
 .full-list{
