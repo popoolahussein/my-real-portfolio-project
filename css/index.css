@@ -9,8 +9,8 @@ This imports the `reset.css` file */
   --cc: #EDECFF;
   --wc: #fff;
   --wideimg-bg: linear-gradient(0deg, #F9F9F9 0.1%, #F9F9F9 100%);
-  --inbutton-c: #EDECFF;
-  --button-bgc: #4a3ef6;
+  --inbutton-c: #131212;
+  --button-bgc: #7d73fc;
   --wbgc: #EDECFF;
   --wbs: 0.1px 0.1px 50px;
   --wrb: 9999px;
@@ -131,8 +131,8 @@ body {
   font-size: 40px;
 }
 
-.line {
-  color: #646369;
+hr {
+  border: 1px solid #646369;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -178,13 +178,14 @@ body {
   background-color: var(--button-bgc);
   width: 89px;
   height: 48px;
+  border: none;
 }
 
 .inbutton {
   color: var(--inbutton-c);
   font-size: 12px;
   text-align: center;
-  padding-top: 15px;
+  text-decoration: none;
 }
 
 /**
