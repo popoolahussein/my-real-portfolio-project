@@ -171,7 +171,7 @@ body {
 }
 
 .menu-icon::after {
-  transform: translate(-18px, 12px);
+  transform: translate(-19px, 12px);
 }
 
 .bi-list {
