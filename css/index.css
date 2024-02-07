@@ -126,67 +126,6 @@ body {
   filter:blur(65px);
 }
 
-.head {
-  color: var(--head);
-  font-size: 40px;
-}
-
-hr {
-  border: 1px solid #646369;
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-
-.worksection {
-  display: grid;
-  gap: 28px;
-  padding-top: 20px;
-}
-
-.wideimg {
-  width: 327px;
-  height: 236px;
-  background: var(--wideimg-bg);
-}
-
-.multi-post {
-  color: #fff;
-  font-size: 32px;
-}
-
-.story {
-  color: #DCDCE8;
-  font-size: 20px;
-}
-
-.list {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-}
-
-.lang {
-  font-size: 15px;
-  color: #fff;
-}
-
-.divider {
-  border: solid 1px #555;
-}
-
-.button {
-  background-color: var(--button-bgc);
-  width: 89px;
-  height: 48px;
-  border: none;
-}
-
-.inbutton {
-  color: var(--inbutton-c);
-  font-size: 12px;
-  text-align: center;
-  text-decoration: none;
-}
 
 /**
 *? The style for the toolbar section.
@@ -195,11 +134,44 @@ hr {
 .tool-bar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .my-logo {
   color: var(--wc);
   font-size: 18px;
+}
+
+.menu-button {
+  background-color: transparent;
+  border: none;
+  width: 35.33px;
+  height: 22.83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.menu-icon, .menu-icon::before, .menu-icon::after {
+  background-color: var(--wc);
+  width: 33.33px;
+  height: 2px;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.menu-icon::before,
+.menu-icon::after {
+  content: "";
+}
+
+.menu-icon::before {
+  transform: translate(-14.6px, -12px);
+}
+
+.menu-icon::after {
+  transform: translate(-18px, 12px);
 }
 
 .bi-list {
@@ -281,4 +253,69 @@ img {
   width: 24px;
   height: 24px;
   padding: 8px;
+}
+
+/**
+*?   Styles for the work section.
+**/
+.head {
+  color: var(--head);
+  font-size: 40px;
+}
+
+hr {
+  border: 1px solid #646369;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.worksection {
+  display: grid;
+  gap: 24px;
+  padding-top: 20px;
+}
+
+.wideimg {
+  width: 327px;
+  height: 236px;
+  background: var(--wideimg-bg);
+}
+
+.multi-post {
+  color: #fff;
+  font-size: 32px;
+}
+
+.story {
+  color: #DCDCE8;
+  font-size: 20px;
+}
+
+.list {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.lang {
+  font-size: 15px;
+  color: #fff;
+}
+
+.divider {
+  border: solid 1px #555;
+}
+
+.button {
+  background-color: var(--button-bgc);
+  width: 89px;
+  height: 48px;
+  border: none;
+}
+
+.inbutton {
+  color: var(--inbutton-c);
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
 }
