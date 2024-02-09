@@ -2,36 +2,27 @@
 
 ### ⏳ Accessibility violations found.
 
-#### Ensures buttons have discernible text
+#### Elements that have scrollable content should be accessible by keyboard
 
-##### ❌ Critical accessibility violations found.
 
-See comments below.
 
-[Buttons must have discernible text](https://dequeuniversity.com/rules/axe/3.5/button-name?application=axe-puppeteer)
+##### ✅ No critical accessibility violations found.
 
-- Impact: **critical**
+[Ensure that scrollable region has keyboard access](https://dequeuniversity.com/rules/axe/3.5/scrollable-region-focusable?application=axe-puppeteer)
 
-- Tags: `cat.name-role-value`, `wcag2a`, `wcag412`, `section508`, `section508.22.a`
+- Impact: **moderate**
+
+- Tags: `wcag2a`, `wcag211`
 
 <details><summary>Click here for detailed report</summary>
 
-1.  **Node:** `<button class="menu-button">
-      <div class="menu-icon"></div>
-    </button>`, **Impact:** critical
+   1. **Node:** `<img class="arrow" src="/img/arrow.png" title="scroll-down" alt="scroll-down">`, **Impact:** moderate
 
-    Fix any of the following:
+       Fix any of the following:
 
-    - Element does not have inner text that is visible to screen readers
+      - Element should have focusable content
 
-    - aria-label attribute does not exist or is empty
-
-    - aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-
-    - Element's default semantics were not overridden with role="presentation"
-
-    - Element's default semantics were not overridden with role="none"
-
-    - Element has no title attribute or the title attribute is empty
+      - Element should be focusable
 
 </details>
+
