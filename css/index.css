@@ -2,6 +2,11 @@
 This imports the `reset.css` file */
 @import url("./reset.css");
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
 
 :root {
   /* color */
@@ -12,14 +17,12 @@ This imports the `reset.css` file */
   --inbutton-c: #131212;
   --button-bgc: #7d73fc;
   --wbgc: #EDECFF;
-  --wbs: 0.1px 0.1px 50px;
   --wrb: 9999px;
-  --fiiter: blur(26px);
+  --fiiter: blur(17px);
   --head: #9490FF;
 
   /* SHADOW */
 
-  --bs: 0.1px 0.1px 50px;
   --fi: blur(20px);
 
   /* RADIUS */
@@ -33,12 +36,12 @@ This imports the `reset.css` file */
 
 body {
   background-color: #191765;
-  min-width: 375px;
-  padding: 0.1px 24px;
+  padding: 24px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /**
-*? The circle background color style.
+*? The background colors style.
 **/
 
 .circle-bg-box {
@@ -51,23 +54,22 @@ body {
 .circle-bg-1,
 .circle-bg-2 {
   background-color: var(--cc);
-  box-shadow: var(--bs);
   border-radius: var(--br);
   filter: var(--fi);
 }
 
 .circle-bg-1 {
-  width: 80px;
-  height: 80px;
-  left: 370px;
-  top: 499px;
+  width: 60px;
+  height: 60px;
+  left: 345px;
+  top: 599px;
 }
 
 .circle-bg-2 {
   width: 184px;
   height: 124px;
   left: -150.1px;
-  top: 20.1px;
+  top: 27.7px;
 }
 
 .absolute {
@@ -83,47 +85,44 @@ body {
 
 .whitebackground-1, 
 .whitebackground-2, 
-.whitebackground-3 
-/* .whitebackground-4 */ {
+.whitebackground-3 {
   background-color: var(--wbgc);
-  box-shadow: var(--wbs);
   border-radius: var(--wrb);
   filter: var(--fiiter);
 }
 
 .whitebackground-1 {
-  width: 37.53px;
+  width: 33.53px;
   height: 400.92px;
-  left: 135px;
-  top: -45.12px;
-  transform: rotate(-26.38deg);
+  left: 190px;
+  top: 240.12px;
+  transform: rotate(-41.38deg);
 }
 
 .whitebackground-2 {
-  width: 78px;
+  width: 48px;
   height: 402px;
-  left: 525.28px;
-  top: 615.74px;
-  transform: rotate(-147.05deg); 
+  left: 490.28px;
+  top: 820.74px;
+  transform: rotate(-139.05deg); 
 }
 
 .whitebackground-3 {
-  width: 70.19px;
+  width: 59.19px;
   height: 416.38px;
-  left: 550.30px;
-  top: 2170px;
-  transform: rotate(105deg); 
+  left: 564.30px;
+  top: 2316px;
+  transform: rotate(104deg); 
 }
 
 .whitebackground-4 {
-  width: 408px;
-  height: 60px;
-  left: -70px;
-  top: 1625px;
+  width: 260px;
+  height: 50px;
+  left: 102px;
+  top: 1800px;
   background-color: var(--wbgc);
-  box-shadow: var(--wbs);
   border-radius: var(--wrb);
-  filter:blur(65px);
+  filter:blur(50px);
 }
 
 
@@ -174,38 +173,30 @@ body {
   transform: translate(-19px, 12px);
 }
 
-.bi-list {
-  color: var(--wc);
-}
-
-
 /**
 *?  Styles for the Headline section.
 **/
 
-.main, .full-list {
-  display: flex;
-  flex-flow: row wrap;
-}
-
 .headline {
-  display: block;
-}
-
-.my-name, .my-field, .button-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .my-name {
   color: #7D73FC;
-  font-size: 48px;
+  font-size: 41.85px;
+  margin-bottom: 2rem;
 }
 
 .my-field {
   font-size: 32px;
   color: #EDECFF;
+}
+
+.my-name, .my-field, .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .intro-text {
@@ -216,48 +207,94 @@ body {
   margin-bottom: 2rem;
 }
 
+.main, .full-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
 .full-list{
-  gap: 28px;
+  gap: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 li {
   color: #F5F5FF;
   list-style: none;
   font-size: 15px;
-  margin-top: 16px;
 }
 
 .list-head {
   color: #9490FF;
   font-size: 12px;
-  padding-bottom: 12px;
+  margin-bottom: 1.5rem;
 }
 
-.list-i {
-  padding-bottom: 4.78px;
+.list-i, .list-ii, .list-iii  {
+  margin-bottom: 1rem;
 }
 
-.list-ii {
-  padding-bottom: 5.16px;
-}
-
-.list-iii {
-  padding-bottom: 5.33px;
+.button-div {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-evenly;
 }
 
 a:hover {
   background-color: goldenrod;
 }
 
-img {
-  width: 24px;
-  height: 24px;
-  padding: 8px;
+.git-img {
+  width: 18px;
+  height: 20px;
+}
+
+.link-img {
+  width: 20px;
+  height: 20px;
+}
+
+.ang-img {
+  width: 14.17px;
+  height: 20px;
+}
+
+.twit-img {
+  width: 19.99px;
+  height: 19.96px;
+}
+
+.mail-img {
+  width: 20px;
+  height: 16px;
+}
+
+.bottom {
+  gap: 12px;
+  margin-top: 2rem;
+}
+
+.arrow {
+  width: 18px;
+  height: 21.3px;
+  color: #c4c4c4;
+  align-items: center;
+}
+
+.work {
+  font-size: 20px;
+  color: #a2a3ae;
 }
 
 /**
 *?   Styles for the work section.
 **/
+
+.worksection-box {
+  display: grid;
+  gap: 2rem;
+}
+
 .head {
   color: var(--head);
   font-size: 40px;
@@ -265,14 +302,6 @@ img {
 
 hr {
   border: 1px solid #646369;
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-
-.worksection {
-  display: grid;
-  gap: 24px;
-  padding-top: 20px;
 }
 
 .wideimg {
@@ -283,7 +312,9 @@ hr {
 
 .multi-post {
   color: #fff;
-  font-size: 32px;
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .story {
@@ -293,8 +324,12 @@ hr {
 
 .list {
   display: flex;
-  gap: 16px;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.worksection-box, .list {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .lang {
