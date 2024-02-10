@@ -305,7 +305,8 @@ hr {
 }
 
 .wideimg {
-  width: 327px;
+  width: 100%;
+  max-width: 327px;
   height: 236px;
   background: var(--wideimg-bg);
 }
