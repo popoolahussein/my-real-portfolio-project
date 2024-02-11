@@ -2,16 +2,28 @@
 This imports the `reset.css` file */
 @import url("./reset.css");
 
+* {
+  margin: 0.0001px;
+  padding: 0.0001px;
+  box-sizing: border-box;
+  }
+
 :root {
   /* color */
 
   --cc: #EDECFF;
   --wc: #fff;
+  --wideimg-bg: linear-gradient(0deg, #F9F9F9 0.1%, #F9F9F9 100%);
+  --inbutton-c: #131212;
+  --button-bgc: #7d73fc;
+  --wbgc: #EDECFF;
+  --wrb: 9999px;
+  --fiiter: blur(17px);
+  --head: #9490FF;
 
   /* SHADOW */
 
-  --bs: 50px 50px 50px;
-  --fi: blur(50px);
+  --fi: blur(20px);
 
   /* RADIUS */
 
@@ -24,46 +36,95 @@ This imports the `reset.css` file */
 
 body {
   background-color: #191765;
-  min-width: 375px;
-  padding: 0.1px 24px;
+  padding: 24px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /**
-*? The circle background color style.
+*? The background colors style.
 **/
 
 .circle-bg-box {
   min-width: 1300px;
   height: 535px;
   left: 9px;
-  top: 37px;
+  top: 47px;
+}
+
+.circle-bg-1,
+.circle-bg-2 {
+  background-color: var(--cc);
+  border-radius: var(--br);
+  filter: var(--fi);
 }
 
 .circle-bg-1 {
-  width: 226px;
-  height: 226px;
-  left: 1000px;
-  top: 299px;
-  background-color: var(--cc);
-  box-shadow: var(--bs);
-  border-radius: var(--br);
-  filter: var(--fi);
+  width: 60px;
+  height: 60px;
+  left: 345px;
+  top: 599px;
 }
 
 .circle-bg-2 {
   width: 184px;
-  height: 184px;
-  left: 0.1px;
-  top: 0.1px;
-  background-color: var(--cc);
-  box-shadow: var(--bs);
-  border-radius: var(--br);
-  filter: var(--fi);
+  height: 124px;
+  left: -150.1px;
+  top: 27.7px;
 }
 
 .absolute {
   position: absolute;
 }
+
+.whitebackground-box {
+  width: 2107.46px;
+  height: 1963.98px;
+  left: -132px;
+  top: 1455px;
+}
+
+.whitebackground-1, 
+.whitebackground-2, 
+.whitebackground-3 {
+  background-color: var(--wbgc);
+  border-radius: var(--wrb);
+  filter: var(--fiiter);
+}
+
+.whitebackground-1 {
+  width: 33.53px;
+  height: 400.92px;
+  left: 190px;
+  top: 240.12px;
+  transform: rotate(-41.38deg);
+}
+
+.whitebackground-2 {
+  width: 48px;
+  height: 402px;
+  left: 490.28px;
+  top: 820.74px;
+  transform: rotate(-139.05deg); 
+}
+
+.whitebackground-3 {
+  width: 59.19px;
+  height: 416.38px;
+  left: 564.30px;
+  top: 2316px;
+  transform: rotate(104deg); 
+}
+
+.whitebackground-4 {
+  width: 260px;
+  height: 50px;
+  left: 102px;
+  top: 1800px;
+  background-color: var(--wbgc);
+  border-radius: var(--wrb);
+  filter:blur(50px);
+}
+
 
 /**
 *? The style for the toolbar section.
@@ -72,6 +133,7 @@ body {
 .tool-bar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .my-logo {
@@ -79,33 +141,51 @@ body {
   font-size: 18px;
 }
 
-.bi-list {
-  color: var(--wc);
+.menu-button {
+  background-color: transparent;
+  border: none;
+  width: 35.33px;
+  height: 22.83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
+.menu-icon, .menu-icon::before, .menu-icon::after {
+  background-color: var(--wc);
+  width: 33.33px;
+  height: 2px;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.menu-icon::before,
+.menu-icon::after {
+  content: "";
+}
+
+.menu-icon::before {
+  transform: translate(-14.6px, -12px);
+}
+
+.menu-icon::after {
+  transform: translate(-19px, 12px);
+}
 
 /**
 *?  Styles for the Headline section.
 **/
 
-.main, .full-list {
-  display: flex;
-  flex-flow: row wrap;
-}
-
 .headline {
-  display: block;
-}
-
-.my-name, .my-field, .button-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .my-name {
   color: #7D73FC;
-  font-size: 48px;
+  font-size: 41.85px;
+  margin-bottom: 2rem;
 }
 
 .my-field {
@@ -113,21 +193,29 @@ body {
   color: #EDECFF;
 }
 
+.my-name, .my-field, .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .intro-text {
   color: #C8C8D4;
-  align-items: center;
+  text-align: center;
   font-size: 20px;
   margin-top: 4rem;
   margin-bottom: 2rem;
 }
 
-.line {
-  border: 1px solid #646369
+.main, .full-list {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .full-list{
-  gap: 24px;
-  justify-content: center;
+  gap: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 li {
@@ -139,27 +227,131 @@ li {
 .list-head {
   color: #9490FF;
   font-size: 12px;
-  padding-bottom: 8px;
+  margin-bottom: 1.5rem;
 }
 
-.list-i {
-  padding-bottom: 4.78px;
+.list-i, .list-ii, .list-iii  {
+  margin-bottom: 1rem;
 }
 
-.list-ii {
-  padding-bottom: 5.16px;
-}
-
-.list-iii {
-  padding-bottom: 5.33px;
+.button-div {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-evenly;
 }
 
 a:hover {
   background-color: goldenrod;
 }
 
-img {
+.git-img {
+  width: 18px;
+  height: 20px;
+}
+
+.link-img {
   width: 20px;
   height: 20px;
-  padding: 8px;
+}
+
+.ang-img {
+  width: 14.17px;
+  height: 20px;
+}
+
+.twit-img {
+  width: 19.99px;
+  height: 19.96px;
+}
+
+.mail-img {
+  width: 20px;
+  height: 16px;
+}
+
+.bottom {
+  gap: 12px;
+  margin-top: 2rem;
+}
+
+.arrow {
+  width: 18px;
+  height: 21.3px;
+  color: #c4c4c4;
+  align-items: center;
+}
+
+.work {
+  font-size: 20px;
+  color: #a2a3ae;
+}
+
+/**
+*?   Styles for the work section.
+**/
+
+.worksection-box {
+  display: grid;
+  gap: 2rem;
+}
+
+.head {
+  color: var(--head);
+  font-size: 40px;
+}
+
+hr {
+  border: 1px solid #646369;
+}
+
+.wideimg {
+  width: 100%;
+  max-width: 327px;
+  height: 236px;
+  background: var(--wideimg-bg);
+}
+
+.multi-post {
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.story {
+  color: #DCDCE8;
+  font-size: 20px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.worksection-box, .list {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.lang {
+  font-size: 15px;
+  color: #fff;
+}
+
+.divider {
+  border: solid 1px #555;
+}
+
+.button {
+  background-color: var(--button-bgc);
+  width: 89px;
+  height: 48px;
+  border: none;
+}
+
+.inbutton {
+  color: var(--inbutton-c);
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
 }
