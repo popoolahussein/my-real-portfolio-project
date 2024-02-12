@@ -355,3 +355,80 @@ hr {
   text-align: center;
   text-decoration: none;
 }
+
+/**
+*?     The footer section styles.
+**/
+
+.contact-form {
+  width: 100%;
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.footer {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.contact-us {
+  color: #9390FF;
+  font-size: 2rem;
+}
+
+.footer-p {
+  font-size: 1rem;
+  color: #f5f5ff;
+}
+
+form {
+  flex-flow: row wrap;
+}
+
+form, .contact-form {
+  justify-content: center;
+}
+
+.input-i {
+  line-height: 3rem;
+}
+
+.textarea, .input-i {
+  width: 100%;
+  padding-left: 1rem;
+}
+
+.textarea {
+  padding-top: 1rem;
+}
+
+label {
+  color: #191765;
+}
+
+.button-margin {
+  margin-top: 2.5rem;
+}
+
+.media {
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.media, footer, form {
+  display: flex;
+}
+
+.email, .footer-p, .contact-us {
+  text-align: center;
+}
+
+.hover {
+  text-decoration: none;
+  color: #EBEBFF;
+  font-size: 20px;
+}
