@@ -2,24 +2,34 @@
 
 ### ⏳ Accessibility violations found.
 
-#### Elements that have scrollable content should be accessible by keyboard
+#### Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds
 
 ##### ✅ No critical accessibility violations found.
 
-[Ensure that scrollable region has keyboard access](https://dequeuniversity.com/rules/axe/3.5/scrollable-region-focusable?application=axe-puppeteer)
+[Elements must have sufficient color contrast](https://dequeuniversity.com/rules/axe/3.5/color-contrast?application=axe-puppeteer)
 
-- Impact: **moderate**
+- Impact: **serious**
 
-- Tags: `wcag2a`, `wcag211`
+- Tags: `cat.color`, `wcag2aa`, `wcag143`
 
 <details><summary>Click here for detailed report</summary>
 
-1.  **Node:** `<img class="arrow" src="/img/arrow.png" title="scroll-down" alt="scroll-down">`, **Impact:** moderate
+1.  **Node:** `<label for="text">text</label>`, **Impact:** serious
 
     Fix any of the following:
 
-    - Element should have focusable content
+    - Element has insufficient color contrast of 1.35 (foreground color: #000000, background color: #191765, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
 
-    - Element should be focusable
+1.  **Node:** `<label for="email">email</label>`, **Impact:** serious
+
+    Fix any of the following:
+
+    - Element has insufficient color contrast of 1.35 (foreground color: #000000, background color: #191765, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+1.  **Node:** `<label for="messege">messege</label>`, **Impact:** serious
+
+    Fix any of the following:
+
+    - Element has insufficient color contrast of 1.35 (foreground color: #000000, background color: #191765, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
 
 </details>
