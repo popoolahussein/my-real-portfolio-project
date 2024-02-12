@@ -244,6 +244,10 @@ a:hover {
   background-color: goldenrod;
 }
 
+a:visited, a:enabled {
+  background-color: brown;
+}
+
 .git-img {
   width: 18px;
   height: 20px;
