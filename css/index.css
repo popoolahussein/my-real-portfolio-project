@@ -367,11 +367,8 @@ hr {
 .contact-form {
   width: 100%;
   display: grid;
+  justify-content: flex-start;
   gap: 2rem;
-  margin-bottom: 4rem;
-}
-
-.footer {
   padding-top: 4rem;
   padding-bottom: 2rem;
 }
@@ -387,11 +384,9 @@ hr {
 }
 
 form {
-  flex-flow: row wrap;
-}
-
-form, .contact-form {
   justify-content: center;
+  flex-flow: row wrap;
+  padding-bottom: 2rem;
 }
 
 .input-i {
@@ -417,18 +412,20 @@ label {
 
 .media {
   justify-content: space-evenly;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
   padding-left: 3rem;
   padding-right: 3rem;
 }
 
-.media, footer, form {
+.media, form {
   display: flex;
 }
 
 .email, .footer-p, .contact-us {
   text-align: center;
+}
+
+.email {
+  margin-top: 0.5rem;
 }
 
 .hover {
