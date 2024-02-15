@@ -184,7 +184,7 @@ body {
 
 .my-name {
   color: #7D73FC;
-  font-size: 41.85px;
+  font-size: 3rem;
   margin-bottom: 2rem;
 }
 
@@ -242,6 +242,10 @@ li {
 
 a:hover {
   background-color: goldenrod;
+}
+
+a:visited, a:enabled {
+  background-color: brown;
 }
 
 .git-img {
@@ -354,4 +358,78 @@ hr {
   font-size: 12px;
   text-align: center;
   text-decoration: none;
+}
+
+/**
+*?     The footer section styles.
+**/
+
+.contact-form {
+  width: 100%;
+  display: grid;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.contact-us {
+  color: #9390FF;
+  font-size: 2rem;
+}
+
+.footer-p {
+  font-size: 1rem;
+  color: #f5f5ff;
+}
+
+form {
+  justify-content: center;
+  flex-flow: row wrap;
+  padding-bottom: 2rem;
+}
+
+.input-i {
+  line-height: 3rem;
+}
+
+.textarea, .input-i {
+  width: 100%;
+  padding-left: 1rem;
+}
+
+.textarea {
+  padding-top: 1rem;
+}
+
+label {
+  color: #191765;
+}
+
+.button-margin {
+  margin-top: 2.5rem;
+}
+
+.media {
+  justify-content: space-evenly;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.media, form {
+  display: flex;
+}
+
+.email, .footer-p, .contact-us {
+  text-align: center;
+}
+
+.email {
+  margin-top: 0.5rem;
+}
+
+.hover {
+  text-decoration: none;
+  color: #EBEBFF;
+  font-size: 20px;
 }
