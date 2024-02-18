@@ -36,7 +36,7 @@ This imports the `reset.css` file */
 
 body {
   background-color: #191765;
-  padding: 24px 88px;
+  padding: 24px 0.0001px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -129,6 +129,7 @@ body {
 **/
 
 .tool-bar {
+  padding: 0.0001px 88px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -161,6 +162,7 @@ body {
 }
 
 .main {
+  padding: 0.0001px 88px;
   display: flex;
   justify-content: center;
   gap: 7rem;
@@ -229,9 +231,11 @@ li {
 }
 
 .button-div {
+  align-items: center;
+  margin-top: 0.2rem;
   flex-flow: row wrap;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 a:hover {
@@ -265,6 +269,12 @@ a:visited, a:enabled {
 .mail-img {
   width: 20px;
   height: 16px;
+}
+
+.bottom {
+  gap: 0.5rem;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .arrow {
@@ -367,13 +377,15 @@ hr {
 *?     The footer section styles.
 **/
 
-.contact-form {
-  width: 100%;
+footer {
+  gap: 4rem;
+  padding-top: 3.5rem;
+}
+
+.contact-section {
   display: grid;
   justify-content: center;
-  gap: 4rem;
-  padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding: 0.001px 88px;
 }
 
 .contact-us {
@@ -382,6 +394,7 @@ hr {
 }
 
 .footer-p {
+  margin-top: 2rem;
   font-size: 1rem;
   color: #f5f5ff;
 }
@@ -432,6 +445,7 @@ label {
 }
 
 .last-box {
+  margin-top: 1rem;
   gap: 1rem;
   display: flex;
   justify-content: center;
@@ -442,11 +456,13 @@ label {
 .media {
   gap: 1rem;
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-evenly;
   margin-top: 0.7rem;
 }
 
 .hover {
+  word-break: break-all;
   text-align: center;
   text-decoration: none;
   color: #EBEBFF;
