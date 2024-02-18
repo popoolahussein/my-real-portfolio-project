@@ -18,7 +18,7 @@ This imports the `reset.css` file */
   --button-bgc: #7d73fc;
   --wbgc: #EDECFF;
   --wrb: 9999px;
-  --fiiter: blur(17px);
+  --fiiter: blur(25px);
   --head: #9490FF;
 
   /* SHADOW */
@@ -59,17 +59,17 @@ body {
 }
 
 .circle-bg-1 {
-  width: 60px;
-  height: 60px;
-  left: 345px;
-  top: 599px;
+  width: 184px;
+  height: 184px;
+  left: 1014px;
+  top: 519px;
 }
 
 .circle-bg-2 {
   width: 184px;
-  height: 124px;
-  left: -150.1px;
-  top: 27.7px;
+  height: 184px;
+  left: 50.1px;
+  top: 119.7px;
 }
 
 .absolute {
@@ -85,44 +85,42 @@ body {
 
 .whitebackground-1, 
 .whitebackground-2, 
-.whitebackground-3 {
+.whitebackground-3, 
+.whitebackground-4 {
   background-color: var(--wbgc);
   border-radius: var(--wrb);
   filter: var(--fiiter);
 }
 
 .whitebackground-1 {
-  width: 33.53px;
-  height: 400.92px;
-  left: 190px;
-  top: 240.12px;
-  transform: rotate(-41.38deg);
+  width: 57.53px;
+  height: 850.92px;
+  left: 140px;
+  top: -360.12px;
+  transform: rotate(-30.38deg);
 }
 
 .whitebackground-2 {
-  width: 48px;
+  width: 138px;
   height: 402px;
-  left: 490.28px;
-  top: 820.74px;
-  transform: rotate(-139.05deg); 
+  left: 1230.28px;
+  top: 610.74px;
+  transform: rotate(-140.05deg); 
 }
 
 .whitebackground-3 {
-  width: 59.19px;
-  height: 416.38px;
-  left: 564.30px;
-  top: 2316px;
-  transform: rotate(104deg); 
+  width: 206.19px;
+  height: 916.38px;
+  left: 1504.30px;
+  top: 1116px;
+  transform: rotate(110deg);
 }
 
 .whitebackground-4 {
-  width: 260px;
-  height: 50px;
-  left: 102px;
-  top: 1800px;
-  background-color: var(--wbgc);
-  border-radius: var(--wrb);
-  filter:blur(50px);
+  width: 308px;
+  height: 125px;
+  left: 92px;
+  top: 1200px;
 }
 
 
@@ -373,7 +371,7 @@ hr {
   width: 100%;
   display: grid;
   justify-content: center;
-  gap: 2rem;
+  gap: 4rem;
   padding-top: 4rem;
   padding-bottom: 2rem;
 }
@@ -392,11 +390,24 @@ form {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  padding-bottom: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
-.input-i {
+.input-i, .name-input {
   line-height: 3rem;
+}
+
+fieldset {
+  width: 100%;
+  display: flex;
+  border: none;
+  justify-content: center;
+}
+
+.name-input {
+  width: 100%;
+  padding-left: 1rem;
 }
 
 .textarea, .input-i {
