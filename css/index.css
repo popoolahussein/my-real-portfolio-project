@@ -96,7 +96,7 @@ body {
   width: 57.53px;
   height: 850.92px;
   left: 140px;
-  top: -360.12px;
+  top: -272.12px;
   transform: rotate(-30.38deg);
 }
 
@@ -104,7 +104,7 @@ body {
   width: 138px;
   height: 402px;
   left: 1230.28px;
-  top: 610.74px;
+  top: 698.74px;
   transform: rotate(-140.05deg); 
 }
 
@@ -112,7 +112,7 @@ body {
   width: 206.19px;
   height: 916.38px;
   left: 1504.30px;
-  top: 1116px;
+  top: 1204px;
   transform: rotate(110deg);
 }
 
@@ -120,7 +120,7 @@ body {
   width: 308px;
   height: 125px;
   left: 92px;
-  top: 1200px;
+  top: 1288px;
 }
 
 
@@ -300,6 +300,7 @@ a:visited, a:enabled {
 .container {
   display: flex;
   gap: 5.5rem;
+  padding-top: 5.5rem;
   padding-bottom: 5.5rem;
   flex-flow: column wrap;
 }
@@ -324,8 +325,8 @@ hr {
 .project-section {
   display: flex;
   flex-flow: row;
-  align-items: flex-start;
-  gap: 24px;
+  align-items: center;
+  gap: 2rem;
 }
 
 .project-image {
@@ -338,7 +339,7 @@ hr {
 .project-details {
   display: flex;
   flex-flow: row wrap;
-  gap: 24px;
+  gap: 3rem;
 }
 
 .project-title {
