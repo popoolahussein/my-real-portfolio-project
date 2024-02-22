@@ -308,7 +308,7 @@ a:visited, a:enabled {
 .title-section {
   display: flex;
   flex-flow: column wrap;
-  gap: 32px;
+  gap: 2rem;
 }
 
 .title {
