@@ -152,6 +152,18 @@ body {
   text-decoration: none;
 }
 
+.nav :is(a:link, a:visited) {
+  color: white;
+}
+
+.nav :is(a:hover, a:focus) {
+  color: #7D73FC;
+}
+
+.nav a:active {
+  color: goldenrod;
+}
+
 /**
 *?  Styles for the Headline section.
 **/
@@ -241,12 +253,16 @@ li {
   gap: 1rem;
 }
 
-a:hover {
-  background-color: goldenrod;
+.a:is(a:visited, a:enabled) {
+  background: black;
 }
 
-a:visited, a:enabled {
-  background-color: brown;
+.a:is(a:hover, a:focus) {
+  background: goldenrod;
+}
+
+.a:is(a:active) {
+  background: brown;
 }
 
 .git-img {
@@ -474,4 +490,16 @@ label {
   text-decoration: none;
   color: #EBEBFF;
   font-size: 20px;
+}
+
+.hover:is(a:link, a:visited) {
+  color: white;
+}
+
+.hover:is(a:hover, a:focus) {
+  color: #7D73FC;
+}
+
+.hover:is(a:active) {
+  color: goldenrod;
 }
