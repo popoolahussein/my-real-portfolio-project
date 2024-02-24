@@ -44,13 +44,6 @@ body {
 *? The background colors style.
 **/
 
-.circle-bg-box {
-  min-width: 1300px;
-  height: 535px;
-  left: 9px;
-  top: 47px;
-}
-
 .circle-bg-1,
 .circle-bg-2 {
   background-color: var(--cc);
@@ -61,26 +54,19 @@ body {
 .circle-bg-1 {
   width: 184px;
   height: 184px;
-  left: 1014px;
-  top: 519px;
+  left: 1023px;
+  top: 566px;
 }
 
 .circle-bg-2 {
   width: 184px;
   height: 184px;
-  left: 50.1px;
-  top: 119.7px;
+  left: 59.1px;
+  top: 166.7px;
 }
 
 .absolute {
   position: absolute;
-}
-
-.whitebackground-box {
-  width: 2107.46px;
-  height: 1963.98px;
-  left: -132px;
-  top: 1455px;
 }
 
 .whitebackground-1, 
@@ -95,32 +81,32 @@ body {
 .whitebackground-1 {
   width: 57.53px;
   height: 850.92px;
-  left: 140px;
-  top: -272.12px;
+  left: -622px;
+  top: 1132.88px;
   transform: rotate(-30.38deg);
 }
 
 .whitebackground-2 {
   width: 138px;
   height: 402px;
-  left: 1230.28px;
-  top: 698.74px;
+  left: 468.28px;
+  top: 2103.74px;
   transform: rotate(-140.05deg); 
 }
 
 .whitebackground-3 {
   width: 206.19px;
   height: 916.38px;
-  left: 1504.30px;
-  top: 1204px;
+  left: 742.30px;
+  top: 2609px;
   transform: rotate(110deg);
 }
 
 .whitebackground-4 {
   width: 308px;
   height: 125px;
-  left: 92px;
-  top: 1288px;
+  left: -670px;
+  top: 2693px;
 }
 
 
@@ -152,15 +138,15 @@ body {
   text-decoration: none;
 }
 
-.nav :is(a:link, a:visited) {
+nav :is(.header-nav:link, .header-nav:visited) {
   color: white;
 }
 
-.nav :is(a:hover, a:focus) {
+nav :is(.header-nav:hover, .header-nav:focus) {
   color: #7D73FC;
 }
 
-.nav a:active {
+nav :is(.header-nav:active, .header-nav:enabled) {
   color: goldenrod;
 }
 
@@ -253,16 +239,20 @@ li {
   gap: 1rem;
 }
 
-.a:is(a:visited, a:enabled) {
+.a :is(img:visited) {
   background: black;
 }
 
-.a:is(a:hover, a:focus) {
+.a :is(img:hover, img:focus) {
   background: goldenrod;
 }
 
-.a:is(a:active) {
+.a :is(img:active, img:enabled) {
   background: brown;
+}
+
+.a :is(img:disabled) {
+  background: yellow;
 }
 
 .git-img {
@@ -390,9 +380,25 @@ hr {
 
 .inbutton {
   color: var(--inbutton-c);
-  font-size: 12px;
+  font-size: 14.5px;
   text-align: center;
   text-decoration: none;
+}
+
+button :is(.inbutton:visited) {
+  background: black;
+}
+
+button :is(.inbutton:hover, .inbutton:focus) {
+  background: goldenrod;
+}
+
+button :is(.inbutton:active, .inbutton:enabled) {
+  background: brown;
+}
+
+button :is(.inbutton:disabled) {
+  background: yellow;
 }
 
 /**
@@ -492,14 +498,18 @@ label {
   font-size: 20px;
 }
 
-.hover:is(a:link, a:visited) {
+.email :is(.hover:link, .hover:visited) {
   color: white;
 }
 
-.hover:is(a:hover, a:focus) {
+.email :is(.hover:hover, .hover:focus) {
   color: #7D73FC;
 }
 
-.hover:is(a:active) {
+.email :is(.hover:active, .hover:enabled) {
   color: goldenrod;
+}
+
+.email :is(.hover:disabled) {
+  color: yellow;
 }
