@@ -138,16 +138,18 @@ body {
   text-decoration: none;
 }
 
-nav :is(.header-nav:link, .header-nav:visited) {
+nav :is(.header-nav:visited, .header-nav:enabled) {
   color: white;
 }
 
 nav :is(.header-nav:hover, .header-nav:focus) {
   color: #7D73FC;
+  font-size: 1.5rem;
 }
 
-nav :is(.header-nav:active, .header-nav:enabled) {
+nav :is(.header-nav:active) {
   color: goldenrod;
+  font-size: 1.5rem;
 }
 
 /**
@@ -240,19 +242,22 @@ li {
 }
 
 .a :is(img:visited) {
-  background: black;
+  color: #000;
+  
 }
 
 .a :is(img:hover, img:focus) {
-  background: goldenrod;
+  width: 1.6rem;
+  height: 1.5rem;
 }
 
 .a :is(img:active, img:enabled) {
-  background: brown;
+  width: 1rem;
+  height: 1rem;
 }
 
 .a :is(img:disabled) {
-  background: yellow;
+  display: none;
 }
 
 .git-img {
@@ -385,20 +390,20 @@ hr {
   text-decoration: none;
 }
 
-button :is(.inbutton:visited) {
-  background: black;
+:is(.button:enabled) {
+  background: #9390FF;
 }
 
-button :is(.inbutton:hover, .inbutton:focus) {
+.button:hover {
   background: goldenrod;
 }
 
-button :is(.inbutton:active, .inbutton:enabled) {
-  background: brown;
+:is(.button:active, .button:visited) {
+  background: #cecdcd;
 }
 
-button :is(.inbutton:disabled) {
-  background: yellow;
+:is(.button:disabled) {
+  background: #fe2f2f;
 }
 
 /**
@@ -465,6 +470,7 @@ label {
 }
 
 .button-margin {
+  font-size: 15px;
   margin-top: 2.5rem;
 }
 
@@ -503,13 +509,15 @@ label {
 }
 
 .email :is(.hover:hover, .hover:focus) {
-  color: #7D73FC;
+  color: blue;
+  text-decoration-line: underline;
 }
 
 .email :is(.hover:active, .hover:enabled) {
   color: goldenrod;
+  text-decoration-line: underline;
 }
 
 .email :is(.hover:disabled) {
-  color: yellow;
+  color: red;
 }
