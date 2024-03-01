@@ -22,13 +22,17 @@
       <!-- Toolbar section -->
       <section class="tool-bar">
         <h1 class="my-logo">Hussein</h1>
-        <button class="menu-button">
-          <div class="menu-icon">.</div>
-        </button>
+        <nav class="nav">
+          <a class="header-nav" href="#portfolio" title="portfolio">Portfolio</a>
+          <a class="header-nav" href="#about" title="about">About</a>
+          <a class="header-nav" href="#contact" title="contact">Contact</a>
+          <a class="header-nav" href="#mail" title="email">✉</a>
+        </nav>
       </section>
     </header>
     <main class="main">
       <!-- Headline section -->
+
       <section class="headline">
         <h1 class="my-name">Hussein Popoola</h1>
         <h2 class="my-field">Software Developer</h2>
@@ -39,7 +43,6 @@
           contact me to initiate a conversation about choosing the right developer for your needs.
         </p>
         <hr />
-
         <section class="full-list">
           <div>
             <ul>
@@ -72,9 +75,17 @@
           </div>
         </section>
         <hr />
-
+      </section>
+      <section class="low-box">
+        <section class="bottom">
+          <h3 class="work">Work</h3>
+          <a href="#work" title="scroll-down">
+            <img class="arrow" src="/img/arrow.png" title="scroll-down" alt="scroll-down" />
+          </a>
+        </section>
         <section class="button-div">
           <a
+            class="a"
             href="https://github.com/popoolahussein/"
             title="github profile"
             target="_blank"
@@ -82,7 +93,11 @@
           >
             <img class="git-img" src="/img/github.png" title="GitHub Profile" alt="github" />
           </a>
-          <a href="https://www.linkedin.com/in/popoola-kehinde-hussein-0b59b0237" title="linkedin">
+          <a
+            class="a"
+            href="https://www.linkedin.com/in/popoola-kehinde-hussein-0b59b0237"
+            title="linkedin"
+          >
             <img
               class="link-img"
               src="/img/linkedin.png"
@@ -91,53 +106,53 @@
               tabindex="0"
             />
           </a>
-          <a href="" title="angelist">
+          <a class="a" href="" title="angelist">
             <img class="ang-img" src="/img/angelist.png" title="Angelist" alt="angelist" />
           </a>
-          <a href="https://twitter.com/KehindeHus87578" title="twitter">
+          <a class="a" href="https://twitter.com/KehindeHus87578" title="twitter">
             <img class="twit-img" src="/img/twitter.png" title="Twitter Profile" alt="twitter" />
           </a>
-          <a href="popoolakehindehussein@gmail.com" title="email">
+          <a class="a" href="popoolakehindehussein@gmail.com" title="email">
             <img class="mail-img" src="/img/gmail.png" title="Email" alt="email" />
           </a>
         </section>
         <section class="bottom">
           <a href="#work" title="scroll-down">
-            <img class="arrow" src="/img/arrow.png" title="scroll-down" alt="scroll-down" />
+            <img class="arrow a" src="/img/arrow.png" title="scroll-down" alt="scroll-down" />
           </a>
           <h3 class="work">Work</h3>
         </section>
       </section>
-
       <div class="whitebackground-box absolute">
         <div class="whitebackground-1 absolute"></div>
         <div class="whitebackground-2 absolute"></div>
         <div class="whitebackground-3 absolute"></div>
         <div class="whitebackground-4 absolute"></div>
       </div>
+
       <!-- The work section -->
 
-      <section class="worksection-box" id="work">
-        <h2 class="head">MY RECENT WORK</h2>
-
-        <hr />
-
-        <article class="worksection">
-          <div>
-            <div class="wideimg"></div>
-            <h2 class="multi-post">Multi-Post Stories</h2>
-            <p class="story">
+      <section class="container" id="work">
+        <section class="title-section">
+          <h2 class="title">My Recent Work</h2>
+          <hr class="divider" />
+        </section>
+        <article class="project-section">
+          <div class="project-image"></div>
+          <div class="project-details">
+            <div class="project-title">Multi-Post Stories</div>
+            <div class="project-description">
               A daily selection of privately personalized reads; no accounts or sign-ups required.
               has been the industry's standard dummy text ever since the 1500s, when an unknown
               printer took a standard dummy text.
-            </p>
+            </div>
             <ul class="list">
               <li class="lang">css</li>
-              <li class="divider"></li>
+              <li class="">|</li>
               <li class="lang">html</li>
-              <li class="divider"></li>
+              <li class="">|</li>
               <li class="lang">bootstrap</li>
-              <li class="divider"></li>
+              <li class="">|</li>
               <li class="lang">Ruby</li>
             </ul>
             <button class="button">
@@ -145,22 +160,45 @@
             </button>
           </div>
         </article>
-        <article class="worksection">
-          <div>
-            <div class="wideimg"></div>
-            <h2 class="multi-post">Multi-Post Stories</h2>
-            <p class="story">
+        <article class="project-section">
+          <div class="project-details">
+            <div class="project-title">Multi-Post Stories</div>
+            <div class="project-description">
               A daily selection of privately personalized reads; no accounts or sign-ups required.
               has been the industry's standard dummy text ever since the 1500s, when an unknown
               printer took a standard dummy text.
-            </p>
+            </div>
             <ul class="list">
               <li class="lang">css</li>
-              <li class="divider"></li>
+              <li class="">|</li>
               <li class="lang">html</li>
-              <li class="divider"></li>
+              <li class="">|</li>
               <li class="lang">bootstrap</li>
-              <li class="divider"></li>
+              <li class="">|</li>
+              <li class="lang">Ruby</li>
+            </ul>
+            <button class="button">
+              <a class="inbutton" href="" title="project">See Project</a>
+            </button>
+          </div>
+          <div class="project-image"></div>
+        </article>
+        <article class="project-section">
+          <div class="project-image"></div>
+          <div class="project-details">
+            <div class="project-title">Multi-Post Stories</div>
+            <div class="project-description">
+              A daily selection of privately personalized reads; no accounts or sign-ups required.
+              has been the industry's standard dummy text ever since the 1500s, when an unknown
+              printer took a standard dummy text.
+            </div>
+            <ul class="list">
+              <li class="lang">css</li>
+              <li class="">|</li>
+              <li class="lang">html</li>
+              <li class="">|</li>
+              <li class="lang">bootstrap</li>
+              <li class="">|</li>
               <li class="lang">Ruby</li>
             </ul>
             <button class="button">
@@ -168,75 +206,64 @@
             </button>
           </div>
         </article>
-        <article class="worksection">
-          <div>
-            <div class="wideimg"></div>
-            <h2 class="multi-post">Multi-Post Stories</h2>
-            <p class="story">
+        <article class="project-section">
+          <div class="project-details">
+            <div class="project-title">Multi-Post Stories</div>
+            <div class="project-description">
               A daily selection of privately personalized reads; no accounts or sign-ups required.
               has been the industry's standard dummy text ever since the 1500s, when an unknown
               printer took a standard dummy text.
-            </p>
+            </div>
             <ul class="list">
               <li class="lang">css</li>
-              <li class="divider"></li>
+              <li class="">|</li>
               <li class="lang">html</li>
-              <li class="divider"></li>
+              <li class="">|</li>
               <li class="lang">bootstrap</li>
-              <li class="divider"></li>
+              <li class="">|</li>
               <li class="lang">Ruby</li>
             </ul>
             <button class="button">
               <a class="inbutton" href="" title="project">See Project</a>
             </button>
           </div>
-        </article>
-        <article class="worksection">
-          <div>
-            <div class="wideimg"></div>
-            <h2 class="multi-post">Multi-Post Stories</h2>
-            <p class="story">
-              A daily selection of privately personalized reads; no accounts or sign-ups required.
-              has been the industry's standard dummy text ever since the 1500s, when an unknown
-              printer took a standard dummy text.
-            </p>
-            <ul class="list">
-              <li class="lang">css</li>
-              <li class="divider"></li>
-              <li class="lang">html</li>
-              <li class="divider"></li>
-              <li class="lang">bootstrap</li>
-              <li class="divider"></li>
-              <li class="lang">Ruby</li>
-            </ul>
-            <button class="button">
-              <a class="inbutton" href="" title="project">See Project</a>
-            </button>
-          </div>
+          <div class="project-image"></div>
         </article>
       </section>
     </main>
 
     <!-- The footer section -->
 
-    <footer class="contact-form">
-      <h2 class="contact-us">CONTACT US</h2>
-      <p class="footer-p">
-        If you have an application you are interested in developing, a feature that you need built
-        or a project that needs coding. I’d love to help with it
-      </p>
-      <section>
+    <footer>
+      <section class="contact-section">
+        <h2 class="contact-us">Let's chat!</h2>
+        <p class="footer-p">
+          If you have an application you are interested in developing, a feature that you need built
+          or a project that needs coding. I’d love to help with it
+        </p>
         <form action="https://formspree.io/f/mvoeaozg" method="post">
-          <label for="text-input">Text</label>
-          <input
-            class="input-i"
-            id="text-input"
-            name="text-Input"
-            type="text"
-            maxlength="30"
-            placeholder="Text Input"
-            required
-          />
+          <fieldset>
+            <input
+              class="name-input"
+              id="jeremy"
+              name="text-Input"
+              type="text"
+              maxlength="30"
+              placeholder="jeremy"
+              required
+            />
+            <label for="jeremy">Text</label>
+            <label for="last-name">Text</label>
+            <input
+              class="name-input"
+              id="last-name"
+              name="text-Input"
+              type="text"
+              maxlength="30"
+              placeholder="Last Name"
+              required
+            />
+          </fieldset>
 
           <label for="email-input">Email</label>
           <input
@@ -260,14 +287,14 @@
             placeholder="Enter text here"
             required
           ></textarea>
-
-          <input class="button button-margin" type="submit" value="See Project" />
+          <input class="button button-margin" type="submit" value="Send" />
         </form>
       </section>
       <hr />
-      <section>
-        <section class="media">
+      <section class="last-box">
+        <div class="media">
           <a
+            class="a"
             href="https://github.com/popoolahussein/"
             title="github profile"
             target="_blank"
@@ -275,7 +302,11 @@
           >
             <img class="git-img" src="/img/github.png" title="GitHub Profile" alt="github" />
           </a>
-          <a href="https://www.linkedin.com/in/popoola-kehinde-hussein-0b59b0237" title="linkedin">
+          <a
+            class="a"
+            href="https://www.linkedin.com/in/popoola-kehinde-hussein-0b59b0237"
+            title="linkedin"
+          >
             <img
               class="link-img"
               src="/img/linkedin.png"
@@ -284,21 +315,21 @@
               tabindex="0"
             />
           </a>
-          <a href="" title="angelist">
+          <a class="a" href="" title="angelist">
             <img class="ang-img" src="/img/angelist.png" title="Angelist" alt="angelist" />
           </a>
-          <a href="https://twitter.com/KehindeHus87578" title="twitter">
+          <a class="a" href="https://twitter.com/KehindeHus87578" title="twitter">
             <img class="twit-img" src="/img/twitter.png" title="Twitter Profile" alt="twitter" />
           </a>
-          <a href="popoolakehindehussein@gmail.com" title="email">
+          <a class="a" href="popoolakehindehussein@gmail.com" title="email">
             <img class="mail-img" src="/img/gmail.png" title="Email" alt="email" />
           </a>
-        </section>
-        <section class="email">
+        </div>
+        <div class="email">
           <a class="hover" href="popoolakehindehussein@gmail.com" title="mail"
             >emailhere@email.com</a
           >
-        </section>
+        </div>
       </section>
     </footer>
   </body>
