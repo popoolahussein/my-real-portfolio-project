@@ -12,7 +12,9 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <script src="mobile-menu.js" defer="defer"></script>
+
+  <body id="portfolio">
     <div class="absolute circle-bg-box">
       <div class="absolute circle-bg-1"></div>
       <div class="absolute circle-bg-2"></div>
@@ -22,12 +24,37 @@
       <!-- Toolbar section -->
       <section class="tool-bar">
         <h1 class="my-logo">Hussein</h1>
+        <button class="hamburger-button" id="hamburger-button" aria-label="Toggle Menu">
+          <div class="hamburger-icon"></div>
+        </button>
+      </section>
+      <section class="mobile-menu hidden" id="mobile-menu">
+        <button class="menu-button">
+          <div class="mobile-icon"></div>
+        </button>
         <nav class="nav">
-          <a class="header-nav" href="#portfolio" title="portfolio">Portfolio</a>
-          <a class="header-nav" href="#about" title="about">About</a>
-          <a class="header-nav" href="#contact" title="contact">Contact</a>
-          <a class="header-nav" href="#mail" title="email">✉</a>
+          <ul>
+            <li class="navlist">
+              <a class="a-nav" href="#portfolio" title="portfolio"
+                >Portfolio<span class="nav-span">&gt;</span></a
+              >
+            </li>
+            <li class="navlist">
+              <a class="a-nav" href="#about" title="about"
+                >About<span class="nav-span">&gt;</span></a
+              >
+            </li>
+            <li class="navlist">
+              <a class="a-nav" href="#contact" title="contact"
+                >Contact<span class="nav-span">&gt;</span></a
+              >
+            </li>
+          </ul>
         </nav>
+        <div>
+          <div class="menubg1 absolute"></div>
+          <div class="menubg2 absolute"></div>
+        </div>
       </section>
     </header>
     <main class="main">
@@ -132,7 +159,7 @@
 
       <!-- The work section -->
 
-      <section class="container" id="work">
+      <section class="container" id="about">
         <section class="title-section">
           <h2 class="title">My Recent Work</h2>
           <hr class="divider" />
@@ -235,7 +262,7 @@
     <!-- The footer section -->
 
     <footer>
-      <section class="contact-section">
+      <section class="contact-section" id="contact">
         <h2 class="contact-us">Let's chat!</h2>
         <p class="footer-p">
           If you have an application you are interested in developing, a feature that you need built
