@@ -127,29 +127,157 @@ body {
   font-size: 18px;
 }
 
-.nav {
+.hamburger-button {
+  background-color: transparent;
+  border: none;
+  width: 35.33px;
+  height: 22.83px;
   display: flex;
-  flex-flow: row wrap;
-  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.header-nav {
+.hamburger-icon, .hamburger-icon::before, .hamburger-icon::after {
+  background-color: var(--wc);
+  width: 33.33px;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s;
+}
+
+.hamburger-icon::before,
+.hamburger-icon::after {
+  content: "";
+}
+
+.hamburger-icon::before {
+  transform: translate(-17px, -12px);
+}
+
+.hamburger-icon::after {
+  transform: translate(-17px, 12px);
+}
+
+.mobile-menu {
+  padding: 36px 88px;
+  position: absolute;
+  top: 0.0001px;
+  background-color: #191765;
+  width: 100%;
+  font-size: 3rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  transform-origin: top;
+  animation: showmenu 0.5s ease-in-out forwards;
+}
+
+@keyframes showmenu {
+  0% {
+    transform: scaleY(0);
+  }
+
+  80% {
+    transform: scaleY(1.2);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.menu-button {
+  background-color: transparent;
+  border: none;
+  width: 35.33px;
+  height: 22.83px;
+  display: flex;
+  justify-content: center;
+  align-self: end;
+  position: relative;
+}
+
+.mobile-icon, .mobile-icon::before, .mobile-icon::after {
+  background-color: var(--wc);
+  width: 33.33px;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s;
+}
+
+.mobile-icon::before,
+.mobile-icon::after {
+  content: "";
+}
+
+.mobile-icon::before {
+  transform: translate(-17px) rotate(135deg);
+}
+
+.mobile-icon::after {
+  transform: translate(-17px) rotate(-135deg);
+}
+
+.mobile-icon {
+  background-color: transparent;
+}
+
+.nav {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+  margin: 0.0001rem 0.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.navlist {
+  font-size: 3.5rem;
+  margin: 4rem 0.0001rem;
+}
+
+.a-nav {
+  display: flex;
+  justify-content: space-between;
   color: rgb(255 255 255);
   text-decoration: none;
 }
 
-nav :is(.header-nav:visited, .header-nav:enabled) {
-  color: white;
+nav :is(.navlist:hover, .navlist:focus) {
+  transform: scale(0.95);
+  transition: all 0.2s;
 }
 
-nav :is(.header-nav:hover, .header-nav:focus) {
+.nav-span {
   color: #7D73FC;
-  font-size: 1.5rem;
 }
 
-nav :is(.header-nav:active) {
-  color: goldenrod;
-  font-size: 1.5rem;
+.menubg1, .menubg2 {
+  border-radius: var(--wrb);
+  transform-origin: 0 0;
+}
+
+.menubg1 {
+  background-color: #f5f5f550;
+  filter: blur(50px);
+  width: 350px;
+  height: 767px;
+  left: 180.04px;
+  top: 140px;
+  transform: rotate(31.09deg);
+}
+
+.menubg2 {
+  background-color: var(--wbgc);
+  filter: blur(50px);
+  width: 820.13px;
+  height: 270.06px;
+  left: 1118.94px;
+  top: 600.54px;
+  transform: rotate(42.52deg);
 }
 
 /**
