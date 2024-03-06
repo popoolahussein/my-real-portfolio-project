@@ -18,7 +18,7 @@ This imports the `reset.css` file */
   --button-bgc: #7d73fc;
   --wbgc: #EDECFF;
   --wrb: 9999px;
-  --fiiter: blur(25px);
+  --fiiter: blur(17px);
   --head: #9490FF;
 
   /* SHADOW */
@@ -36,13 +36,22 @@ This imports the `reset.css` file */
 
 body {
   background-color: #191765;
-  padding: 24px 0.0001px;
+  padding: 24px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: grid;
+  flex-flow: row wrap;
 }
 
 /**
 *? The background colors style.
 **/
+
+/* .circle-bg-box {
+  min-width: 1300px;
+  height: 535px;
+  left: 9px;
+  top: 47px;
+} */
 
 .circle-bg-1,
 .circle-bg-2 {
@@ -52,70 +61,103 @@ body {
 }
 
 .circle-bg-1 {
-  width: 184px;
-  height: 184px;
-  left: 1023px;
-  top: 566px;
+  width: 60px;
+  height: 60px;
+  left: 330px;
+  top: 699px;
 }
 
 .circle-bg-2 {
   width: 184px;
-  height: 184px;
-  left: 59.1px;
-  top: 166.7px;
+  height: 124px;
+  left: -150.1px;
+  top: 58.7px;
 }
 
 .absolute {
   position: absolute;
 }
 
+/* .whitebackground-box {
+  width: 2107.46px;
+  height: 1963.98px;
+  left: -132px;
+  top: 1455px;
+} */
+
 .whitebackground-1, 
 .whitebackground-2, 
-.whitebackground-3, 
-.whitebackground-4 {
+.whitebackground-3 {
   background-color: var(--wbgc);
   border-radius: var(--wrb);
   filter: var(--fiiter);
 }
 
 .whitebackground-1 {
-  width: 57.53px;
-  height: 850.92px;
-  left: -622px;
-  top: 1132.88px;
-  transform: rotate(-30.38deg);
+  width: 33.53px;
+  height: 400.92px;
+  left: 58px;
+  top: 1690.12px;
+  transform: rotate(-41.38deg);
 }
 
 .whitebackground-2 {
-  width: 138px;
+  width: 48px;
   height: 402px;
-  left: 468.28px;
-  top: 2103.74px;
-  transform: rotate(-140.05deg); 
+  left: 358.28px;
+  top: 2275.74px;
+  transform: rotate(-139.05deg); 
 }
 
 .whitebackground-3 {
-  width: 206.19px;
-  height: 916.38px;
-  left: 742.30px;
-  top: 2609px;
-  transform: rotate(110deg);
+  width: 59.19px;
+  height: 416.38px;
+  left: 432.30px;
+  top: 3771px;
+  transform: rotate(104deg); 
 }
 
 .whitebackground-4 {
-  width: 308px;
-  height: 125px;
-  left: -670px;
-  top: 2693px;
+  width: 260px;
+  height: 50px;
+  left: -30px;
+  top: 3305px;
+  background-color: var(--wbgc);
+  border-radius: var(--wrb);
+  filter:blur(50px);
 }
 
+.menubg1, .menubg2 {
+  border-radius: var(--wrb);
+  transform-origin: 0 0;
+}
+
+.menubg1 {
+  background-color: #edecff74;
+  filter: blur(50px);
+  width: 226px;
+  height: 542px;
+  left: 42.04px;
+  top: 140px;
+  transform: rotate(25.09deg);
+}
+
+.menubg2 {
+  background-color: var(--wbgc);
+  filter: blur(50px);
+  width: 420.13px;
+  height: 244.06px;
+  left: 318.94px;
+  top: 632.54px;
+  transform: rotate(42.52deg);
+}
 
 /**
 *? The style for the toolbar section.
 **/
 
 .tool-bar {
-  padding: 0.0001px 88px;
+  /* padding: 0.0001px 24px; */
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -160,9 +202,10 @@ body {
 }
 
 .mobile-menu {
-  padding: 36px 88px;
+  padding: 36px 24px;
   position: absolute;
   top: 0.0001px;
+  left: 0.0001px;
   background-color: #191765;
   width: 100%;
   font-size: 3rem;
@@ -196,6 +239,7 @@ body {
   justify-content: center;
   align-self: end;
   position: relative;
+  flex-flow: row wrap;
 }
 
 .mobile-icon, .mobile-icon::before, .mobile-icon::after {
@@ -225,8 +269,10 @@ body {
 
 .nav {
   display: flex;
-  flex-flow: column;
+  flex-flow: column wrap;
+  justify-content: space-between;
   min-height: 100vh;
+  z-index: 1;
   margin: 0.0001rem 0.5rem;
 }
 
@@ -235,12 +281,14 @@ body {
 }
 
 .navlist {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   margin: 4rem 0.0001rem;
 }
 
 .a-nav {
   display: flex;
+  flex-flow: row wrap;
+  word-break: break-all;
   justify-content: space-between;
   color: rgb(255 255 255);
   text-decoration: none;
@@ -255,84 +303,48 @@ nav :is(.navlist:hover, .navlist:focus) {
   color: #7D73FC;
 }
 
-.menubg1, .menubg2 {
-  border-radius: var(--wrb);
-  transform-origin: 0 0;
-}
-
-.menubg1 {
-  background-color: #f5f5f550;
-  filter: blur(50px);
-  width: 350px;
-  height: 767px;
-  left: 180.04px;
-  top: 140px;
-  transform: rotate(31.09deg);
-}
-
-.menubg2 {
-  background-color: var(--wbgc);
-  filter: blur(50px);
-  width: 820.13px;
-  height: 270.06px;
-  left: 1118.94px;
-  top: 600.54px;
-  transform: rotate(42.52deg);
-}
-
 /**
 *?  Styles for the Headline section.
 **/
 
 .headline {
-  display: grid;
-  justify-content: center;
-  margin-top: 7rem;
-}
-
-.main {
-  padding: 0.0001px 88px;
-  display: flex;
-  justify-content: center;
-  gap: 7rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .my-name {
-  word-break: break-all;
   color: #7D73FC;
   font-size: 3rem;
   margin-bottom: 2rem;
+  word-break: break-all;
 }
 
 .my-field {
-  word-break: break-all;
-  text-align: center;
   font-size: 32px;
   color: #EDECFF;
+  word-break: break-all;
 }
 
-.my-name, .bottom {
+.my-name, .my-field, .bottom {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .intro-text {
-  max-width: 447px;
   color: #C8C8D4;
   text-align: center;
   font-size: 20px;
-  margin-top: 5.5rem;
-  margin-bottom: 5.5rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 
-.main,.full-list {
+.main, .full-list {
   display: flex;
   flex-flow: row wrap;
 }
 
 .full-list{
-  flex-flow: row wrap;
   gap: 4rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -354,19 +366,11 @@ li {
   margin-bottom: 1rem;
 }
 
-.low-box {
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-}
-
 .button-div {
-  align-items: center;
-  margin-top: 0.2rem;
-  flex-flow: row wrap;
   display: flex;
-  gap: 1rem;
+  flex-flow: row wrap;
+  margin-top: 3rem;
+  justify-content: space-evenly;
 }
 
 .a :is(img:visited) {
@@ -414,9 +418,8 @@ li {
 }
 
 .bottom {
-  gap: 0.5rem;
-  display: flex;
-  flex-flow: row wrap;
+  gap: 12px;
+  margin-top: 2rem;
 }
 
 .arrow {
@@ -427,6 +430,7 @@ li {
 }
 
 .work {
+  word-break: break-all;
   font-size: 20px;
   color: #a2a3ae;
 }
@@ -435,73 +439,59 @@ li {
 *?   Styles for the work section.
 **/
 
-
-.container {
-  display: flex;
-  gap: 5.5rem;
-  padding-top: 5.5rem;
-  padding-bottom: 5.5rem;
-  flex-flow: column wrap;
-}
-
-.title-section {
-  display: flex;
-  flex-flow: column wrap;
+.worksection-box {
+  display: grid;
   gap: 2rem;
+  flex-flow: row wrap;
 }
 
-.title {
+.head {
+  color: var(--head);
+  font-size: 40px;
   word-break: break-all;
-  color: #9390FF;
-  font-size: 64px;
-  align-items: flex-start;
 }
 
 hr {
-  border: 1px solid #555;
+  border: 1px solid #646369;
 }
 
-.project-section {
-  display: flex;
-  flex-flow: row;
-  align-items: center;
-  gap: 2rem;
-}
-
-.project-image {
+.wideimg {
   width: 100%;
-  max-width: 684px;
-  height: 448px;
-  background: linear-gradient(0deg, white 0%, white 100%);
+  max-width: 327px;
+  height: 236px;
+  background: var(--wideimg-bg);
 }
 
-.project-details {
-  display: flex;
-  flex-flow: row wrap;
-  gap: 3rem;
+.multi-post {
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
-.project-title {
-  color: white;
-  font-size: 40px;
-}
-
-.project-description {
-  color: #DFE1E6;
+.story {
+  color: #DCDCE8;
   font-size: 20px;
 }
 
 .list {
-  width: 100%;
   display: flex;
   flex-flow: row wrap;
-  list-style: none;
-  gap: 12px;
+  justify-content: space-between;
+}
+
+.worksection-box, .list {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .lang {
   font-size: 15px;
   color: #fff;
+}
+
+.divider {
+  border: solid 1px #555;
 }
 
 .button {
@@ -513,7 +503,7 @@ hr {
 
 .inbutton {
   color: var(--inbutton-c);
-  font-size: 14.5px;
+  font-size: 12px;
   text-align: center;
   text-decoration: none;
 }
@@ -538,15 +528,13 @@ hr {
 *?     The footer section styles.
 **/
 
-footer {
-  gap: 4rem;
-  padding-top: 3.5rem;
-}
-
-.contact-section {
+.contact-form {
+  width: 100%;
   display: grid;
-  justify-content: center;
-  padding: 0.001px 88px;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
 }
 
 .contact-us {
@@ -555,33 +543,18 @@ footer {
 }
 
 .footer-p {
-  margin-top: 2rem;
   font-size: 1rem;
   color: #f5f5ff;
 }
 
 form {
-  display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
-.input-i, .name-input {
+.input-i {
   line-height: 3rem;
-}
-
-fieldset {
-  width: 100%;
-  display: flex;
-  border: none;
-  justify-content: center;
-}
-
-.name-input {
-  width: 100%;
-  padding-left: 1rem;
 }
 
 .textarea, .input-i {
@@ -598,30 +571,26 @@ label {
 }
 
 .button-margin {
-  font-size: 15px;
   margin-top: 2.5rem;
 }
 
-.footer-p, .contact-us {
+.media {
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.media, form {
+  display: flex;
+}
+
+.email, .footer-p, .contact-us {
   text-align: center;
 }
 
-.last-box {
-  gap: 1rem;
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  align-items: center;
-  margin-left: 88px;
-  margin-right: 88px;
-  margin-top: 1rem;
-}
-
-.media {
-  gap: 1rem;
-  display: flex;
-  flex-flow: row wrap;
-  margin-top: 0.7rem;
+.email {
+  margin-top: 0.5rem;
 }
 
 .hover {
