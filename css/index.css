@@ -36,22 +36,14 @@ This imports the `reset.css` file */
 
 body {
   background-color: #191765;
-  padding: 24px;
+  padding: 24px 0.0001px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  display: grid;
   flex-flow: row wrap;
 }
 
 /**
 *? The background colors style.
 **/
-
-/* .circle-bg-box {
-  min-width: 1300px;
-  height: 535px;
-  left: 9px;
-  top: 47px;
-} */
 
 .circle-bg-1,
 .circle-bg-2 {
@@ -63,8 +55,8 @@ body {
 .circle-bg-1 {
   width: 60px;
   height: 60px;
-  left: 330px;
-  top: 699px;
+  left: 339px;
+  top: 495px;
 }
 
 .circle-bg-2 {
@@ -78,13 +70,6 @@ body {
   position: absolute;
 }
 
-/* .whitebackground-box {
-  width: 2107.46px;
-  height: 1963.98px;
-  left: -132px;
-  top: 1455px;
-} */
-
 .whitebackground-1, 
 .whitebackground-2, 
 .whitebackground-3 {
@@ -97,7 +82,7 @@ body {
   width: 33.53px;
   height: 400.92px;
   left: 58px;
-  top: 1690.12px;
+  top: 1090.12px;
   transform: rotate(-41.38deg);
 }
 
@@ -105,15 +90,15 @@ body {
   width: 48px;
   height: 402px;
   left: 358.28px;
-  top: 2275.74px;
+  top: 1575.74px;
   transform: rotate(-139.05deg); 
 }
 
 .whitebackground-3 {
   width: 59.19px;
   height: 416.38px;
-  left: 432.30px;
-  top: 3771px;
+  left: 422.30px;
+  top: 2941px;
   transform: rotate(104deg); 
 }
 
@@ -121,7 +106,7 @@ body {
   width: 260px;
   height: 50px;
   left: -30px;
-  top: 3305px;
+  top: 2480px;
   background-color: var(--wbgc);
   border-radius: var(--wrb);
   filter:blur(50px);
@@ -157,7 +142,7 @@ body {
 **/
 
 .tool-bar {
-  /* padding: 0.0001px 24px; */
+  padding: 0.0001px 24px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -307,7 +292,14 @@ nav :is(.navlist:hover, .navlist:focus) {
 *?  Styles for the Headline section.
 **/
 
+.main {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0.0001px 24px;
+}
+
 .headline {
+  width: 100%;
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
@@ -440,9 +432,10 @@ li {
 **/
 
 .worksection-box {
+  width: 100%;
   display: grid;
-  gap: 2rem;
   flex-flow: row wrap;
+  gap: 2rem;
 }
 
 .head {
@@ -530,19 +523,21 @@ hr {
 
 .contact-form {
   width: 100%;
-  display: grid;
+  display: flex;
+  flex-flow: column wrap;
   justify-content: flex-start;
   gap: 2rem;
-  padding-top: 4rem;
-  padding-bottom: 2rem;
 }
 
 .contact-us {
+  margin: 0.001rem 1.5rem;
+  word-break: break-all;
   color: #9390FF;
   font-size: 2rem;
 }
 
 .footer-p {
+  margin: 0.001rem 1.5rem;
   font-size: 1rem;
   color: #f5f5ff;
 }
@@ -550,7 +545,7 @@ hr {
 form {
   justify-content: center;
   flex-flow: row wrap;
-  padding-bottom: 2rem;
+  margin: 0.001rem 1.5rem 2rem;
 }
 
 .input-i {
@@ -577,6 +572,7 @@ label {
 .media {
   justify-content: space-evenly;
   flex-flow: row wrap;
+  margin-top: 1.5rem;
   padding-left: 3rem;
   padding-right: 3rem;
 }
@@ -590,6 +586,7 @@ label {
 }
 
 .email {
+  padding: 0.0001px 24px;
   margin-top: 0.5rem;
 }
 
