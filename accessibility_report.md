@@ -1,1 +1,1 @@
-## No accessibility violations found.
+# No accessibility violations found.
