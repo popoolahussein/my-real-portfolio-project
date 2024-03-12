@@ -18,6 +18,16 @@ function handleVisibility() {
     contactForm.style.display = 'block';
   }
 
+  if (screenWidth >= 375) {
+    // Show desktop version and mobile version
+    desktopVersion.style.display = 'block';
+    mobileVersion.style.display = 'none';
+  } else {
+    // Show mobile version and hide desktop version
+    desktopVersion.style.display = 'none';
+    mobileVersion.style.display = 'block';
+  }
+
   // Adjust layout for the mobile menu
   if (screenWidth <= 375) {
     desktopVersion.style.display = 'none';
