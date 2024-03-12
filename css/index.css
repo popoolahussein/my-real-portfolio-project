@@ -46,19 +46,19 @@ body {
 **/
 
 /* Mobile version styles */
-@media screen and (width <= 375px) and (width >= 0) {
+@media screen and (max-width: 375px) {
   .small-width, .whitebackground-1, .whitebackground-2, .whitebackground-3, .whitebackground-4, .circle-bg-2, .circle-bg-1, .sm-hr, .main, .contact-form, .headline {
     display: block;
   }
 
-  .big-width, .whitebackground-11, .whitebackground-22, .whitebackground-33, .whitebackground-44, .circle-bg-22, .circle-bg-11, .main1, .headline1, .tool-bar1 {
+  .big-width, .whitebackground-11, .whitebackground-22, .whitebackground-33, .whitebackground-44, .circle-bg-22, .circle-bg-11, .main1, .headline1, .tool-bar1, .container {
     display: none;
   }
 }
 
 /* Desktop version styles */
-@media screen and (width >= 376px) and (width >= 0) {
-  .big-width, .whitebackground-11, .whitebackground-22, .whitebackground-33, .whitebackground-44, .circle-bg-22, .circle-bg-11, .main1, .headline1, .tool-bar1 {
+@media screen and (min-width: 375px) {
+  .big-width, .whitebackground-11, .whitebackground-22, .whitebackground-33, .whitebackground-44, .circle-bg-22, .circle-bg-11, .main1, .headline1, .tool-bar1, .container {
     display: block;
   }
 
