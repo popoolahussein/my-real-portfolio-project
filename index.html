@@ -42,7 +42,9 @@
           <a class="header-nav big-width" href="#portfolio" title="portfolio">Portfolio</a>
           <a class="header-nav big-width" href="#about" title="about">About</a>
           <a class="header-nav big-width" href="#contact" title="contact">Contact</a>
-          <a class="header-nav big-width" href="#mail" title="email">✉</a>
+          <a class="big-width mail" href="#mail" title="email">
+            <img src="/img/mail.png" title="mail" alt="mail" />
+          </a>
         </nav>
       </section>
       <section class="tool-bar small-width">
@@ -63,7 +65,7 @@
               >
             </li>
             <li class="navlist">
-              <a class="a-nav" href="#about" title="about"
+              <a class="a-nav" href="#about2" title="about"
                 >About<span class="nav-span">&gt;</span></a
               >
             </li>
@@ -195,7 +197,7 @@
 
         <!-- desktop-version work section -->
 
-        <section class="container big-width" id="work">
+        <section class="container big-width" id="about">
           <section class="title-section big-width">
             <h2 class="title big-width">My Recent Work</h2>
             <hr class="divider" />
@@ -385,7 +387,7 @@
         </section>
         <!-- The work section -->
 
-        <section class="worksection-box small-width" id="about">
+        <section class="worksection-box small-width" id="about2">
           <h2 class="head small-width">MY RECENT WORK</h2>
 
           <hr class="sm-hr" />
@@ -587,7 +589,12 @@
             If you have an application you are interested in developing, a feature that you need
             built or a project that needs coding. I’d love to help with it
           </p>
-          <form class="d-form big-width" action="https://formspree.io/f/mvoeaozg" method="post">
+          <form
+            class="d-form big-width"
+            id="mail"
+            action="https://formspree.io/f/mvoeaozg"
+            method="post"
+          >
             <fieldset>
               <input
                 class="name-input"
@@ -598,8 +605,8 @@
                 placeholder="jeremy"
                 required
               />
-              <label for="jeremy">Text</label>
-              <label for="last-name">Text</label>
+              <label for="jeremy">j</label>
+              <label for="last-name">ln</label>
               <input
                 class="name-input"
                 id="last-name"
@@ -611,7 +618,7 @@
               />
             </fieldset>
 
-            <label for="email">Email</label>
+            <label for="email">email</label>
             <input
               class="input-i"
               id="email"
@@ -622,7 +629,7 @@
               required
             />
 
-            <label for="message">Message</label>
+            <label for="message">message</label>
             <textarea
               class="textarea"
               id="message"
