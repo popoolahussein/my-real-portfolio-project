@@ -8,7 +8,7 @@ const mobileVersion = document.querySelector('.main');
 function handleVisibility() {
   const screenWidth = window.innerWidth || document.documentElement.clientWidth;
 
-  if (screenWidth >= 375) {
+  if (screenWidth >= 768) {
     // Show desktop footer and hide contact form
     desktopFooter.style.display = 'block';
     contactForm.style.display = 'none';
@@ -18,7 +18,7 @@ function handleVisibility() {
     contactForm.style.display = 'block';
   }
 
-  if (screenWidth >= 375) {
+  if (screenWidth >= 768) {
     // Show desktop version and mobile version
     desktopVersion.style.display = 'block';
     mobileVersion.style.display = 'none';
@@ -29,7 +29,7 @@ function handleVisibility() {
   }
 
   // Adjust layout for the mobile menu
-  if (screenWidth <= 375) {
+  if (screenWidth <= 768) {
     desktopVersion.style.display = 'none';
     mobileVersion.style.display = 'block';
   } else {
