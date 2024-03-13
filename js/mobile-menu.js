@@ -12,17 +12,15 @@ function handleVisibility() {
     // Show desktop footer and hide contact form
     desktopFooter.style.display = 'block';
     contactForm.style.display = 'none';
+
+    // Show desktop version and hide mobile version
+    desktopVersion.style.display = 'block';
+    mobileVersion.style.display = 'none';
   } else {
     // Show contact form and hide desktop footer
     desktopFooter.style.display = 'none';
     contactForm.style.display = 'block';
-  }
 
-  if (screenWidth >= 768) {
-    // Show desktop version and mobile version
-    desktopVersion.style.display = 'block';
-    mobileVersion.style.display = 'none';
-  } else {
     // Show mobile version and hide desktop version
     desktopVersion.style.display = 'none';
     mobileVersion.style.display = 'block';
