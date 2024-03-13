@@ -874,7 +874,6 @@ label {
 }
 
 .d-form {
-  /* gap: 2px; */
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
