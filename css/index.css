@@ -46,7 +46,7 @@ body {
 **/
 
 /* Mobile version styles */
-@media screen and (width <= 375px) {
+@media screen and (width <= 768px) {
   .small-width, .whitebackground-1, .whitebackground-2, .whitebackground-3, .whitebackground-4, .circle-bg-2, .circle-bg-1, .sm-hr, .main, .contact-form, .headline {
     display: block;
   }
@@ -57,7 +57,7 @@ body {
 }
 
 /* Desktop version styles */
-@media screen and (width >= 375px) {
+@media screen and (width >= 768px) {
   .big-width, .whitebackground-11, .whitebackground-22, .whitebackground-33, .whitebackground-44, .circle-bg-22, .circle-bg-11, .main1, .headline1, .tool-bar1, .container {
     display: block;
   }
@@ -236,7 +236,7 @@ body {
 
 .my-logo {
   color: var(--wc);
-  font-size: 18px;
+  font-size: 1.5rem;
 }
 
 .nav {
@@ -245,7 +245,12 @@ body {
   gap: 1rem;
 }
 
+.mail {
+  margin-top: 2px;
+}
+
 .header-nav {
+  font-size: 1rem;
   color: rgb(255 255 255);
   text-decoration: none;
 }
@@ -256,12 +261,25 @@ body {
 
 .nav :is(.header-nav:hover, .header-nav:focus) {
   color: #7D73FC;
-  font-size: 1.5rem;
+  font-size: 1.05rem;
+  text-decoration-line: underline;
 }
 
 .nav :is(.header-nav:active) {
   color: goldenrod;
-  font-size: 1.5rem;
+  font-size: 1.05rem;
+}
+
+.nav :is(.mail:visited, .mail:enabled) {
+  color: white;
+}
+
+.nav :is(.mail:hover, .mail:focus) {
+  font-size: 1.15rem;
+}
+
+.nav :is(.mail:active) {
+  font-size: 1.15rem;
 }
 
 .hamburger-button {
@@ -650,19 +668,19 @@ hr {
 }
 
 :is(.button:enabled) {
-  background: #9390FF;
+  background: #7d73fc;
 }
 
 .button:hover {
-  background: goldenrod;
+  background: #8781e0;
 }
 
 :is(.button:active, .button:visited) {
-  background: #cecdcd;
+  background: #5E42D7;
 }
 
 :is(.button:disabled) {
-  background: #fe2f2f;
+  background: black;
 }
 
 /**
@@ -699,6 +717,7 @@ hr {
 
 .project-image {
   width: 100%;
+  min-width: 327px;
   max-width: 684px;
   height: 448px;
   background: linear-gradient(0deg, white 0%, white 100%);
@@ -754,7 +773,7 @@ hr {
 .footer-p {
   margin: 0.001rem 1.5rem;
   font-size: 1rem;
-  color: #f5f5ff;
+  color: #f5f5f5ff;
 }
 
 .form {
@@ -855,6 +874,7 @@ label {
 }
 
 .d-form {
+  /* gap: 2px; */
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
