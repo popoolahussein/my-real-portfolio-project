@@ -12,323 +12,677 @@
       rel="stylesheet"
     />
   </head>
+  <script src="/js/mobile-menu.js" defer="defer"></script>
   <body>
+    <!-- background-colors -->
+
     <div class="absolute circle-bg-box">
       <div class="absolute circle-bg-1"></div>
       <div class="absolute circle-bg-2"></div>
+      <div class="absolute circle-bg-11"></div>
+      <div class="absolute circle-bg-22"></div>
+    </div>
+
+    <div class="whitebackground-box absolute">
+      <div class="whitebackground-1 absolute"></div>
+      <div class="whitebackground-2 absolute"></div>
+      <div class="whitebackground-3 absolute"></div>
+      <div class="whitebackground-4 absolute"></div>
+      <div class="whitebackground-11 absolute"></div>
+      <div class="whitebackground-22 absolute"></div>
+      <div class="whitebackground-33 absolute"></div>
+      <div class="whitebackground-44 absolute"></div>
     </div>
 
     <header>
       <!-- Toolbar section -->
-      <section class="tool-bar">
-        <h1 class="my-logo">Hussein</h1>
-        <nav class="nav">
-          <a class="header-nav" href="#portfolio" title="portfolio">Portfolio</a>
-          <a class="header-nav" href="#about" title="about">About</a>
-          <a class="header-nav" href="#contact" title="contact">Contact</a>
-          <a class="header-nav" href="#mail" title="email">✉</a>
+      <section class="big-width tool-bar1">
+        <h1 class="my-logo big-width">Hussein</h1>
+        <nav class="nav big-width">
+          <a class="header-nav big-width" href="#portfolio" title="portfolio">Portfolio</a>
+          <a class="header-nav big-width" href="#about" title="about">About</a>
+          <a class="header-nav big-width" href="#contact" title="contact">Contact</a>
+          <a class="big-width mail" href="#mail" title="email">
+            <img src="/img/mail.png" title="mail" alt="mail" />
+          </a>
         </nav>
       </section>
+      <section class="tool-bar small-width">
+        <h1 class="my-logo small-width">Hussein</h1>
+        <button class="hamburger-button small-width" id="hamburger-button" aria-label="Toggle Menu">
+          <div class="hamburger-icon small-width"></div>
+        </button>
+      </section>
+      <section class="mobile-menu hidden" id="mobile-menu">
+        <button class="menu-button">
+          <div class="mobile-icon"></div>
+        </button>
+        <nav class="mobile-nav">
+          <ul>
+            <li class="navlist">
+              <a class="a-nav" href="#portfolio" title="portfolio"
+                >Portfolio<span class="nav-span">&gt;</span></a
+              >
+            </li>
+            <li class="navlist">
+              <a class="a-nav" href="#about2" title="about"
+                >About<span class="nav-span">&gt;</span></a
+              >
+            </li>
+            <li class="navlist">
+              <a class="a-nav" href="#contact" title="contact"
+                >Contact<span class="nav-span">&gt;</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div>
+          <div class="menubg1 absolute"></div>
+          <div class="menubg2 absolute"></div>
+        </div>
+      </section>
     </header>
-    <main class="main">
+    <main>
       <!-- Headline section -->
 
-      <section class="headline">
-        <h1 class="my-name">Hussein Popoola</h1>
-        <h2 class="my-field">Software Developer</h2>
-        <p class="intro-text">
-          I specialize in developing smooth and responsive websites, products, and features. I
-          invite you to explore my portfolio and experience. If you find my work compelling, I
-          welcome the opportunity to discuss how I can contribute to your projects. Feel free to
-          contact me to initiate a conversation about choosing the right developer for your needs.
-        </p>
-        <hr />
-        <section class="full-list">
-          <div>
-            <ul>
-              <li class="list-head">Language</li>
-              <li class="list-i">Javascript</li>
-              <li class="list-i">Ruby</li>
-              <li class="list-i">Html</li>
-              <li class="list-i">Css</li>
-            </ul>
+      <section class="main1">
+        <!--desktop-version main1 section -->
+        <section class="headline1 big-width">
+          <div class="big-width">
+            <h1 class="my-name1 big-width">Hussein Popoola</h1>
+            <h2 class="my-field1">Software Developer</h2>
+            <p class="intro-text1">
+              I specialize in developing smooth and responsive websites, products, and features. I
+              invite you to explore my portfolio and experience. If you find my work compelling, I
+              welcome the opportunity to discuss how I can contribute to your projects. Feel free to
+              contact me to initiate a conversation about choosing the right developer for your
+              needs.
+            </p>
           </div>
-          <div>
-            <ul>
-              <li class="list-head">Frameworks</li>
-              <li class="list-ii">Bootstrap</li>
-              <li class="list-ii">Ruby on Rails</li>
-              <li class="list-ii">RSPec</li>
-              <li class="list-ii">CapyBara</li>
-              <li class="list-ii">Selenium</li>
-            </ul>
+          <hr class="big-width" />
+          <div class="full-list1 big-width">
+            <div class="big-width">
+              <ul>
+                <li class="list-head">Language</li>
+                <li class="list-i">Javascript</li>
+                <li class="list-i">Ruby</li>
+                <li class="list-i">Html</li>
+                <li class="list-i">Css</li>
+              </ul>
+            </div>
+            <div class="big-width">
+              <ul>
+                <li class="list-head">Frameworks</li>
+                <li class="list-ii">Bootstrap</li>
+                <li class="list-ii">Ruby on Rails</li>
+                <li class="list-ii">RSPec</li>
+                <li class="list-ii">CapyBara</li>
+                <li class="list-ii">Selenium</li>
+              </ul>
+            </div>
+            <div class="big-width">
+              <ul>
+                <li class="list-head">Skills</li>
+                <li class="list-iii">Codekit</li>
+                <li class="list-iii">Github</li>
+                <li class="list-iii">Codepen</li>
+                <li class="list-iii">Gitlab</li>
+                <li>Terminal</li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <ul>
-              <li class="list-head">Skills</li>
-              <li class="list-iii">Codekit</li>
-              <li class="list-iii">Github</li>
-              <li class="list-iii">Codepen</li>
-              <li class="list-iii">Gitlab</li>
-              <li>Terminal</li>
-            </ul>
+          <hr class="big-width" />
+        </section>
+        <section class="low-box big-width">
+          <div class="bottom1 big-width" aria-label="second">
+            <h3 class="work big-width" aria-label="second2">Work</h3>
+            <a href="#work" title="scroll-down">
+              <img
+                class="arrow big-width"
+                src="/img/arrow.png"
+                title="scroll-down"
+                alt="scroll-down"
+                tabindex="0"
+              />
+            </a>
           </div>
-        </section>
-        <hr />
-      </section>
-      <section class="low-box">
-        <section class="bottom">
-          <h3 class="work">Work</h3>
-          <a href="#work" title="scroll-down">
-            <img class="arrow" src="/img/arrow.png" title="scroll-down" alt="scroll-down" />
-          </a>
-        </section>
-        <section class="button-div">
-          <a
-            class="a"
-            href="https://github.com/popoolahussein/"
-            title="github profile"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img class="git-img" src="/img/github.png" title="GitHub Profile" alt="github" />
-          </a>
-          <a
-            class="a"
-            href="https://www.linkedin.com/in/popoola-kehinde-hussein-0b59b0237"
-            title="linkedin"
-          >
-            <img
-              class="link-img"
-              src="/img/linkedin.png"
-              title="LinkedIn Profile"
-              alt="linkedin profile"
-              tabindex="0"
-            />
-          </a>
-          <a class="a" href="" title="angelist">
-            <img class="ang-img" src="/img/angelist.png" title="Angelist" alt="angelist" />
-          </a>
-          <a class="a" href="https://twitter.com/KehindeHus87578" title="twitter">
-            <img class="twit-img" src="/img/twitter.png" title="Twitter Profile" alt="twitter" />
-          </a>
-          <a class="a" href="popoolakehindehussein@gmail.com" title="email">
-            <img class="mail-img" src="/img/gmail.png" title="Email" alt="email" />
-          </a>
-        </section>
-        <section class="bottom">
-          <a href="#work" title="scroll-down">
-            <img class="arrow a" src="/img/arrow.png" title="scroll-down" alt="scroll-down" />
-          </a>
-          <h3 class="work">Work</h3>
-        </section>
-      </section>
-      <div class="whitebackground-box absolute">
-        <div class="whitebackground-1 absolute"></div>
-        <div class="whitebackground-2 absolute"></div>
-        <div class="whitebackground-3 absolute"></div>
-        <div class="whitebackground-4 absolute"></div>
-      </div>
+          <div class="button-div button-div1 big-width">
+            <a
+              class="a big-width"
+              href="https://github.com/popoolahussein/"
+              title="github profile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img class="git-img" src="/img/github.png" title="GitHub Profile" alt="github" />
+            </a>
+            <a
+              class="a big-width"
+              href="https://www.linkedin.com/in/popoola-kehinde-hussein-0b59b0237"
+              title="linkedin"
+            >
+              <img
+                class="link-img"
+                src="/img/linkedin.png"
+                title="LinkedIn Profile"
+                alt="linkedin profile"
+                tabindex="0"
+              />
+            </a>
+            <a class="a big-width" href="" title="angelist">
+              <img class="ang-img" src="/img/angelist.png" title="Angelist" alt="angelist" />
+            </a>
+            <a class="a big-width" href="https://twitter.com/KehindeHus87578" title="twitter">
+              <img class="twit-img" src="/img/twitter.png" title="Twitter Profile" alt="twitter" />
+            </a>
+            <a class="a big-width" href="popoolakehindehussein@gmail.com" title="email">
+              <img class="mail-img" src="/img/gmail.png" title="Email" alt="email" />
+            </a>
+          </div>
 
-      <!-- The work section -->
-
-      <section class="container" id="work">
-        <section class="title-section">
-          <h2 class="title">My Recent Work</h2>
-          <hr class="divider" />
+          <div class="bottom1 big-with">
+            <a href="#work" title="scroll-down">
+              <img
+                class="arrow a big-width"
+                src="/img/arrow.png"
+                title="scroll-down"
+                alt="scroll-down"
+                aria-label="first"
+                tabindex="0"
+              />
+            </a>
+            <h3 class="work big-width" aria-label="first1">Work</h3>
+          </div>
         </section>
-        <article class="project-section">
-          <div class="project-image"></div>
-          <div class="project-details">
-            <div class="project-title">Multi-Post Stories</div>
-            <div class="project-description">
-              A daily selection of privately personalized reads; no accounts or sign-ups required.
-              has been the industry's standard dummy text ever since the 1500s, when an unknown
-              printer took a standard dummy text.
+
+        <!-- desktop-version work section -->
+
+        <section class="container big-width" id="about">
+          <section class="title-section big-width">
+            <h2 class="title big-width">My Recent Work</h2>
+            <hr class="divider" />
+          </section>
+          <article class="project-section big-width">
+            <div class="project-image"></div>
+            <div class="project-details">
+              <div class="project-title">Multi-Post Stories</div>
+              <div class="project-description">
+                A daily selection of privately personalized reads; no accounts or sign-ups required.
+                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a standard dummy text.
+              </div>
+              <ul class="mylist">
+                <li class="lang">css</li>
+                <li class="">|</li>
+                <li class="lang">html</li>
+                <li class="">|</li>
+                <li class="lang">bootstrap</li>
+                <li class="">|</li>
+                <li class="lang">Ruby</li>
+              </ul>
+              <button class="button">
+                <a class="inbutton" href="" title="project">See Project</a>
+              </button>
             </div>
-            <ul class="list">
-              <li class="lang">css</li>
-              <li class="">|</li>
-              <li class="lang">html</li>
-              <li class="">|</li>
-              <li class="lang">bootstrap</li>
-              <li class="">|</li>
-              <li class="lang">Ruby</li>
-            </ul>
-            <button class="button">
-              <a class="inbutton" href="" title="project">See Project</a>
-            </button>
-          </div>
-        </article>
-        <article class="project-section">
-          <div class="project-details">
-            <div class="project-title">Multi-Post Stories</div>
-            <div class="project-description">
-              A daily selection of privately personalized reads; no accounts or sign-ups required.
-              has been the industry's standard dummy text ever since the 1500s, when an unknown
-              printer took a standard dummy text.
+          </article>
+          <article class="project-section big-width">
+            <div class="project-details">
+              <div class="project-title">Multi-Post Stories</div>
+              <div class="project-description">
+                A daily selection of privately personalized reads; no accounts or sign-ups required.
+                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a standard dummy text.
+              </div>
+              <ul class="mylist">
+                <li class="lang">css</li>
+                <li class="">|</li>
+                <li class="lang">html</li>
+                <li class="">|</li>
+                <li class="lang">bootstrap</li>
+                <li class="">|</li>
+                <li class="lang">Ruby</li>
+              </ul>
+              <button class="button">
+                <a class="inbutton" href="" title="project">See Project</a>
+              </button>
             </div>
-            <ul class="list">
-              <li class="lang">css</li>
-              <li class="">|</li>
-              <li class="lang">html</li>
-              <li class="">|</li>
-              <li class="lang">bootstrap</li>
-              <li class="">|</li>
-              <li class="lang">Ruby</li>
-            </ul>
-            <button class="button">
-              <a class="inbutton" href="" title="project">See Project</a>
-            </button>
-          </div>
-          <div class="project-image"></div>
-        </article>
-        <article class="project-section">
-          <div class="project-image"></div>
-          <div class="project-details">
-            <div class="project-title">Multi-Post Stories</div>
-            <div class="project-description">
-              A daily selection of privately personalized reads; no accounts or sign-ups required.
-              has been the industry's standard dummy text ever since the 1500s, when an unknown
-              printer took a standard dummy text.
+            <div class="project-image"></div>
+          </article>
+          <article class="project-section big-width">
+            <div class="project-image"></div>
+            <div class="project-details">
+              <div class="project-title">Multi-Post Stories</div>
+              <div class="project-description">
+                A daily selection of privately personalized reads; no accounts or sign-ups required.
+                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a standard dummy text.
+              </div>
+              <ul class="mylist">
+                <li class="lang">css</li>
+                <li class="">|</li>
+                <li class="lang">html</li>
+                <li class="">|</li>
+                <li class="lang">bootstrap</li>
+                <li class="">|</li>
+                <li class="lang">Ruby</li>
+              </ul>
+              <button class="button">
+                <a class="inbutton" href="" title="project">See Project</a>
+              </button>
             </div>
-            <ul class="list">
-              <li class="lang">css</li>
-              <li class="">|</li>
-              <li class="lang">html</li>
-              <li class="">|</li>
-              <li class="lang">bootstrap</li>
-              <li class="">|</li>
-              <li class="lang">Ruby</li>
-            </ul>
-            <button class="button">
-              <a class="inbutton" href="" title="project">See Project</a>
-            </button>
-          </div>
-        </article>
-        <article class="project-section">
-          <div class="project-details">
-            <div class="project-title">Multi-Post Stories</div>
-            <div class="project-description">
-              A daily selection of privately personalized reads; no accounts or sign-ups required.
-              has been the industry's standard dummy text ever since the 1500s, when an unknown
-              printer took a standard dummy text.
+          </article>
+          <article class="project-section big-width">
+            <div class="project-details">
+              <div class="project-title">Multi-Post Stories</div>
+              <div class="project-description">
+                A daily selection of privately personalized reads; no accounts or sign-ups required.
+                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a standard dummy text.
+              </div>
+              <ul class="mylist">
+                <li class="lang">css</li>
+                <li class="">|</li>
+                <li class="lang">html</li>
+                <li class="">|</li>
+                <li class="lang">bootstrap</li>
+                <li class="">|</li>
+                <li class="lang">Ruby</li>
+              </ul>
+              <button class="button">
+                <a class="inbutton" href="" title="project">See Project</a>
+              </button>
             </div>
-            <ul class="list">
-              <li class="lang">css</li>
-              <li class="">|</li>
-              <li class="lang">html</li>
-              <li class="">|</li>
-              <li class="lang">bootstrap</li>
-              <li class="">|</li>
-              <li class="lang">Ruby</li>
-            </ul>
-            <button class="button">
-              <a class="inbutton" href="" title="project">See Project</a>
-            </button>
-          </div>
-          <div class="project-image"></div>
-        </article>
+            <div class="project-image"></div>
+          </article>
+        </section>
+      </section>
+
+      <!-- </section> -->
+
+      <section class="main small-width">
+        <!-- mobile-version main section -->
+        <section class="headline small-width">
+          <h1 class="my-name small-width">Hussein Popoola</h1>
+          <h2 class="my-field small-width">Software Developer</h2>
+          <p class="intro-text small-width">
+            I specialize in developing smooth and responsive websites, products, and features. I
+            invite you to explore my portfolio and experience. If you find my work compelling, I
+            welcome the opportunity to discuss how I can contribute to your projects. Feel free to
+            contact me to initiate a conversation about choosing the right developer for your needs.
+          </p>
+          <hr class="sm-hr" />
+
+          <section class="full-list small-width">
+            <div class="small-width">
+              <ul>
+                <li class="list-head">Language</li>
+                <li class="list-i">Javascript</li>
+                <li class="list-i">Ruby</li>
+                <li class="list-i">Html</li>
+                <li class="list-i">Css</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li class="list-head">Frameworks</li>
+                <li class="list-ii">Bootstrap</li>
+                <li class="list-ii">Ruby on Rails</li>
+                <li class="list-ii">RSPec</li>
+                <li class="list-ii">CapyBara</li>
+                <li class="list-ii">Selenium</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li class="list-head">Skills</li>
+                <li class="list-iii">Codekit</li>
+                <li class="list-iii">Github</li>
+                <li class="list-iii">Codepen</li>
+                <li class="list-iii">Gitlab</li>
+                <li>Terminal</li>
+              </ul>
+            </div>
+          </section>
+          <hr class="sm-hr" />
+
+          <section class="button-div">
+            <a
+              class="a"
+              href="https://github.com/popoolahussein/"
+              title="github profile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img class="git-img" src="/img/github.png" title="GitHub Profile" alt="github" />
+            </a>
+            <a
+              class="a"
+              href="https://www.linkedin.com/in/popoola-kehinde-hussein-0b59b0237"
+              title="linkedin"
+            >
+              <img
+                class="link-img"
+                src="/img/linkedin.png"
+                title="LinkedIn Profile"
+                alt="linkedin profile"
+                tabindex="0"
+              />
+            </a>
+            <a class="a" href="" title="angelist">
+              <img class="ang-img" src="/img/angelist.png" title="Angelist" alt="angelist" />
+            </a>
+            <a class="a" href="https://twitter.com/KehindeHus87578" title="twitter">
+              <img class="twit-img" src="/img/twitter.png" title="Twitter Profile" alt="twitter" />
+            </a>
+            <a class="a" href="popoolakehindehussein@gmail.com" title="email">
+              <img class="mail-img" src="/img/gmail.png" title="Email" alt="email" />
+            </a>
+          </section>
+          <section class="bottom sm">
+            <a href="#work" title="scroll-down">
+              <img class="arrow" src="/img/arrow.png" title="scroll-down" alt="scroll-down" />
+            </a>
+            <h3 class="work">Work</h3>
+          </section>
+        </section>
+        <!-- The work section -->
+
+        <section class="worksection-box small-width" id="about2">
+          <h2 class="head small-width">MY RECENT WORK</h2>
+
+          <hr class="sm-hr" />
+
+          <article class="worksection small-width">
+            <div>
+              <div class="wideimg"></div>
+              <h2 class="multi-post">Multi-Post Stories</h2>
+              <p class="story">
+                A daily selection of privately personalized reads; no accounts or sign-ups required.
+                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a standard dummy text.
+              </p>
+              <ul class="list">
+                <li class="lang">css</li>
+                <li class="divider"></li>
+                <li class="lang">html</li>
+                <li class="divider"></li>
+                <li class="lang">bootstrap</li>
+                <li class="divider"></li>
+                <li class="lang">Ruby</li>
+              </ul>
+              <button class="button">
+                <a class="inbutton" href="" title="project">See Project</a>
+              </button>
+            </div>
+          </article>
+          <article class="worksection small-width">
+            <div>
+              <div class="wideimg"></div>
+              <h2 class="multi-post">Multi-Post Stories</h2>
+              <p class="story">
+                A daily selection of privately personalized reads; no accounts or sign-ups required.
+                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a standard dummy text.
+              </p>
+              <ul class="list">
+                <li class="lang">css</li>
+                <li class="divider"></li>
+                <li class="lang">html</li>
+                <li class="divider"></li>
+                <li class="lang">bootstrap</li>
+                <li class="divider"></li>
+                <li class="lang">Ruby</li>
+              </ul>
+              <button class="button">
+                <a class="inbutton" href="" title="project">See Project</a>
+              </button>
+            </div>
+          </article>
+          <article class="worksection small-width">
+            <div>
+              <div class="wideimg"></div>
+              <h2 class="multi-post">Multi-Post Stories</h2>
+              <p class="story">
+                A daily selection of privately personalized reads; no accounts or sign-ups required.
+                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a standard dummy text.
+              </p>
+              <ul class="list">
+                <li class="lang">css</li>
+                <li class="divider"></li>
+                <li class="lang">html</li>
+                <li class="divider"></li>
+                <li class="lang">bootstrap</li>
+                <li class="divider"></li>
+                <li class="lang">Ruby</li>
+              </ul>
+              <button class="button">
+                <a class="inbutton" href="" title="project">See Project</a>
+              </button>
+            </div>
+          </article>
+          <article class="worksection small-width">
+            <div>
+              <div class="wideimg"></div>
+              <h2 class="multi-post">Multi-Post Stories</h2>
+              <p class="story">
+                A daily selection of privately personalized reads; no accounts or sign-ups required.
+                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a standard dummy text.
+              </p>
+              <ul class="list">
+                <li class="lang">css</li>
+                <li class="divider"></li>
+                <li class="lang">html</li>
+                <li class="divider"></li>
+                <li class="lang">bootstrap</li>
+                <li class="divider"></li>
+                <li class="lang">Ruby</li>
+              </ul>
+              <button class="button">
+                <a class="inbutton" href="" title="project">See Project</a>
+              </button>
+            </div>
+          </article>
+        </section>
       </section>
     </main>
 
     <!-- The footer section -->
 
-    <footer>
-      <section class="contact-section">
-        <h2 class="contact-us">Let's chat!</h2>
-        <p class="footer-p">
+    <footer id="contact">
+      <section class="contact-form small-width">
+        <!-- mobile-footer section -->
+        <h2 class="contact-us small-width">CONTACT US</h2>
+        <p class="footer-p small-width">
           If you have an application you are interested in developing, a feature that you need built
           or a project that needs coding. I’d love to help with it
         </p>
-        <form action="https://formspree.io/f/mvoeaozg" method="post">
-          <fieldset>
+        <div class="small-width">
+          <form class="form" action="https://formspree.io/f/mvoeaozg" method="post">
+            <label for="text-input">Text</label>
             <input
-              class="name-input"
-              id="jeremy"
+              class="input-i"
+              id="text-input"
               name="text-Input"
               type="text"
               maxlength="30"
-              placeholder="jeremy"
+              placeholder="Text Input"
               required
             />
-            <label for="jeremy">Text</label>
-            <label for="last-name">Text</label>
+
+            <label for="email-input">Email</label>
             <input
-              class="name-input"
-              id="last-name"
-              name="text-Input"
-              type="text"
-              maxlength="30"
-              placeholder="Last Name"
+              class="input-i"
+              id="email-input"
+              name="email"
+              type="email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              placeholder="jeremy@gmail.com"
               required
             />
-          </fieldset>
 
-          <label for="email-input">Email</label>
-          <input
-            class="input-i"
-            id="email-input"
-            name="email"
-            type="email"
-            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-            placeholder="jeremy@gmail.com"
-            required
-          />
+            <label for="message-text-area">Message</label>
+            <textarea
+              class="textarea"
+              id="message-text-area"
+              name="message"
+              rows="8"
+              cols="50"
+              maxlength="500"
+              placeholder="Enter text here"
+              required
+            ></textarea>
 
-          <label for="message-text-area">Message</label>
-          <textarea
-            class="textarea"
-            id="message-text-area"
-            name="message"
-            rows="8"
-            cols="50"
-            maxlength="500"
-            placeholder="Enter text here"
-            required
-          ></textarea>
-          <input class="button button-margin" type="submit" value="Send" />
-        </form>
-      </section>
-      <hr />
-      <section class="last-box">
-        <div class="media">
-          <a
-            class="a"
-            href="https://github.com/popoolahussein/"
-            title="github profile"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img class="git-img" src="/img/github.png" title="GitHub Profile" alt="github" />
-          </a>
-          <a
-            class="a"
-            href="https://www.linkedin.com/in/popoola-kehinde-hussein-0b59b0237"
-            title="linkedin"
-          >
-            <img
-              class="link-img"
-              src="/img/linkedin.png"
-              title="LinkedIn Profile"
-              alt="linkedin profile"
-              tabindex="0"
-            />
-          </a>
-          <a class="a" href="" title="angelist">
-            <img class="ang-img" src="/img/angelist.png" title="Angelist" alt="angelist" />
-          </a>
-          <a class="a" href="https://twitter.com/KehindeHus87578" title="twitter">
-            <img class="twit-img" src="/img/twitter.png" title="Twitter Profile" alt="twitter" />
-          </a>
-          <a class="a" href="popoolakehindehussein@gmail.com" title="email">
-            <img class="mail-img" src="/img/gmail.png" title="Email" alt="email" />
-          </a>
+            <input class="button button-margin" type="submit" value="See Project" />
+          </form>
         </div>
-        <div class="email">
-          <a class="hover" href="popoolakehindehussein@gmail.com" title="mail"
-            >emailhere@email.com</a
+
+        <div class="small-width">
+          <hr class="sm-hr" />
+          <div class="media">
+            <a
+              class="a"
+              href="https://github.com/popoolahussein/"
+              title="github profile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img class="git-img" src="/img/github.png" title="GitHub Profile" alt="github" />
+            </a>
+            <a
+              class="a"
+              href="https://www.linkedin.com/in/popoola-kehinde-hussein-0b59b0237"
+              title="linkedin"
+            >
+              <img
+                class="link-img"
+                src="/img/linkedin.png"
+                title="LinkedIn Profile"
+                alt="linkedin profile"
+                tabindex="0"
+              />
+            </a>
+            <a class="a" href="" title="angelist">
+              <img class="ang-img" src="/img/angelist.png" title="Angelist" alt="angelist" />
+            </a>
+            <a class="a" href="https://twitter.com/KehindeHus87578" title="twitter">
+              <img class="twit-img" src="/img/twitter.png" title="Twitter Profile" alt="twitter" />
+            </a>
+            <a class="a" href="popoolakehindehussein@gmail.com" title="email">
+              <img class="mail-img" src="/img/gmail.png" title="Email" alt="email" />
+            </a>
+          </div>
+          <div class="email m-email">
+            <a class="hover" href="popoolakehindehussein@gmail.com" title="mail"
+              >emailhere@email.com</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="desktop-footer big-width">
+        <!-- desktop-footer section -->
+        <section class="contact-section big-width">
+          <h2 class="d-contact-us big-width">Let's chat!</h2>
+          <p class="d-footer-p big-width">
+            If you have an application you are interested in developing, a feature that you need
+            built or a project that needs coding. I’d love to help with it
+          </p>
+          <form
+            class="d-form big-width"
+            id="mail"
+            action="https://formspree.io/f/mvoeaozg"
+            method="post"
           >
+            <fieldset>
+              <input
+                class="name-input"
+                id="jeremy"
+                name="text-Input"
+                type="text"
+                maxlength="30"
+                placeholder="jeremy"
+                required
+              />
+              <label for="jeremy">j</label>
+              <label for="last-name">ln</label>
+              <input
+                class="name-input"
+                id="last-name"
+                name="text-Input"
+                type="text"
+                maxlength="30"
+                placeholder="Last Name"
+                required
+              />
+            </fieldset>
+
+            <label for="email">email</label>
+            <input
+              class="input-i"
+              id="email"
+              name="email"
+              type="email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              placeholder="jeremy@gmail.com"
+              required
+            />
+
+            <label for="message">message</label>
+            <textarea
+              class="textarea"
+              id="message"
+              name="message"
+              rows="8"
+              cols="50"
+              maxlength="500"
+              placeholder="Enter text here"
+              required
+            ></textarea>
+            <input class="button d-button-margin" type="submit" value="Send" />
+          </form>
+        </section>
+        <hr />
+        <div class="last-box big-width">
+          <div class="d-media big-width">
+            <a
+              class="a"
+              href="https://github.com/popoolahussein/"
+              title="github profile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img class="git-img" src="/img/github.png" title="GitHub Profile" alt="github" />
+            </a>
+            <a
+              class="a"
+              href="https://www.linkedin.com/in/popoola-kehinde-hussein-0b59b0237"
+              title="linkedin"
+            >
+              <img
+                class="link-img"
+                src="/img/linkedin.png"
+                title="LinkedIn Profile"
+                alt="linkedin profile"
+                tabindex="0"
+              />
+            </a>
+            <a class="a" href="" title="angelist">
+              <img class="ang-img" src="/img/angelist.png" title="Angelist" alt="angelist" />
+            </a>
+            <a class="a" href="https://twitter.com/KehindeHus87578" title="twitter">
+              <img class="twit-img" src="/img/twitter.png" title="Twitter Profile" alt="twitter" />
+            </a>
+            <a class="a" href="popoolakehindehussein@gmail.com" title="email">
+              <img class="mail-img" src="/img/gmail.png" title="Email" alt="email" />
+            </a>
+          </div>
+          <div class="email big-width">
+            <a class="hover big-width" href="popoolakehindehussein@gmail.com" title="mail"
+              >emailhere@email.com</a
+            >
+          </div>
         </div>
       </section>
     </footer>
