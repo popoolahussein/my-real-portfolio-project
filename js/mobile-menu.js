@@ -4,6 +4,10 @@ const hamburgerBtn = document.getElementById('hamburger-button');
 const mobileMenu = document.getElementById('mobile-menu');
 const desktopVersion = document.querySelector('.main1');
 const mobileVersion = document.querySelector('.main');
+const projectButton = document.querySelectorAll('.project-button');
+const popupMenu = document.getElementById('popup-menu');
+const projectButtoni = document.querySelectorAll('.project-buttoni');
+const popupMenui = document.getElementById('popup-menui');
 
 function handleVisibility() {
   const screenWidth = window.innerWidth || document.documentElement.clientWidth;
@@ -50,3 +54,22 @@ const toggleMenu = () => {
 
 hamburgerBtn.addEventListener('click', toggleMenu);
 mobileMenu.addEventListener('click', toggleMenu);
+
+// viewing and existing code for popup menu toggle
+const popMenu = () => {
+  popupMenu.classList.toggle('hidden');
+};
+
+projectButton.forEach((button) => {
+  button.addEventListener('click', popMenu);
+});
+popupMenu.addEventListener('click', popMenu);
+
+const popMenui = () => {
+  popupMenui.classList.toggle('hidden');
+};
+
+projectButtoni.forEach((button) => {
+  button.addEventListener('click', popMenui);
+});
+popupMenui.addEventListener('click', popMenui);
